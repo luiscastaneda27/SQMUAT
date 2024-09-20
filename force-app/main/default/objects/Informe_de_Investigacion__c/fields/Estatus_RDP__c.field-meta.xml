@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_RDP__c</fullName>
+    <externalId>false</externalId>
+    <label>Estatus RDP</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pendiente</fullName>
+                <default>true</default>
+                <label>Pendiente</label>
+            </value>
+            <value>
+                <fullName>Completado</fullName>
+                <default>false</default>
+                <label>Completado</label>
+            </value>
+            <value>
+                <fullName>Rechazado por IC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rechazado por IC</label>
+            </value>
+            <value>
+                <fullName>Revisión de información</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Revisión de información</label>
+            </value>
+            <value>
+                <fullName>Validado por IC</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Validado por IC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Requieres_Announcement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>When a new case is review for the product owner and she/he define send an announcement when the development finish, you need to select this checkbox for validate the annoucement was done beforce to close de case.</description>
+    <externalId>false</externalId>
+    <label>Requieres Announcement?</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

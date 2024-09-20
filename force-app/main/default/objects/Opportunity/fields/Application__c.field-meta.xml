@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Application__c</fullName>
+    <externalId>false</externalId>
+    <label>Application</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Application</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Chemicals</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Distributor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>Biocides</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>Iodophors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>I2 Derivatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>Air conditioning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Battery Materials</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>CC Powder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Cement / Adhesive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Colorant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>Frits &amp; Enamels</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>Glass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Lithium Derivatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Metallurgy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>Toller</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>Greases</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

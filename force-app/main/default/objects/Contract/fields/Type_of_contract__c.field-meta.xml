@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_contract__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>- Formula: Contracted price defined by an index based formula.
+
+- Fixed price: Contracted price fixed for a year or longer.
+
+- Monthly/Quarterly/Semesterly: Contract with periodically re-negotiations of prices.</inlineHelpText>
+    <label>Type of Contract</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fixed Price</fullName>
+                <default>false</default>
+                <label>Fixed Price</label>
+            </value>
+            <value>
+                <fullName>Formula</fullName>
+                <default>false</default>
+                <label>Formula</label>
+            </value>
+            <value>
+                <fullName>Monthly/Quaterly/Semesterly</fullName>
+                <default>false</default>
+                <label>Monthly/Quaterly/Semesterly</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

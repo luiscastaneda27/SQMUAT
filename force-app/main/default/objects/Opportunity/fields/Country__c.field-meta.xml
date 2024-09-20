@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country__c</fullName>
+    <externalId>false</externalId>
+    <label>Country</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Country</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>ARGENTINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>AUSTRALIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>AUSTRIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>BELGIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>BULGARIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>CANADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>CHILE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>CHINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>COLOMBIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>CZECH REPUBLIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>DENMARK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>EGYPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>EMIRATES-UNITED ARAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>FRANCE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>GERMANY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>GREECE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>HUNGARY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>INDIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>INDONESIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>IRELAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>ISRAEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>ITALY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>JAPAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>KAZAKHSTAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>KOREA (SOUTH)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>LATVIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>MEXICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>NETHERLANDS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>NEW ZEALAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>NORWAY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>PAKISTAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>PERU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>POLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>PORTUGAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>ROMANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>RUSSIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SAUDI ARABIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SERBIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SOUTH AFRICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SPAIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SWEDEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>SWITZERLAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>TAIWAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>TANZANIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>THAILAND</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>TURKEY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>UKRAINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>UNITED KINGDOM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>UNITED STATES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 4: CHINA</controllingFieldValue>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <controllingFieldValue>REGION 2: ASOC</controllingFieldValue>
+            <controllingFieldValue>REGION 3: JAPAN</controllingFieldValue>
+            <controllingFieldValue>REGION 5: LATAM</controllingFieldValue>
+            <controllingFieldValue>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</controllingFieldValue>
+            <valueName>VIETNAM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <valueName>ECUADOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>REGION 1: NAFTA</controllingFieldValue>
+            <valueName>URUGUAY</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

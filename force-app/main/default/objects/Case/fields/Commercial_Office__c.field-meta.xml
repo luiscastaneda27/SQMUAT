@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Commercial_Office__c</fullName>
+    <externalId>false</externalId>
+    <label>Commercial Office</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SQM-E</fullName>
+                <default>false</default>
+                <label>SQM-E</label>
+            </value>
+            <value>
+                <fullName>SQM-HQ</fullName>
+                <default>false</default>
+                <label>SQM-HQ</label>
+            </value>
+            <value>
+                <fullName>SQM-JP</fullName>
+                <default>false</default>
+                <label>SQM-JP</label>
+            </value>
+            <value>
+                <fullName>SQM-NA</fullName>
+                <default>false</default>
+                <label>SQM-NA</label>
+            </value>
+            <value>
+                <fullName>SQM-SH</fullName>
+                <default>false</default>
+                <label>SQM-SH</label>
+            </value>
+            <value>
+                <fullName>SQM-MX</fullName>
+                <default>false</default>
+                <label>SQM-MX</label>
+            </value>
+            <value>
+                <fullName>SQM-ZA</fullName>
+                <default>false</default>
+                <label>SQM-ZA</label>
+            </value>
+            <value>
+                <fullName>SQM-KOR</fullName>
+                <default>false</default>
+                <label>SQM-KOR</label>
+            </value>
+            <value>
+                <fullName>SQM-I</fullName>
+                <default>false</default>
+                <label>SQM-I</label>
+            </value>
+            <value>
+                <fullName>SQM ASIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SQM ASIA</label>
+            </value>
+            <value>
+                <fullName>SQM EU</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SQM EU</label>
+            </value>
+            <value>
+                <fullName>SQM EUROPE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SQM EUROPE</label>
+            </value>
+            <value>
+                <fullName>SQM LATAM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SQM LATAM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

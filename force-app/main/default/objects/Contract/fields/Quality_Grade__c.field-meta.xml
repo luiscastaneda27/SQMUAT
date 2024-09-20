@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quality_Grade__c</fullName>
+    <externalId>false</externalId>
+    <label>Quality/Grade</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Quality_Grade</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>I2-82</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>CRY7000.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>CRY8900.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>CRY9000.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>CRY9024.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>FIN9000.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>FIN9001.99</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>FIN9500.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>GRA9000.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>MIC8900.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>MIC9000.00</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>MIC10000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <valueName>MIC10001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHT (S)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHT-B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHT-O (S)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHI-R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHB-R</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHI-RW</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHI-W</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Hydroxide</controllingFieldValue>
+            <valueName>LHB-C</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

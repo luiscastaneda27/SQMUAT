@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Riesgos__c</fullName>
+    <externalId>false</externalId>
+    <label>Riesgos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Agua</fullName>
+                <default>false</default>
+                <label>Agua</label>
+            </value>
+            <value>
+                <fullName>Beneficios Sociales y Comunitarios</fullName>
+                <default>false</default>
+                <label>Beneficios Sociales y Comunitarios</label>
+            </value>
+            <value>
+                <fullName>Comunicación con Comunidades y Grupos de Interés</fullName>
+                <default>false</default>
+                <label>Comunicación con Comunidades y Grupos de Interés</label>
+            </value>
+            <value>
+                <fullName>Contribuciones</fullName>
+                <default>false</default>
+                <label>Contribuciones</label>
+            </value>
+            <value>
+                <fullName>Creación de Empleo de Desarrollo de Habilidades</fullName>
+                <default>false</default>
+                <label>Creación de Empleo de Desarrollo de Habilidades</label>
+            </value>
+            <value>
+                <fullName>Preservación del Medioambiente</fullName>
+                <default>false</default>
+                <label>Preservación del Medioambiente</label>
+            </value>
+            <value>
+                <fullName>Riesgos de la Operación o Accidentes</fullName>
+                <default>false</default>
+                <label>Riesgos de la Operación o Accidentes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

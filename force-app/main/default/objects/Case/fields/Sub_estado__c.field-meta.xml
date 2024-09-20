@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_estado__c</fullName>
+    <externalId>false</externalId>
+    <label>Sub estado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Status</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En generación de reporte a cliente</fullName>
+                <default>false</default>
+                <label>En generación de reporte a cliente</label>
+            </value>
+            <value>
+                <fullName>A la espera de aprobación de reporte a cliente</fullName>
+                <default>false</default>
+                <label>A la espera de aprobación de reporte a cliente</label>
+            </value>
+            <value>
+                <fullName>Reporte a cliente aprobado</fullName>
+                <default>false</default>
+                <label>Reporte a cliente aprobado</label>
+            </value>
+            <value>
+                <fullName>Cierre por información no verídica</fullName>
+                <default>false</default>
+                <label>Cierre por información no verídica</label>
+            </value>
+            <value>
+                <fullName>Cierre por falta de información</fullName>
+                <default>false</default>
+                <label>Cierre por falta de información</label>
+            </value>
+            <value>
+                <fullName>Cierre completado</fullName>
+                <default>false</default>
+                <label>Cierre completado</label>
+            </value>
+            <value>
+                <fullName>Cerrado con Seguimiento</fullName>
+                <default>false</default>
+                <label>Cerrado con Seguimiento</label>
+            </value>
+            <value>
+                <fullName>En generación de reporte técnico</fullName>
+                <default>false</default>
+                <label>En generación de reporte técnico</label>
+            </value>
+            <value>
+                <fullName>A la espera de aprobación de investigación</fullName>
+                <default>false</default>
+                <label>A la espera de aprobación de investigación</label>
+            </value>
+            <value>
+                <fullName>En espera aprobación Key User</fullName>
+                <default>false</default>
+                <label>En espera aprobación Key User</label>
+            </value>
+            <value>
+                <fullName>En espera Priorización</fullName>
+                <default>false</default>
+                <label>En espera Priorización</label>
+            </value>
+            <value>
+                <fullName>En estimación</fullName>
+                <default>false</default>
+                <label>En estimación</label>
+            </value>
+            <value>
+                <fullName>Aprobación Estimación</fullName>
+                <default>false</default>
+                <label>Aprobación Estimación</label>
+            </value>
+            <value>
+                <fullName>Información</fullName>
+                <default>false</default>
+                <label>Información</label>
+            </value>
+            <value>
+                <fullName>Configuraciones DEV</fullName>
+                <default>false</default>
+                <label>Configuraciones DEV</label>
+            </value>
+            <value>
+                <fullName>Aprobado en DEV</fullName>
+                <default>false</default>
+                <label>Aprobado en DEV</label>
+            </value>
+            <value>
+                <fullName>Validación UAT</fullName>
+                <default>false</default>
+                <label>Validación UAT</label>
+            </value>
+            <value>
+                <fullName>Aprobado UAT</fullName>
+                <default>false</default>
+                <label>Aprobado UAT</label>
+            </value>
+            <value>
+                <fullName>Validación Producción</fullName>
+                <default>false</default>
+                <label>Validación Producción</label>
+            </value>
+            <value>
+                <fullName>Cancelado</fullName>
+                <default>false</default>
+                <label>Cancelado</label>
+            </value>
+            <value>
+                <fullName>En espera de respuesta de cliente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>En espera de respuesta de cliente</label>
+            </value>
+            <value>
+                <fullName>Investigación</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Investigación</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Configuraciones DEV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>In Progress</controllingFieldValue>
+            <valueName>Aprobado en DEV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reported to costumer</controllingFieldValue>
+            <valueName>En generación de reporte a cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reported to costumer</controllingFieldValue>
+            <valueName>A la espera de aprobación de reporte a cliente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reported to costumer</controllingFieldValue>
+            <valueName>Reporte a cliente aprobado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <valueName>En espera aprobación Key User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>En espera Priorización</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>En estimación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>Aprobación Estimación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>On Hold</controllingFieldValue>
+            <valueName>Información</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Cierre por información no verídica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Cierre por falta de información</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Cierre completado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Cerrado con Seguimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <valueName>Cancelado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investigation</controllingFieldValue>
+            <valueName>En generación de reporte técnico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Investigation</controllingFieldValue>
+            <valueName>A la espera de aprobación de investigación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation</controllingFieldValue>
+            <valueName>Validación UAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation</controllingFieldValue>
+            <valueName>Aprobado UAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Validation</controllingFieldValue>
+            <valueName>Validación Producción</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

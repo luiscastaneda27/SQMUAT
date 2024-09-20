@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Active_Last_Transactions__c</fullName>
+    <externalId>false</externalId>
+    <formula>AND(
+ Account.RecordType.DeveloperName = &apos;Empresa&apos;,
+ IF(AND(NOT( ISBLANK( Account.Fecha_Ultima_Transaccion__c ) ), Account.Transaccion_cantidad_dias__c  &lt;= 90),
+			TRUE, FALSE)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Account Active Last Transactions</label>
+    <type>Checkbox</type>
+</CustomField>

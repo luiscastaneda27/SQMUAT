@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Subtype__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Broken_bags</fullName>
+                <default>false</default>
+                <label>Broken bags</label>
+            </value>
+            <value>
+                <fullName>Bad_sealing</fullName>
+                <default>false</default>
+                <label>Bad sealing</label>
+            </value>
+            <value>
+                <fullName>Wet_bags</fullName>
+                <default>false</default>
+                <label>Wet bags</label>
+            </value>
+            <value>
+                <fullName>Spilled_product</fullName>
+                <default>false</default>
+                <label>Spilled product</label>
+            </value>
+            <value>
+                <fullName>Missing_label</fullName>
+                <default>false</default>
+                <label>Missing label</label>
+            </value>
+            <value>
+                <fullName>Wrong_label</fullName>
+                <default>false</default>
+                <label>Wrong label</label>
+            </value>
+            <value>
+                <fullName>Broken_pallet</fullName>
+                <default>false</default>
+                <label>Broken pallet</label>
+            </value>
+            <value>
+                <fullName>Leaning_bag</fullName>
+                <default>false</default>
+                <label>Leaning bag</label>
+            </value>
+            <value>
+                <fullName>Without_carboard</fullName>
+                <default>false</default>
+                <label>Without carboard</label>
+            </value>
+            <value>
+                <fullName>Wrapping</fullName>
+                <default>false</default>
+                <label>Wrapping</label>
+            </value>
+            <value>
+                <fullName>Shortage</fullName>
+                <default>false</default>
+                <label>Shortage</label>
+            </value>
+            <value>
+                <fullName>Caking</fullName>
+                <default>false</default>
+                <label>Caking</label>
+            </value>
+            <value>
+                <fullName>Flow</fullName>
+                <default>false</default>
+                <label>Flow</label>
+            </value>
+            <value>
+                <fullName>Particle_Size</fullName>
+                <default>false</default>
+                <label>Particle Size</label>
+            </value>
+            <value>
+                <fullName>Color</fullName>
+                <default>false</default>
+                <label>Color</label>
+            </value>
+            <value>
+                <fullName>Density</fullName>
+                <default>false</default>
+                <label>Density</label>
+            </value>
+            <value>
+                <fullName>Foreign_substance</fullName>
+                <default>false</default>
+                <label>Foreign substance</label>
+            </value>
+            <value>
+                <fullName>Out_of_Specs</fullName>
+                <default>false</default>
+                <label>Out of Specs</label>
+            </value>
+            <value>
+                <fullName>Moisture</fullName>
+                <default>false</default>
+                <label>Moisture</label>
+            </value>
+            <value>
+                <fullName>Solubility</fullName>
+                <default>false</default>
+                <label>Solubility</label>
+            </value>
+            <value>
+                <fullName>Wrong_product</fullName>
+                <default>false</default>
+                <label>Wrong product</label>
+            </value>
+            <value>
+                <fullName>Wrong_quantity</fullName>
+                <default>false</default>
+                <label>Wrong quantity</label>
+            </value>
+            <value>
+                <fullName>Non FIFO Shipment</fullName>
+                <default>false</default>
+                <label>Non FIFO Shipment</label>
+            </value>
+            <value>
+                <fullName>Damage_container</fullName>
+                <default>false</default>
+                <label>Damage container</label>
+            </value>
+            <value>
+                <fullName>Delivery_delays</fullName>
+                <default>false</default>
+                <label>Delivery delays</label>
+            </value>
+            <value>
+                <fullName>Certificate of Analysis</fullName>
+                <default>false</default>
+                <label>Certificate of Analysis</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Pallet</controllingFieldValue>
+            <valueName>Broken_pallet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bag</controllingFieldValue>
+            <valueName>Broken_bags</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bag</controllingFieldValue>
+            <valueName>Bad_sealing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bag</controllingFieldValue>
+            <valueName>Wet_bags</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bag</controllingFieldValue>
+            <valueName>Spilled_product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Weight</controllingFieldValue>
+            <valueName>Shortage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Caking</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Flow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Particle_Size</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Color</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Quality</controllingFieldValue>
+            <valueName>Density</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Missing_label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Label</controllingFieldValue>
+            <valueName>Wrong_label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical Quality</controllingFieldValue>
+            <valueName>Out_of_Specs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical Quality</controllingFieldValue>
+            <valueName>Moisture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical Quality</controllingFieldValue>
+            <valueName>Solubility</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Leaning_bag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Without_carboard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Wrapping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery problem</controllingFieldValue>
+            <valueName>Wrong_product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery problem</controllingFieldValue>
+            <valueName>Wrong_quantity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery problem</controllingFieldValue>
+            <valueName>Non FIFO Shipment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery problem</controllingFieldValue>
+            <valueName>Damage_container</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Delivery problem</controllingFieldValue>
+            <valueName>Delivery_delays</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Certificate of Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contamination</controllingFieldValue>
+            <valueName>Foreign_substance</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

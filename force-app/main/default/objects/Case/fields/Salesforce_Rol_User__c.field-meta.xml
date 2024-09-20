@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Rol_User__c</fullName>
+    <externalId>false</externalId>
+    <label>Salesforce Role User</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>BI</fullName>
+                <default>false</default>
+                <label>BI</label>
+            </value>
+            <value>
+                <fullName>CCheN Manager</fullName>
+                <default>false</default>
+                <label>CCheN Manager</label>
+            </value>
+            <value>
+                <fullName>Director ASIA</fullName>
+                <default>false</default>
+                <label>Director ASIA</label>
+            </value>
+            <value>
+                <fullName>Director ASIA Japón</fullName>
+                <default>false</default>
+                <label>Director ASIA Japón</label>
+            </value>
+            <value>
+                <fullName>Director EMEA</fullName>
+                <default>false</default>
+                <label>Director EMEA</label>
+            </value>
+            <value>
+                <fullName>Director NAFTA</fullName>
+                <default>false</default>
+                <label>Director NAFTA</label>
+            </value>
+            <value>
+                <fullName>Encargado de Comunidad Pampa</fullName>
+                <default>false</default>
+                <label>Encargado de Comunidad Pampa</label>
+            </value>
+            <value>
+                <fullName>Encargado de Comunidad Salar</fullName>
+                <default>false</default>
+                <label>Encargado de Comunidad Salar</label>
+            </value>
+            <value>
+                <fullName>Gerente Comunidades</fullName>
+                <default>false</default>
+                <label>Gerente Comunidades</label>
+            </value>
+            <value>
+                <fullName>Ingeniero de Calidad</fullName>
+                <default>false</default>
+                <label>Ingeniero de Calidad</label>
+            </value>
+            <value>
+                <fullName>Investigador</fullName>
+                <default>false</default>
+                <label>Investigador</label>
+            </value>
+            <value>
+                <fullName>Jefe de Comunidad Pampa</fullName>
+                <default>false</default>
+                <label>Jefe de Comunidad Pampa</label>
+            </value>
+            <value>
+                <fullName>Jefe de Comunidad Salar</fullName>
+                <default>false</default>
+                <label>Jefe de Comunidad Salar</label>
+            </value>
+            <value>
+                <fullName>Jefe Gestión de Calidad</fullName>
+                <default>false</default>
+                <label>Jefe Gestión de Calidad</label>
+            </value>
+            <value>
+                <fullName>Líder de Comunidad Pampa</fullName>
+                <default>false</default>
+                <label>Líder de Comunidad Pampa</label>
+            </value>
+            <value>
+                <fullName>Líder de Comunidad Salar</fullName>
+                <default>false</default>
+                <label>Líder de Comunidad Salar</label>
+            </value>
+            <value>
+                <fullName>Product Manager</fullName>
+                <default>false</default>
+                <label>Product Manager</label>
+            </value>
+            <value>
+                <fullName>Product Manager Director</fullName>
+                <default>false</default>
+                <label>Product Manager Director</label>
+            </value>
+            <value>
+                <fullName>Quality Manager</fullName>
+                <default>false</default>
+                <label>Quality Manager</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator África</fullName>
+                <default>false</default>
+                <label>Sales Coordinator África</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator China</fullName>
+                <default>false</default>
+                <label>Sales Coordinator China</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator Europa Occidental</fullName>
+                <default>false</default>
+                <label>Sales Coordinator Europa Occidental</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator Japón</fullName>
+                <default>false</default>
+                <label>Sales Coordinator Japón</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator Korea</fullName>
+                <default>false</default>
+                <label>Sales Coordinator Korea</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator Mexico y LATAM</fullName>
+                <default>false</default>
+                <label>Sales Coordinator Mexico y LATAM</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator NA</fullName>
+                <default>false</default>
+                <label>Sales Coordinator NA</label>
+            </value>
+            <value>
+                <fullName>Sales Coordinator Oriente Medio</fullName>
+                <default>false</default>
+                <label>Sales Coordinator Oriente Medio</label>
+            </value>
+            <value>
+                <fullName>Sales Manager África</fullName>
+                <default>false</default>
+                <label>Sales Manager África</label>
+            </value>
+            <value>
+                <fullName>Sales Manager China</fullName>
+                <default>false</default>
+                <label>Sales Manager China</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Europa Occidental</fullName>
+                <default>false</default>
+                <label>Sales Manager Europa Occidental</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Japón</fullName>
+                <default>false</default>
+                <label>Sales Manager Japón</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Korea</fullName>
+                <default>false</default>
+                <label>Sales Manager Korea</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Mexico y LATAM</fullName>
+                <default>false</default>
+                <label>Sales Manager Mexico y LATAM</label>
+            </value>
+            <value>
+                <fullName>Sales Manager NA</fullName>
+                <default>false</default>
+                <label>Sales Manager NA</label>
+            </value>
+            <value>
+                <fullName>Sales Manager Oriente Medio</fullName>
+                <default>false</default>
+                <label>Sales Manager Oriente Medio</label>
+            </value>
+            <value>
+                <fullName>Senior Director ASIA</fullName>
+                <default>false</default>
+                <label>Senior Director ASIA</label>
+            </value>
+            <value>
+                <fullName>Senior Director NAFTA &amp; EMEA</fullName>
+                <default>false</default>
+                <label>Senior Director NAFTA &amp; EMEA</label>
+            </value>
+            <value>
+                <fullName>Senior Quality Manager</fullName>
+                <default>false</default>
+                <label>Senior Quality Manager</label>
+            </value>
+            <value>
+                <fullName>SQM Chief Executive Officer</fullName>
+                <default>false</default>
+                <label>SQM Chief Executive Officer</label>
+            </value>
+            <value>
+                <fullName>SQM Comunidades</fullName>
+                <default>false</default>
+                <label>SQM Comunidades</label>
+            </value>
+            <value>
+                <fullName>SQM Quality</fullName>
+                <default>false</default>
+                <label>SQM Quality</label>
+            </value>
+            <value>
+                <fullName>Vice President</fullName>
+                <default>false</default>
+                <label>Vice President</label>
+            </value>
+            <value>
+                <fullName>Commercial Planning</fullName>
+                <default>false</default>
+                <label>Commercial Planning</label>
+            </value>
+            <value>
+                <fullName>Technical Commercial Director Lithium</fullName>
+                <default>false</default>
+                <label>Technical Commercial Director Lithium</label>
+            </value>
+            <value>
+                <fullName>Technical Commercial Manager Lithium</fullName>
+                <default>false</default>
+                <label>Technical Commercial Manager Lithium</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

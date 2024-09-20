@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SQM_Layout</fullName>
+    <fields>Product2Id</fields>
+    <fields>Quantity</fields>
+    <fields>Min_Order_Set__c</fields>
+    <fields>UnitPrice</fields>
+    <fields>Packing__c</fields>
+    <fields>TotalPrice</fields>
+    <label>SQM Layout</label>
+</CompactLayout>

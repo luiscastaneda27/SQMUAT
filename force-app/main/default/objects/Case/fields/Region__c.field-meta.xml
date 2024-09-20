@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Region__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter your region of residence</inlineHelpText>
+    <label>Región</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Pais__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AYSÉN DEL GRAL. C. IBÁÑEZ DEL CAMPO</fullName>
+                <default>false</default>
+                <label>AYSÉN DEL GRAL. C. IBÁÑEZ DEL CAMPO</label>
+            </value>
+            <value>
+                <fullName>ANTOFAGASTA</fullName>
+                <default>false</default>
+                <label>ANTOFAGASTA</label>
+            </value>
+            <value>
+                <fullName>ARICA Y PARINACOTA</fullName>
+                <default>false</default>
+                <label>ARICA Y PARINACOTA</label>
+            </value>
+            <value>
+                <fullName>ATACAMA</fullName>
+                <default>false</default>
+                <label>ATACAMA</label>
+            </value>
+            <value>
+                <fullName>BIOBÍO</fullName>
+                <default>false</default>
+                <label>BIOBÍO</label>
+            </value>
+            <value>
+                <fullName>COQUIMBO</fullName>
+                <default>false</default>
+                <label>COQUIMBO</label>
+            </value>
+            <value>
+                <fullName>LA ARAUCANÍA</fullName>
+                <default>false</default>
+                <label>LA ARAUCANÍA</label>
+            </value>
+            <value>
+                <fullName>LIB. GRAL. BERNARDO O&apos;HIGGINS</fullName>
+                <default>false</default>
+                <label>LIB. GRAL. BERNARDO O&apos;HIGGINS</label>
+            </value>
+            <value>
+                <fullName>LOS LAGOS</fullName>
+                <default>false</default>
+                <label>LOS LAGOS</label>
+            </value>
+            <value>
+                <fullName>LOS RÍOS</fullName>
+                <default>false</default>
+                <label>LOS RÍOS</label>
+            </value>
+            <value>
+                <fullName>MAGALLANES Y ANTÁRTICA CHILENA</fullName>
+                <default>false</default>
+                <label>MAGALLANES Y ANTÁRTICA CHILENA</label>
+            </value>
+            <value>
+                <fullName>MAULE</fullName>
+                <default>false</default>
+                <label>MAULE</label>
+            </value>
+            <value>
+                <fullName>METROPOLITANA</fullName>
+                <default>false</default>
+                <label>METROPOLITANA</label>
+            </value>
+            <value>
+                <fullName>ÑUBLE</fullName>
+                <default>false</default>
+                <label>ÑUBLE</label>
+            </value>
+            <value>
+                <fullName>TARAPACÁ</fullName>
+                <default>false</default>
+                <label>TARAPACÁ</label>
+            </value>
+            <value>
+                <fullName>VALPARAÍSO</fullName>
+                <default>false</default>
+                <label>VALPARAÍSO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>AYSÉN DEL GRAL. C. IBÁÑEZ DEL CAMPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>ANTOFAGASTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>ARICA Y PARINACOTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>ATACAMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>BIOBÍO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>COQUIMBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>LA ARAUCANÍA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>LIB. GRAL. BERNARDO O&apos;HIGGINS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>LOS LAGOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>LOS RÍOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>MAGALLANES Y ANTÁRTICA CHILENA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>MAULE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>METROPOLITANA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>ÑUBLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>TARAPACÁ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chile</controllingFieldValue>
+            <valueName>VALPARAÍSO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

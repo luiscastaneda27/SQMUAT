@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Faena__c</fullName>
+    <externalId>false</externalId>
+    <label>Faena</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Localidad__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Antofagasta OF.</fullName>
+                <default>false</default>
+                <label>Antofagasta OF.</label>
+            </value>
+            <value>
+                <fullName>Coya Sur</fullName>
+                <default>false</default>
+                <label>Coya Sur</label>
+            </value>
+            <value>
+                <fullName>María Elena</fullName>
+                <default>false</default>
+                <label>María Elena</label>
+            </value>
+            <value>
+                <fullName>Nueva Victoria</fullName>
+                <default>false</default>
+                <label>Nueva Victoria</label>
+            </value>
+            <value>
+                <fullName>Pedro de Valdivia</fullName>
+                <default>false</default>
+                <label>Pedro de Valdivia</label>
+            </value>
+            <value>
+                <fullName>Puerto de Tocopilla</fullName>
+                <default>false</default>
+                <label>Puerto de Tocopilla</label>
+            </value>
+            <value>
+                <fullName>Salar de Atacama</fullName>
+                <default>false</default>
+                <label>Salar de Atacama</label>
+            </value>
+            <value>
+                <fullName>Salar del Carmen</fullName>
+                <default>false</default>
+                <label>Salar del Carmen</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quillagua</controllingFieldValue>
+            <valueName>María Elena</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quillagua</controllingFieldValue>
+            <controllingFieldValue>Tamentíca</controllingFieldValue>
+            <controllingFieldValue>Colonia de Pintados</controllingFieldValue>
+            <controllingFieldValue>Victoria</controllingFieldValue>
+            <controllingFieldValue>Huatacondo</controllingFieldValue>
+            <controllingFieldValue>Iquique</controllingFieldValue>
+            <controllingFieldValue>La Tirana</controllingFieldValue>
+            <controllingFieldValue>Alto Hospicio</controllingFieldValue>
+            <controllingFieldValue>Cañamo</controllingFieldValue>
+            <controllingFieldValue>Caramucho</controllingFieldValue>
+            <controllingFieldValue>Chanavayita</controllingFieldValue>
+            <controllingFieldValue>Pozo Almonte</controllingFieldValue>
+            <valueName>Nueva Victoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quitor</controllingFieldValue>
+            <controllingFieldValue>Rio Grande</controllingFieldValue>
+            <controllingFieldValue>San Pedro de Atacama</controllingFieldValue>
+            <controllingFieldValue>Sequitor y Checar</controllingFieldValue>
+            <controllingFieldValue>Socaire</controllingFieldValue>
+            <controllingFieldValue>Solor</controllingFieldValue>
+            <controllingFieldValue>Soncor</controllingFieldValue>
+            <controllingFieldValue>Talabre</controllingFieldValue>
+            <controllingFieldValue>Toconao</controllingFieldValue>
+            <controllingFieldValue>Coyo</controllingFieldValue>
+            <controllingFieldValue>Cucuter</controllingFieldValue>
+            <controllingFieldValue>Guatin</controllingFieldValue>
+            <controllingFieldValue>Yaye</controllingFieldValue>
+            <controllingFieldValue>Larache</controllingFieldValue>
+            <controllingFieldValue>Machuca</controllingFieldValue>
+            <controllingFieldValue>Camar</controllingFieldValue>
+            <controllingFieldValue>Catarpe</controllingFieldValue>
+            <controllingFieldValue>Peine</controllingFieldValue>
+            <valueName>Salar de Atacama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tocopilla</controllingFieldValue>
+            <controllingFieldValue>Caleta Buena</controllingFieldValue>
+            <valueName>Puerto de Tocopilla</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>María Elena</controllingFieldValue>
+            <valueName>Coya Sur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antofagasta</controllingFieldValue>
+            <valueName>Antofagasta OF.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Antofagasta</controllingFieldValue>
+            <valueName>Salar del Carmen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Calama</controllingFieldValue>
+            <valueName>Pedro de Valdivia</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

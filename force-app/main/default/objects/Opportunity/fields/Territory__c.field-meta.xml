@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Territory__c</fullName>
+    <externalId>false</externalId>
+    <label>Territory</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>REGION 1: NAFTA</fullName>
+                <default>false</default>
+                <label>REGION 1: NAFTA</label>
+            </value>
+            <value>
+                <fullName>REGION 2: ASOC</fullName>
+                <default>false</default>
+                <label>REGION 2: ASOC</label>
+            </value>
+            <value>
+                <fullName>REGION 3: JAPAN</fullName>
+                <default>false</default>
+                <label>REGION 3: JAPAN</label>
+            </value>
+            <value>
+                <fullName>REGION 4: CHINA</fullName>
+                <default>false</default>
+                <label>REGION 4: CHINA</label>
+            </value>
+            <value>
+                <fullName>REGION 5: LATAM</fullName>
+                <default>false</default>
+                <label>REGION 5: LATAM</label>
+            </value>
+            <value>
+                <fullName>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</fullName>
+                <default>false</default>
+                <label>REGION 6: EUROPE - MIDDLE EAST - AFRICA - INDIA</label>
+            </value>
+            <value>
+                <fullName>REGION 7: INDIA</fullName>
+                <default>false</default>
+                <label>REGION 7: INDIA</label>
+            </value>
+            <value>
+                <fullName>REGION 1: NAFTA, EMEA, LATAM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REGION 1: NAFTA, EMEA, LATAM</label>
+            </value>
+            <value>
+                <fullName>REGION 2: ASOC, JAPAN</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REGION 2: ASOC, JAPAN</label>
+            </value>
+            <value>
+                <fullName>REGION 3: INDIA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>REGION 3: INDIA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comments__c</fullName>
+    <externalId>false</externalId>
+    <label>Comments</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Customer_Acceptance__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>With Comments</fullName>
+                <default>false</default>
+                <label>With Comments</label>
+            </value>
+            <value>
+                <fullName>No Comments</fullName>
+                <default>false</default>
+                <label>No Comments</label>
+            </value>
+            <value>
+                <fullName>No Feedback after 20 days</fullName>
+                <default>false</default>
+                <label>No Feedback after 20 days</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>With Comments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>No Comments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Yes</controllingFieldValue>
+            <valueName>No Feedback after 20 days</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

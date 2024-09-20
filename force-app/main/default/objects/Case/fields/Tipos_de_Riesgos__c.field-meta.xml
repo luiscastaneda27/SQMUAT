@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipos_de_Riesgos__c</fullName>
+    <externalId>false</externalId>
+    <label>Tipos de Riesgos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Riesgos__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accidente o  de  camioneta o camión daño a persona</fullName>
+                <default>false</default>
+                <label>Accidente o  de  camioneta o camión daño a persona</label>
+            </value>
+            <value>
+                <fullName>Accidente o  de  camioneta o camión daño material</fullName>
+                <default>false</default>
+                <label>Accidente o  de  camioneta o camión daño material</label>
+            </value>
+            <value>
+                <fullName>Accidente por pasivos de SQM, derrumbe via ferrea, muelle o similar</fullName>
+                <default>false</default>
+                <label>Accidente por pasivos de SQM, derrumbe via ferrea, muelle o similar</label>
+            </value>
+            <value>
+                <fullName>Afectación del patrimonio Histórico</fullName>
+                <default>false</default>
+                <label>Afectación del patrimonio Histórico</label>
+            </value>
+            <value>
+                <fullName>Contaminación al aire y emisiones de CO2</fullName>
+                <default>false</default>
+                <label>Contaminación al aire y emisiones de CO2</label>
+            </value>
+            <value>
+                <fullName>Contaminación de la Tierra</fullName>
+                <default>false</default>
+                <label>Contaminación de la Tierra</label>
+            </value>
+            <value>
+                <fullName>Contribuciones a la Comunidad</fullName>
+                <default>false</default>
+                <label>Contribuciones a la Comunidad</label>
+            </value>
+            <value>
+                <fullName>Contribuciones por Contrato CORFO</fullName>
+                <default>false</default>
+                <label>Contribuciones por Contrato CORFO</label>
+            </value>
+            <value>
+                <fullName>Corte del suministro de agua</fullName>
+                <default>false</default>
+                <label>Corte del suministro de agua</label>
+            </value>
+            <value>
+                <fullName>Corte de Luz</fullName>
+                <default>false</default>
+                <label>Corte de Luz</label>
+            </value>
+            <value>
+                <fullName>Derrame en camino</fullName>
+                <default>false</default>
+                <label>Derrame en camino</label>
+            </value>
+            <value>
+                <fullName>Derrame en mar, río o ecosistema</fullName>
+                <default>false</default>
+                <label>Derrame en mar, río o ecosistema</label>
+            </value>
+            <value>
+                <fullName>Desarrollo de Fuerza Laboral</fullName>
+                <default>false</default>
+                <label>Desarrollo de Fuerza Laboral</label>
+            </value>
+            <value>
+                <fullName>Desarrollo de Proveedores</fullName>
+                <default>false</default>
+                <label>Desarrollo de Proveedores</label>
+            </value>
+            <value>
+                <fullName>Desarrollo Productivo</fullName>
+                <default>false</default>
+                <label>Desarrollo Productivo</label>
+            </value>
+            <value>
+                <fullName>Disponibilidad de Agua</fullName>
+                <default>false</default>
+                <label>Disponibilidad de Agua</label>
+            </value>
+            <value>
+                <fullName>Ecosistemas</fullName>
+                <default>false</default>
+                <label>Ecosistemas</label>
+            </value>
+            <value>
+                <fullName>Educación</fullName>
+                <default>false</default>
+                <label>Educación</label>
+            </value>
+            <value>
+                <fullName>Gestión de Residuos</fullName>
+                <default>false</default>
+                <label>Gestión de Residuos</label>
+            </value>
+            <value>
+                <fullName>Huelga o toma de Camino</fullName>
+                <default>false</default>
+                <label>Huelga o toma de Camino</label>
+            </value>
+            <value>
+                <fullName>Impuestos regalias y acuerdos de equidad</fullName>
+                <default>false</default>
+                <label>Impuestos regalias y acuerdos de equidad</label>
+            </value>
+            <value>
+                <fullName>Incendio</fullName>
+                <default>false</default>
+                <label>Incendio</label>
+            </value>
+            <value>
+                <fullName>Infraestructura</fullName>
+                <default>false</default>
+                <label>Infraestructura</label>
+            </value>
+            <value>
+                <fullName>Intoxicación por gases a trabajadores o externos</fullName>
+                <default>false</default>
+                <label>Intoxicación por gases a trabajadores o externos</label>
+            </value>
+            <value>
+                <fullName>Malas condiciones de habitabilidad</fullName>
+                <default>false</default>
+                <label>Malas condiciones de habitabilidad</label>
+            </value>
+            <value>
+                <fullName>Necesidades Expectativas y Consideración</fullName>
+                <default>false</default>
+                <label>Necesidades Expectativas y Consideración</label>
+            </value>
+            <value>
+                <fullName>Propiedad y Derecho del Agua</fullName>
+                <default>false</default>
+                <label>Propiedad y Derecho del Agua</label>
+            </value>
+            <value>
+                <fullName>Relacionamiento</fullName>
+                <default>false</default>
+                <label>Relacionamiento</label>
+            </value>
+            <value>
+                <fullName>Relaciones Públicas</fullName>
+                <default>false</default>
+                <label>Relaciones Públicas</label>
+            </value>
+            <value>
+                <fullName>Rotura de aducción de agua</fullName>
+                <default>false</default>
+                <label>Rotura de aducción de agua</label>
+            </value>
+            <value>
+                <fullName>Rotura de Matriz</fullName>
+                <default>false</default>
+                <label>Rotura de Matriz</label>
+            </value>
+            <value>
+                <fullName>Salud</fullName>
+                <default>false</default>
+                <label>Salud</label>
+            </value>
+            <value>
+                <fullName>Seguridad</fullName>
+                <default>false</default>
+                <label>Seguridad</label>
+            </value>
+            <value>
+                <fullName>Socavón con responsabilidad de SQM</fullName>
+                <default>false</default>
+                <label>Socavón con responsabilidad de SQM</label>
+            </value>
+            <value>
+                <fullName>Vinculos</fullName>
+                <default>false</default>
+                <label>Vinculos</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Agua</controllingFieldValue>
+            <valueName>Disponibilidad de Agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Agua</controllingFieldValue>
+            <valueName>Propiedad y Derecho del Agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beneficios Sociales y Comunitarios</controllingFieldValue>
+            <valueName>Desarrollo Productivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beneficios Sociales y Comunitarios</controllingFieldValue>
+            <valueName>Educación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beneficios Sociales y Comunitarios</controllingFieldValue>
+            <valueName>Infraestructura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beneficios Sociales y Comunitarios</controllingFieldValue>
+            <valueName>Salud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Beneficios Sociales y Comunitarios</controllingFieldValue>
+            <valueName>Seguridad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación con Comunidades y Grupos de Interés</controllingFieldValue>
+            <valueName>Necesidades Expectativas y Consideración</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación con Comunidades y Grupos de Interés</controllingFieldValue>
+            <valueName>Relacionamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Comunicación con Comunidades y Grupos de Interés</controllingFieldValue>
+            <valueName>Relaciones Públicas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribuciones</controllingFieldValue>
+            <valueName>Contribuciones a la Comunidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribuciones</controllingFieldValue>
+            <valueName>Contribuciones por Contrato CORFO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contribuciones</controllingFieldValue>
+            <valueName>Impuestos regalias y acuerdos de equidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creación de Empleo de Desarrollo de Habilidades</controllingFieldValue>
+            <valueName>Desarrollo de Fuerza Laboral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creación de Empleo de Desarrollo de Habilidades</controllingFieldValue>
+            <valueName>Desarrollo de Proveedores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Creación de Empleo de Desarrollo de Habilidades</controllingFieldValue>
+            <valueName>Vinculos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preservación del Medioambiente</controllingFieldValue>
+            <valueName>Contaminación al aire y emisiones de CO2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preservación del Medioambiente</controllingFieldValue>
+            <valueName>Contaminación de la Tierra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preservación del Medioambiente</controllingFieldValue>
+            <valueName>Ecosistemas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Preservación del Medioambiente</controllingFieldValue>
+            <valueName>Gestión de Residuos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Accidente o  de  camioneta o camión daño a persona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Accidente o  de  camioneta o camión daño material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Accidente por pasivos de SQM, derrumbe via ferrea, muelle o similar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Afectación del patrimonio Histórico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Corte del suministro de agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Corte de Luz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Derrame en camino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Derrame en mar, río o ecosistema</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Huelga o toma de Camino</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Incendio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Intoxicación por gases a trabajadores o externos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Malas condiciones de habitabilidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Rotura de aducción de agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Rotura de Matriz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Riesgos de la Operación o Accidentes</controllingFieldValue>
+            <valueName>Socavón con responsabilidad de SQM</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

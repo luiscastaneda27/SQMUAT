@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Service_Provider__c</fullName>
+    <description>Indica quien quedo a cargo de la búsqueda de la solución y su ejecución. Este campo utilizado para el soporte de la plataforma (caso HelpDesk)</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Service provider in charge of &quot;Review SP&quot; Step</inlineHelpText>
+    <label>Executed By</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Salesforce</fullName>
+                <default>false</default>
+                <label>Salesforce</label>
+            </value>
+            <value>
+                <fullName>Seidor</fullName>
+                <default>false</default>
+                <label>Seidor</label>
+            </value>
+            <value>
+                <fullName>Tableau</fullName>
+                <default>false</default>
+                <label>Tableau</label>
+            </value>
+            <value>
+                <fullName>VASS</fullName>
+                <default>false</default>
+                <label>VASS</label>
+            </value>
+            <value>
+                <fullName>SQM Infrastructure</fullName>
+                <default>false</default>
+                <label>SQM Infrastructure</label>
+            </value>
+            <value>
+                <fullName>Deloitte</fullName>
+                <default>false</default>
+                <label>Deloitte</label>
+            </value>
+            <value>
+                <fullName>EY</fullName>
+                <default>false</default>
+                <label>EY</label>
+            </value>
+            <value>
+                <fullName>Admins - TI</fullName>
+                <default>false</default>
+                <label>Admins - TI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pais__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Enter your country of residence</inlineHelpText>
+    <label>País</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alemania</fullName>
+                <default>false</default>
+                <label>Alemania</label>
+            </value>
+            <value>
+                <fullName>Bélgica</fullName>
+                <default>false</default>
+                <label>Bélgica</label>
+            </value>
+            <value>
+                <fullName>Brasil</fullName>
+                <default>false</default>
+                <label>Brasil</label>
+            </value>
+            <value>
+                <fullName>Centro América/Caribe</fullName>
+                <default>false</default>
+                <label>Centro América/Caribe</label>
+            </value>
+            <value>
+                <fullName>Chile</fullName>
+                <default>true</default>
+                <label>Chile</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Corea</fullName>
+                <default>false</default>
+                <label>Corea</label>
+            </value>
+            <value>
+                <fullName>Ecuador</fullName>
+                <default>false</default>
+                <label>Ecuador</label>
+            </value>
+            <value>
+                <fullName>España</fullName>
+                <default>false</default>
+                <label>España</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Italia</fullName>
+                <default>false</default>
+                <label>Italia</label>
+            </value>
+            <value>
+                <fullName>Japón</fullName>
+                <default>false</default>
+                <label>Japón</label>
+            </value>
+            <value>
+                <fullName>Marruecos</fullName>
+                <default>false</default>
+                <label>Marruecos</label>
+            </value>
+            <value>
+                <fullName>Medio Oriente</fullName>
+                <default>false</default>
+                <label>Medio Oriente</label>
+            </value>
+            <value>
+                <fullName>México</fullName>
+                <default>false</default>
+                <label>México</label>
+            </value>
+            <value>
+                <fullName>Norte de África</fullName>
+                <default>false</default>
+                <label>Norte de África</label>
+            </value>
+            <value>
+                <fullName>Oceanía</fullName>
+                <default>false</default>
+                <label>Oceanía</label>
+            </value>
+            <value>
+                <fullName>Otros Países de África</fullName>
+                <default>false</default>
+                <label>Otros Países de África</label>
+            </value>
+            <value>
+                <fullName>Otros Países de América del Sur</fullName>
+                <default>false</default>
+                <label>Otros Países de América del Sur</label>
+            </value>
+            <value>
+                <fullName>Otros Países de Asia</fullName>
+                <default>false</default>
+                <label>Otros Países de Asia</label>
+            </value>
+            <value>
+                <fullName>Otros Países de Europa</fullName>
+                <default>false</default>
+                <label>Otros Países de Europa</label>
+            </value>
+            <value>
+                <fullName>Perú</fullName>
+                <default>false</default>
+                <label>Perú</label>
+            </value>
+            <value>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+                <label>Portugal</label>
+            </value>
+            <value>
+                <fullName>Sur de África</fullName>
+                <default>false</default>
+                <label>Sur de África</label>
+            </value>
+            <value>
+                <fullName>Tailandia</fullName>
+                <default>false</default>
+                <label>Tailandia</label>
+            </value>
+            <value>
+                <fullName>Turquía</fullName>
+                <default>false</default>
+                <label>Turquía</label>
+            </value>
+            <value>
+                <fullName>U.A.E.</fullName>
+                <default>false</default>
+                <label>U.A.E.</label>
+            </value>
+            <value>
+                <fullName>USA / Canadá</fullName>
+                <default>false</default>
+                <label>USA / Canadá</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

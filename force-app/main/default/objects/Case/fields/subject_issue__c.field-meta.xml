@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>subject_issue__c</fullName>
+    <externalId>false</externalId>
+    <label>Category</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accesses</fullName>
+                <default>false</default>
+                <label>Accesses</label>
+            </value>
+            <value>
+                <fullName>Approval Flow</fullName>
+                <default>false</default>
+                <label>Approval Flow</label>
+            </value>
+            <value>
+                <fullName>Data Cleansing</fullName>
+                <default>false</default>
+                <label>Data Cleansing</label>
+            </value>
+            <value>
+                <fullName>Data Problem</fullName>
+                <default>false</default>
+                <label>Data problems</label>
+            </value>
+            <value>
+                <fullName>Dudas sobre el proceso en Salesforce</fullName>
+                <default>false</default>
+                <label>Doubts about the process in Salesforce</label>
+            </value>
+            <value>
+                <fullName>Improvements</fullName>
+                <default>false</default>
+                <label>Improvements</label>
+            </value>
+            <value>
+                <fullName>Incidents</fullName>
+                <default>false</default>
+                <label>Incidents</label>
+            </value>
+            <value>
+                <fullName>License for new users</fullName>
+                <default>false</default>
+                <label>License for new users</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Question</fullName>
+                <default>false</default>
+                <label>Question</label>
+            </value>
+            <value>
+                <fullName>Questions about process</fullName>
+                <default>false</default>
+                <label>Questions about process</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>Actualización de campos y filtros</fullName>
+                <default>false</default>
+                <label>Update fields and filters</label>
+            </value>
+            <value>
+                <fullName>Vacation</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vacaciones</label>
+            </value>
+            <value>
+                <fullName>Vacations</fullName>
+                <default>false</default>
+                <label>Vacations</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

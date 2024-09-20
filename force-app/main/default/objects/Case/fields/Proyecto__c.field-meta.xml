@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proyecto__c</fullName>
+    <externalId>false</externalId>
+    <label>Project</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Comunidades (Reclamos, requerimientos, otros)</fullName>
+                <default>false</default>
+                <label>Communities (claims, request, others)</label>
+            </value>
+            <value>
+                <fullName>Community Pampa</fullName>
+                <default>false</default>
+                <label>Community Pampa</label>
+            </value>
+            <value>
+                <fullName>Community Salar</fullName>
+                <default>false</default>
+                <label>Community Salar</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Platform</fullName>
+                <default>false</default>
+                <label>Platform</label>
+            </value>
+            <value>
+                <fullName>CPQ</fullName>
+                <default>false</default>
+                <label>Pricing Lithium - CPQ</label>
+            </value>
+            <value>
+                <fullName>Sales - Iodine</fullName>
+                <default>false</default>
+                <label>Sales - Iodine</label>
+            </value>
+            <value>
+                <fullName>Sales Cloud</fullName>
+                <default>false</default>
+                <label>Sales - Lithium</label>
+            </value>
+            <value>
+                <fullName>Service - Iodine</fullName>
+                <default>false</default>
+                <label>Service - Iodine</label>
+            </value>
+            <value>
+                <fullName>Service Cloud</fullName>
+                <default>false</default>
+                <label>Service - Lithium</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

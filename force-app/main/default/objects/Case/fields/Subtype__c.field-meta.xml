@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Bag</fullName>
+                <default>false</default>
+                <label>Bag</label>
+            </value>
+            <value>
+                <fullName>Label</fullName>
+                <default>false</default>
+                <label>Label</label>
+            </value>
+            <value>
+                <fullName>Pallet</fullName>
+                <default>false</default>
+                <label>Pallet</label>
+            </value>
+            <value>
+                <fullName>Package</fullName>
+                <default>false</default>
+                <label>Package</label>
+            </value>
+            <value>
+                <fullName>Weight</fullName>
+                <default>false</default>
+                <label>Weight</label>
+            </value>
+            <value>
+                <fullName>Product Quality</fullName>
+                <default>false</default>
+                <label>Product Quality</label>
+            </value>
+            <value>
+                <fullName>Contamination</fullName>
+                <default>false</default>
+                <label>Contamination</label>
+            </value>
+            <value>
+                <fullName>Chemical Quality</fullName>
+                <default>false</default>
+                <label>Chemical Quality</label>
+            </value>
+            <value>
+                <fullName>Delivery problem</fullName>
+                <default>false</default>
+                <label>Delivery problem</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Administrative_and_logistics_quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Administrative and logistics quality</label>
+            </value>
+            <value>
+                <fullName>Chemical_Product_Quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Chemical Product Quality</label>
+            </value>
+            <value>
+                <fullName>Damaged_bag</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Damaged bag</label>
+            </value>
+            <value>
+                <fullName>Delivery_time</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Delivery time</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Physical_Product_Quality</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Physical Product Quality</label>
+            </value>
+            <value>
+                <fullName>Picking List</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Picking List</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <valueName>Chemical Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chemical</controllingFieldValue>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <controllingFieldValue>Physical</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Service</controllingFieldValue>
+            <valueName>Delivery problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Bag</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Pallet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Package</controllingFieldValue>
+            <valueName>Weight</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical</controllingFieldValue>
+            <valueName>Product Quality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Physical</controllingFieldValue>
+            <valueName>Contamination</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

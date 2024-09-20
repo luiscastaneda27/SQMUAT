@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_the_Issue_a_Stopper__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Stopper: it means the issue that not allow doing your habitual activities on Salesforce.</inlineHelpText>
+    <label>Is the Issue a Stopper?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Priority</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Low</controllingFieldValue>
+            <controllingFieldValue>Middle</controllingFieldValue>
+            <valueName>No</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>High</controllingFieldValue>
+            <controllingFieldValue>Medium</controllingFieldValue>
+            <valueName>Yes</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>
