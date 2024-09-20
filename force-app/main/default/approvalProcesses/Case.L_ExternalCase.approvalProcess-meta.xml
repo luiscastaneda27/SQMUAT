@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Status</field>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>Account</field>
+        <field>Subject</field>
+        <field>RecordType</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Propietario_Cuenta__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Approval Report</label>
+        <name>Approval_Report</name>
+    </approvalStep>
+    <description>Para casos tipo External Case relacionado a Litio, con documento no aprobado e informe adjunto en etapa Reporting or Partial Closure. La solicitud es realizada por el Case Owner al Account Owner.</description>
+    <emailTemplate>unfiled$public/Case_Send_To_Approval</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>(1 OR 7)  AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>External Quality Claims</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.BusinessLine__c</field>
+            <operation>contains</operation>
+            <value>Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Documento_Aprobado__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Informe_a_Cliente_Adjunto__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Reporting</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Partial closure</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>Reclamos Calidad</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Aprueba_doc</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Reporte_Calidad_Aprobado</name>
+            <type>Alert</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Reporte_Calidad_Rechazado</name>
+            <type>Alert</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>L_ExternalCase</label>
+    <processOrder>2</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

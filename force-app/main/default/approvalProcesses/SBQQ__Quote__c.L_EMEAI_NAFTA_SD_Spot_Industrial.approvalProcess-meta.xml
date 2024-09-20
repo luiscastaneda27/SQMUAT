@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>ButtonBar</field>
+        <field>Date_submit__c</field>
+        <field>Created_Date__c</field>
+        <field>Opportunity_Grades__c</field>
+        <field>Owner</field>
+        <field>Volume__c</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>Type_of_Opportunity__c</field>
+        <field>Average_Price__c</field>
+        <field>Incoterm__c</field>
+        <field>SBQQ__ExpirationDate__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>pieter.schepmans@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Aprobación de Pieter Shepmans como Director de la región EMEAI &amp; Americas Lithium.</description>
+        <label>Director Approval</label>
+        <name>Director_Approval</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>felipe.smith@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>Unanimous</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Aprobación de Felipe Smith como Senior Director de la región EMEAI &amp; Americas Lithium.</description>
+        <label>Senior Director</label>
+        <name>Senior_Director</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Aprobación EMEAI-NAFTA a nivel de Senior Director para mercado de aplicaciones industriales de Litio.</description>
+    <emailTemplate>unfiled$public/Quote_Review_Submit_Quote</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>((1 OR 2) OR (5 AND 9)) AND (6 OR 7 OR 8 OR 11 OR 12 OR 13) AND 3 AND (4 AND 10)</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.OnSpec_Discount_Senior_Director__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.OffSpec_Discount_Senior_Director__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Product__c</field>
+            <operation>contains</operation>
+            <value>Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Type_of_Opportunity__c</field>
+            <operation>notContain</operation>
+            <value>Formula</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>greaterThan</operation>
+            <value>&quot;USD 7,500,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>C SM and SC Americas Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SC EMEAI Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SM South Africa Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.SBQQ__NetAmount__c</field>
+            <operation>lessOrEqual</operation>
+            <value>&quot;USD 15,000,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Type_of_Opportunity__c</field>
+            <operation>notContain</operation>
+            <value>Fixed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SM Americas Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>C SM EMEAI Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>Director EMEAI &amp; Americas Lithium</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Email_Owner_Approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_Aux_Field_Quote_Aprove_True</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Email_Notificaction_Denied</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_Aux_Field_Quote_Approve_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>true</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Date_Submited_9</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Send_to_Approve</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>L EMEAI-NAFTA SD Spot - Industrial</label>
+    <processOrder>5</processOrder>
+    <recallActions>
+        <action>
+            <name>Update_Status_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

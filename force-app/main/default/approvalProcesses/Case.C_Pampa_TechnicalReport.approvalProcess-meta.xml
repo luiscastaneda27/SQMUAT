@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <submitter>Administrador_del_Sistema</submitter>
+        <type>roleSubordinates</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>Subject</field>
+        <field>Faena__c</field>
+        <field>Localidad__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>gary.merida@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Aprobador Gary Merida Cespedes</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Localidad__c</field>
+                <operation>equals</operation>
+                <value>Alto Hospicio,Cañamo,Caramucho,Chanavayita,Colonia de Pintados,Huatacondo,Iquique,La Tirana,Pozo Almonte,Tamentíca,Victoria</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Aprobación reporte técnico</label>
+        <name>Aprobacion_reporte_tecnico</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>juan.perez.choque@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Aprobador Juan Manuel Pérez Choque</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Localidad__c</field>
+                <operation>equals</operation>
+                <value>Quillagua,Caleta Buena,María Elena,Tocopilla</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>GotoNextStep</ifCriteriaNotMet>
+        <label>Aprobación reporte técnico</label>
+        <name>Aprobacion_reporte_tecnico_Quillagua</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>manuel.ossandon.carvajal@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>Aprobador Manuel Ossandon</description>
+        <entryCriteria>
+            <criteriaItems>
+                <field>Case.Localidad__c</field>
+                <operation>equals</operation>
+                <value>Antofagasta,Calama</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>Aprobación reporte técnico</label>
+        <name>Aprobacion_reporte_tecnico_3</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Para casos de Comunidad Pampa asociados a algunas de las siguientes localidades, en estado Investigación con subestado: En generación de reporte. Solicitud de aprobación realizada por el Case Owner.
+
+Localidades: Victoria, Colonia de Pintados, La Tirana, Pozo Almonte, Huatacondo, Tamentíca,Alto  Hospicio, Iquique, Chanavayita, Cañamo, Caramucho, Quillagua, Caleta Buena, María Elena, Tocopilla, Calama</description>
+    <emailTemplate>unfiled$public/Community_Request_Approval</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Investigation</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Localidad__c</field>
+            <operation>equals</operation>
+            <value>Victoria,Colonia de Pintados,La Tirana,Pozo Almonte,Huatacondo,Tamentíca,Alto Hospicio,Iquique,Chanavayita,Cañamo,Caramucho,Quillagua,Caleta Buena,María Elena,Tocopilla,Calama</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Sub_estado__c</field>
+            <operation>equals</operation>
+            <value>En generación de reporte técnico</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Aprobacion_tecnica</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Community_Approval_Case</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Estado_a_reporte_cliente</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Sub_estado_generacion_reporte_a_cliente</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Community_Rejected_Case</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Sub_estado_volver</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Cambia_subestado</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>C_Pampa_TechnicalReport</label>
+    <processOrder>10</processOrder>
+    <recallActions>
+        <action>
+            <name>Sub_estado_volver</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

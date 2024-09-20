@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>creator</type>
+    </allowedSubmitters>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Date_submit__c</field>
+        <field>Created_Date__c</field>
+        <field>Opportunity_Grades__c</field>
+        <field>Owner</field>
+        <field>Volume__c</field>
+        <field>SBQQ__Account__c</field>
+        <field>SBQQ__NetAmount__c</field>
+        <field>Type_of_Opportunity__c</field>
+        <field>Average_Price__c</field>
+        <field>Incoterm__c</field>
+        <field>Price_is_valid_until__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>SBQQ__SalesRep__c</name>
+                <type>relatedUserField</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <description>If the quote is created by a Sales &amp; Marketing Assistant profile user, it must be approved by the Sales Manager account owner.</description>
+        <label>Sales Manager approve</label>
+        <name>Sales_Manager_approve</name>
+    </approvalStep>
+    <description>Registros creados por asistentes que requieren aprobación Sales Manager ASIA</description>
+    <emailTemplate>unfiled$public/Quote_Review_Submit_Quote</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>1 AND 5 AND (2 OR 3 OR 4)</booleanFilter>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Level_of_approval__c</field>
+            <operation>equals</operation>
+            <value>Requires Sales Manager Approval</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SM China Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SM Japan Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>SM Korea Lithium</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>SBQQ__Quote__c.Product__c</field>
+            <operation>contains</operation>
+            <value>Lithium</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_Aux_Field_Quote_Aprove_True</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_Aux_Field_Quote_Approve_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>true</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Date_Submited_9</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Send_to_Approve</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>L ASIA Quote Sales Manager</label>
+    <processOrder>2</processOrder>
+    <recallActions>
+        <action>
+            <name>Update_Status_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

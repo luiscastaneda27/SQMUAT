@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>ContractNumber</field>
+        <field>Owner</field>
+        <field>Contracted_volume__c</field>
+        <field>Type_of_contract__c</field>
+        <field>Product__c</field>
+        <field>Account</field>
+        <field>Market__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>felipe.smith@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Senior Director</label>
+        <name>Senior_Director</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>carlos.diaz@sqm.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>VP</label>
+        <name>VP</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>Aprobación Contrato por VP para ASIA II Litio</description>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <booleanFilter>(1 OR 2) AND (3 AND 4) AND (5 OR 6) AND (7 OR 8)</booleanFilter>
+        <criteriaItems>
+            <field>Contract.Product__c</field>
+            <operation>equals</operation>
+            <value>Lithium Carbonate</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.Product__c</field>
+            <operation>equals</operation>
+            <value>Lithium Hydroxide</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.Contracted_volume__c</field>
+            <operation>greaterThan</operation>
+            <value>300</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.Contracted_volume__c</field>
+            <operation>lessOrEqual</operation>
+            <value>200000000</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.Status</field>
+            <operation>equals</operation>
+            <value>Draft</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Contract.Status</field>
+            <operation>equals</operation>
+            <value>In Approval Process</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>Senior Sales Managers China - ASOC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>User.UserRole</field>
+            <operation>equals</operation>
+            <value>Senior SM China Lithium - ASOC</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Update_Aux_Field_Contract_Approve_True</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Activate</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Update_Aux_Field_Contract_Approve_False</name>
+            <type>FieldUpdate</type>
+        </action>
+        <action>
+            <name>Update_Status_Lost</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_Status_Send_to_Approval</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Contract Approve ASIA II VP</label>
+    <processOrder>4</processOrder>
+    <recallActions>
+        <action>
+            <name>Update_Status_Draft</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

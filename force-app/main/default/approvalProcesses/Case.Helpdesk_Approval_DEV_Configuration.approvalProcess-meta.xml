@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>CaseNumber</field>
+        <field>Owner</field>
+        <field>CreatedDate</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>Helpdesk_Admin</name>
+                <type>queue</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <label>Approval of configurations in DEV environment</label>
+        <name>Approval_of_configurations_in_DEV_environment</name>
+    </approvalStep>
+    <description>Process to review Configuration in DEV sandbox for cases Improvement Category</description>
+    <emailTemplate>unfiled$public/HelpdeskRequestForInternalApprovalImprovement</emailTemplate>
+    <enableMobileDeviceAccess>false</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Case.RecordType</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Improvements</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>In Progress</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Sub_estado__c</field>
+            <operation>equals</operation>
+            <value>Configuraciones DEV</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.DEV_Configurations__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Helpdesk_case_approval_process_response</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_Sub_Status_Approved_in_DEV</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Helpdesk_case_approval_process_response</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_DEV_Configurations_Field</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <label>Helpdesk Approval DEV Configuration</label>
+    <processOrder>16</processOrder>
+    <recordEditability>AdminOnly</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>
