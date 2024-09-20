@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App utilizar durante la implementación de CPQ. No desplegar en otro ambiente</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>CPQ para Configurar</label>
+    <navType>Standard</navType>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Commercial Planning</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Commercial Planning</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Managers 2022</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Sales Managers 2022</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Admin</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Small</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Audit SOX Read Only</profile>
+    </profileActionOverrides>
+    <profileActionOverrides>
+        <actionName>View</actionName>
+        <content>Sample_Request</content>
+        <formFactor>Large</formFactor>
+        <pageOrSobjectType>Case</pageOrSobjectType>
+        <recordType>Case.Sample_Request</recordType>
+        <type>Flexipage</type>
+        <profile>Audit SOX Read Only</profile>
+    </profileActionOverrides>
+    <tabs>standard-Account</tabs>
+    <tabs>Pricing_Tableau</tabs>
+    <tabs>standard-Opportunity</tabs>
+    <tabs>SBQQ__Quote__c</tabs>
+    <tabs>SBQQ__QuoteTemplate__c</tabs>
+    <tabs>SBQQ__PriceRule__c</tabs>
+    <tabs>SBQQ__ProductRule__c</tabs>
+    <tabs>standard-Product2</tabs>
+    <tabs>Tabla_AUX__c</tabs>
+    <tabs>Tabla_Goal__c</tabs>
+    <tabs>Tabla_Index_Price__c</tabs>
+    <tabs>Tabla_Interest_Rate__c</tabs>
+    <tabs>Tabla_Volume_Adjustment__c</tabs>
+    <tabs>SBQQ__CustomAction__c</tabs>
+    <tabs>Tabla_de_Industria_Grado__c</tabs>
+    <tabs>Tabla_Macrozonas__c</tabs>
+    <tabs>SBQQ__LookupQuery__c</tabs>
+    <tabs>SBQQ__PriceAction__c</tabs>
+    <tabs>SBQQ__PriceCondition__c</tabs>
+    <tabs>Tabla_Bag_Size__c</tabs>
+    <tabs>Tabla_Incoterm__c</tabs>
+    <tabs>Tabla_Payment_Term__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>CPQ_para_Configurar_UtilityBar</utilityBar>
+</CustomApplication>

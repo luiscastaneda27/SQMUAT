@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnimationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <animationFrequency>always</animationFrequency>
+    <developerName>Caso_Calidad_Interno</developerName>
+    <isActive>true</isActive>
+    <masterLabel>Caso Calidad Interno</masterLabel>
+    <recordTypeContext>Custom</recordTypeContext>
+    <recordTypeName>Reclamos_Calidad_Interno</recordTypeName>
+    <sobjectType>Case</sobjectType>
+    <targetField>Status</targetField>
+    <targetFieldChangeToValues>Closed</targetFieldChangeToValues>
+</AnimationRule>
