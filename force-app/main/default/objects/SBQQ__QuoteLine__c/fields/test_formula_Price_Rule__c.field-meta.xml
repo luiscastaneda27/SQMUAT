@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test_formula_Price_Rule__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(text( SBQQ__ProductOption__r.Payment_Term__c ), 
+
+&apos;Due on receipt&apos;, (1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c +  SBQQ__Quote__r.LC_CIP_Adjust__c  +  SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1- (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1- (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ),
+
+&apos;Net 15&apos;, 1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+ SBQQ__Quote__r.Small_Bag_Adjustment__c  + SBQQ__Quote__r.LC_CIP_Adjust__c  +  SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1- (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ),
+
+&apos;Net 30&apos;, 1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c + SBQQ__Quote__r.LC_CIP_Adjust__c  + SBQQ__Quote__r.LC_DAP_DDP_Adjust__c ), 
+
+&apos;Net 45&apos;, 1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c + SBQQ__Quote__r.LC_CIP_Adjust__c  + SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ), 
+
+&apos;Net 60&apos;, (1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c + SBQQ__Quote__r.LC_CIP_Adjust__c  + SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ), 
+
+&apos;Net 90&apos;, ((1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c + SBQQ__Quote__r.LC_CIP_Adjust__c  + SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) )*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ), 
+
+&apos;Net 120&apos;, (((1000*(SBQQ__Quote__r.Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c+SBQQ__Quote__r.Small_Bag_Adjustment__c + SBQQ__Quote__r.LC_CIP_Adjust__c  + SBQQ__Quote__r.LC_DAP_DDP_Adjust__c )*sqrt(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) )*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ))*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) )*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) )*(1 + (SBQQ__Quote__r.Interest_Rate__c + Bank_Note_Spread__c ) ), 
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>campo de prueba para compilar formulas a usar en Price Rules</inlineHelpText>
+    <label>test formula Price Rule</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>3</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

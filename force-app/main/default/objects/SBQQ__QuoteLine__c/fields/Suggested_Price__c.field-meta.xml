@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Suggested_Price__c</fullName>
+    <description>Price suggests by Model Price. Price before discount or Prime.</description>
+    <externalId>false</externalId>
+    <formula>CASE(Quote_Incoterm__c, &apos;FCA/EXW&apos;, FCA_EXW_Price__c , &apos;DAP/DDP&apos;,  DAP_DDP_Price__c, &apos;CIP&apos;, CIP_Price__c , CIF_Price__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Suggested Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

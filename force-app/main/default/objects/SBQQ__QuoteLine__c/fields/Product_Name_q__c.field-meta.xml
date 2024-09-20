@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Name_q__c</fullName>
+    <description>Returns the product name plus the quality / grade, only if it is a Parent Product</description>
+    <externalId>false</externalId>
+    <formula>IF( ISBLANK( SBQQ__ProductOption__c ) ,     text(Quality_Grade__c) , &apos;&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Q</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

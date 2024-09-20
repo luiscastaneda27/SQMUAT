@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volume_for_Vol_Adjustment__c</fullName>
+    <description>Devuelve el volumen a utilizar para efectos de Ajuste por Volumen. Si el campo Total Volume en la Opportunidad tiene valor usará ese. Si no hay valor usará el del campo Volume</description>
+    <externalId>false</externalId>
+    <formula>IF( SBQQ__Quote__r.SBQQ__Opportunity2__r.Total_Volume__c &gt;0, SBQQ__Quote__r.SBQQ__Opportunity2__r.Total_Volume__c,  SBQQ__Quote__r.SBQQ__Opportunity2__r.Volume__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Volume for Vol Adjustment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

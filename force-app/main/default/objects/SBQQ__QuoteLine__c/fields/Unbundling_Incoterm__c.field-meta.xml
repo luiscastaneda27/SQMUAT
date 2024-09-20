@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unbundling_Incoterm__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( SBQQ__Quote__r.Incoterm__c ,
+&apos;FCA/EXW&apos; , Unbundling_Incoterm_2__c ,
+&apos;CIP&apos;, Unbundling_Incoterm_3__c ,
+&apos;DAP/DDP&apos;, Unbundling_Incoterm_4__c ,
+&apos;CIF&apos;, Unbundling_Incoterm_1__c ,
+0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Un. Incoterm</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>4</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>
