@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isGradeIncorrect__c</fullName>
+    <description>Returns true if there are one or more Quite Lines with a Quality Grade that is not included in the QUality Grades selecten in the Opportunity. Is used to validare the right Product Selection</description>
+    <externalId>false</externalId>
+    <formula>Not(CONTAINS( OpptyGrades__c ,  text(Quality_Grade__c) ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>isGradeIncorrect?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

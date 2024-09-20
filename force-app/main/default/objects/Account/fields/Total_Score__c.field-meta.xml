@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>VALUE(text(A1__c))  + VALUE(text(A2__c))+ VALUE(text(A3__c))+ VALUE(text(A4__c))+ 
+VALUE(text(B1__c))+ VALUE(text(B2__c))+ VALUE(text(B3__c)) + VALUE(text(B4__c))+ VALUE(text(B5__c))+ VALUE(text(B6__c)) + VALUE(text(B7__c))+ VALUE(text(B8__c)) + 
+VALUE(text(C1__c))+ VALUE(text(C2__c))+ VALUE(text(C3__c))+ VALUE(text(C4__c))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

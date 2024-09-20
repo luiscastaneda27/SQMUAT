@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_SD__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+OR(
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;EMEAI&quot;),
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;NAFTA&quot;)),
+SBQQ__NetAmount__c &gt; 7500000,
+SBQQ__NetAmount__c &lt; 15000000, Requires_approval_for_amount__c = True),
+TRUE,
+IF(
+AND(
+OR(
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;Asia&quot;),
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;China&quot;)),
+ISPICKVAL(CurrencyIsoCode,	&quot;USD&quot;),
+SBQQ__NetAmount__c &gt; 7500000,
+SBQQ__NetAmount__c &lt; 15000000,Requires_approval_for_amount__c = True),
+true,
+IF(
+AND(
+OR(
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;Asia&quot;),
+ISPICKVAL(SBQQ__Opportunity2__r.Market__c, &quot;China&quot;)),
+ISPICKVAL(CurrencyIsoCode,	&quot;CNY&quot;),
+SBQQ__NetAmount__c / CURRENCYRATE(&apos;CNY&apos;) &gt; 7500000,
+SBQQ__NetAmount__c / CURRENCYRATE(&apos;CNY&apos;) &lt; 15000000,Requires_approval_for_amount__c = True),			
+true, false)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Amount Commercial VP</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

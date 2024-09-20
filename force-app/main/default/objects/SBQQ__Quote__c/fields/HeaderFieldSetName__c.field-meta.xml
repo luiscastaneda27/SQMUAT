@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HeaderFieldSetName__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(ISPICKVAL(SBQQ__Opportunity2__r.Product__c, &apos;Iodine&apos;), &apos;Line_Editor_Iodine&apos;, &apos;SBQQ__LineEditor&apos;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>HeaderFieldSetName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Grades_Matches__c</fullName>
+    <externalId>false</externalId>
+    <formula>RIGHT(Index_Grade__c, 2)  = Industry_Grade__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Checks if product grade matches to clients industry grade</inlineHelpText>
+    <label>Grades Match?</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

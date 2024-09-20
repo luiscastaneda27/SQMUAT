@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity__c</fullName>
+    <externalId>false</externalId>
+    <label>Quantity</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product_Family__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>&gt; 7.000</fullName>
+                <default>false</default>
+                <label>&gt; 7.000</label>
+            </value>
+            <value>
+                <fullName>4.000 - 7.000</fullName>
+                <default>false</default>
+                <label>4.000 - 7.000</label>
+            </value>
+            <value>
+                <fullName>2.000 - 4.000</fullName>
+                <default>false</default>
+                <label>2.000 - 4.000</label>
+            </value>
+            <value>
+                <fullName>1.000 - 2.000</fullName>
+                <default>false</default>
+                <label>1.000 - 2.000</label>
+            </value>
+            <value>
+                <fullName>&gt; 1.500</fullName>
+                <default>false</default>
+                <label>&gt; 1.500</label>
+            </value>
+            <value>
+                <fullName>1.000-1.500</fullName>
+                <default>false</default>
+                <label>1.000-1.500</label>
+            </value>
+            <value>
+                <fullName>300 - 1.000</fullName>
+                <default>false</default>
+                <label>300 - 1.000</label>
+            </value>
+            <value>
+                <fullName>500 - 1.000</fullName>
+                <default>false</default>
+                <label>500 - 1.000</label>
+            </value>
+            <value>
+                <fullName>300 - 500</fullName>
+                <default>false</default>
+                <label>300 - 500</label>
+            </value>
+            <value>
+                <fullName>100 - 300</fullName>
+                <default>false</default>
+                <label>100 - 300</label>
+            </value>
+            <value>
+                <fullName>50 - 100</fullName>
+                <default>false</default>
+                <label>50 - 100</label>
+            </value>
+            <value>
+                <fullName>1 - 50</fullName>
+                <default>false</default>
+                <label>1 - 50</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <valueName>&gt; 7.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <valueName>4.000 - 7.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <valueName>2.000 - 4.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <valueName>1.000 - 2.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <valueName>300 - 1.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>100 - 300</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>50 - 100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lithium Carbonate</controllingFieldValue>
+            <controllingFieldValue>Lithium hydroxide</controllingFieldValue>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>1 - 50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>&gt; 1.500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>1.000-1.500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>500 - 1.000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Iodine</controllingFieldValue>
+            <valueName>300 - 500</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

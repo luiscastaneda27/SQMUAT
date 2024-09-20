@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CPQ_SQM</fullName>
+    <fields>Name</fields>
+    <fields>SBQQ__NetAmount__c</fields>
+    <fields>Volume__c</fields>
+    <fields>Average_Price__c</fields>
+    <label>CPQ SQM</label>
+</CompactLayout>

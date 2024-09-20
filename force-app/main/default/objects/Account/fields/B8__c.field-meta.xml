@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B8__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Collaboration degree from the customer.</inlineHelpText>
+    <label>B8 - Business partnership</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Open to plant visit and to share info</fullName>
+                <default>false</default>
+                <label>Open to plant visit and to share info</label>
+            </value>
+            <value>
+                <fullName>Share some market/technical info</fullName>
+                <default>false</default>
+                <label>Share some market/technical info</label>
+            </value>
+            <value>
+                <fullName>Do not share info</fullName>
+                <default>false</default>
+                <label>Do not share info</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

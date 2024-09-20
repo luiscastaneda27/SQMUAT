@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validateVolume__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SBQQ__PricebookId__c = $CustomMetadata.Pricebook_Id__mdt.Lithium_CPQ_Matrix.id__c , true, false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>validateVolume</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Buyer_Type__c</fullName>
+    <description>Buyer Type</description>
+    <externalId>false</externalId>
+    <label>Customer Buyer Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Generalist</fullName>
+                <default>false</default>
+                <label>Generalist</label>
+            </value>
+            <value>
+                <fullName>Specific</fullName>
+                <default>false</default>
+                <label>Specific</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

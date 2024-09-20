@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A2__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Understand the negotiation power of the customer.</inlineHelpText>
+    <label>A2 - Customer Market Size</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Big player</fullName>
+                <default>false</default>
+                <label>Big player</label>
+            </value>
+            <value>
+                <fullName>Medium player</fullName>
+                <default>false</default>
+                <label>Medium player</label>
+            </value>
+            <value>
+                <fullName>Local player</fullName>
+                <default>false</default>
+                <label>Local player</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

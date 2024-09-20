@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Salesforce_Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Salesforce Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Administrator</fullName>
+                <color>#00CCCC</color>
+                <default>false</default>
+                <label>Administrator</label>
+            </value>
+            <value>
+                <fullName>Commercial Planning</fullName>
+                <color>#FF99FF</color>
+                <default>false</default>
+                <label>Commercial Planning</label>
+            </value>
+            <value>
+                <fullName>Commnunity</fullName>
+                <color>#009900</color>
+                <default>false</default>
+                <label>Commnunity</label>
+            </value>
+            <value>
+                <fullName>External Community</fullName>
+                <color>#33CC00</color>
+                <default>false</default>
+                <label>External Community</label>
+            </value>
+            <value>
+                <fullName>Sales - Iodine</fullName>
+                <default>false</default>
+                <label>Sales - Iodine</label>
+            </value>
+            <value>
+                <fullName>Sales_Lithium</fullName>
+                <color>#6600CC</color>
+                <default>false</default>
+                <label>Sales - Lithium</label>
+            </value>
+            <value>
+                <fullName>Sales - Pricing</fullName>
+                <default>false</default>
+                <label>Sales - Pricing</label>
+            </value>
+            <value>
+                <fullName>Service - Iodine</fullName>
+                <default>false</default>
+                <label>Service - Iodine</label>
+            </value>
+            <value>
+                <fullName>Service_Lithium</fullName>
+                <color>#FF9900</color>
+                <default>false</default>
+                <label>Service - Lithium</label>
+            </value>
+            <value>
+                <fullName>TBD</fullName>
+                <default>true</default>
+                <label>TBD</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <color>#0B24BE</color>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Zone__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Zone assigned to Account. Is used to calculate Freight Costo (CIP Incoterm)</inlineHelpText>
+    <label>Zone</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Territory__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Zones</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>NAFTA</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>NAFTA 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAFTA</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>NAFTA 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAFTA</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>NAFTA 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NAFTA</controllingFieldValue>
+            <controllingFieldValue>LATAM</controllingFieldValue>
+            <valueName>NAFTA 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASOC</controllingFieldValue>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>APAC 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASOC</controllingFieldValue>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>APAC 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASOC</controllingFieldValue>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>APAC 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ASOC</controllingFieldValue>
+            <controllingFieldValue>Japan</controllingFieldValue>
+            <valueName>APAC 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>China North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>China East</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>China South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>China</controllingFieldValue>
+            <valueName>China West</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEAI</controllingFieldValue>
+            <valueName>EMEA 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEAI</controllingFieldValue>
+            <valueName>EMEA 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEAI</controllingFieldValue>
+            <valueName>EMEA 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEAI</controllingFieldValue>
+            <valueName>EMEA 4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EMEAI</controllingFieldValue>
+            <valueName>EMEA 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>India</controllingFieldValue>
+            <valueName>India 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russia</controllingFieldValue>
+            <valueName>Russia 1</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

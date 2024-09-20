@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <description>Field on Quote Line or Product Option object that is evaluated by this condition.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose a field on the target object.</inlineHelpText>
+    <label>Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Product Code</fullName>
+                <default>false</default>
+                <label>Product Code</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ProductFamily__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ProductFamily__c</label>
+            </value>
+            <value>
+                <fullName>Packaging__c</fullName>
+                <default>false</default>
+                <label>Packaging__c</label>
+            </value>
+            <value>
+                <fullName>Selected__c</fullName>
+                <default>false</default>
+                <label>Selected__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ__ProductOption__c</fullName>
+                <default>false</default>
+                <label>SBQQ__ProductOption__c</label>
+            </value>
+            <value>
+                <fullName>Market__c</fullName>
+                <default>false</default>
+                <label>Market__c</label>
+            </value>
+            <value>
+                <fullName>Index_Price__c</fullName>
+                <default>false</default>
+                <label>Index_Price__c</label>
+            </value>
+            <value>
+                <fullName>CurrencyIsoCode</fullName>
+                <default>false</default>
+                <label>CurrencyIsoCode</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

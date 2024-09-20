@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount_VP__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+AND(
+ISPICKVAL(CurrencyIsoCode, &quot;USD&quot;),
+SBQQ__NetAmount__c &gt; 15000000,
+Requires_approval_for_amount__c = True),
+TRUE,
+IF(
+AND(
+ISPICKVAL(CurrencyIsoCode, &quot;CNY&quot;),
+SBQQ__NetAmount__c / CURRENCYRATE(&apos;CNY&apos;) &gt; 15000000,
+Requires_approval_for_amount__c = True),
+TRUE, FALSE)
+				)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Amount Executive VP</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

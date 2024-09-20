@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__Field__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the field you want updated when the conditions are met.</inlineHelpText>
+    <label>Target Field</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>SBQQ__TargetObject__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unit Price</fullName>
+                <default>false</default>
+                <label>Unit Price</label>
+            </value>
+            <value>
+                <fullName>Discount (%)</fullName>
+                <default>false</default>
+                <label>Discount (%)</label>
+            </value>
+            <value>
+                <fullName>Discount (Amt)</fullName>
+                <default>false</default>
+                <label>Discount (Amt)</label>
+            </value>
+            <value>
+                <fullName>Markup (%)</fullName>
+                <default>false</default>
+                <label>Markup (%)</label>
+            </value>
+            <value>
+                <fullName>Markup (Amt)</fullName>
+                <default>false</default>
+                <label>Markup (Amt)</label>
+            </value>
+            <value>
+                <fullName>Target</fullName>
+                <default>false</default>
+                <label>Target (%)</label>
+            </value>
+            <value>
+                <fullName>Norm</fullName>
+                <default>false</default>
+                <label>Norm (%)</label>
+            </value>
+            <value>
+                <fullName>Floor</fullName>
+                <default>false</default>
+                <label>Floor (%)</label>
+            </value>
+            <value>
+                <fullName>Explanation</fullName>
+                <default>false</default>
+                <label>Explanation</label>
+            </value>
+            <value>
+                <fullName>SBQQ__Quantity__c</fullName>
+                <default>false</default>
+                <label>SBQQ__Quantity__c</label>
+            </value>
+            <value>
+                <fullName>Index_Grade__c</fullName>
+                <default>false</default>
+                <label>Index_Grade__c</label>
+            </value>
+            <value>
+                <fullName>Index_Price__c</fullName>
+                <default>false</default>
+                <label>Index_Price__c</label>
+            </value>
+            <value>
+                <fullName>Industry_Grade__c</fullName>
+                <default>false</default>
+                <label>Industry_Grade__c</label>
+            </value>
+            <value>
+                <fullName>Prime_Disc_if_Grade_Matches__c</fullName>
+                <default>false</default>
+                <label>Prime_Disc_if_Grade_Matches__c</label>
+            </value>
+            <value>
+                <fullName>Prime_Disc_if_does_not_Match_Grade__c</fullName>
+                <default>false</default>
+                <label>Prime_Disc_if_does_not_Match_Grade__c</label>
+            </value>
+            <value>
+                <fullName>Vol_Adj_Cap__c</fullName>
+                <default>false</default>
+                <label>Vol_Adj_Cap__c</label>
+            </value>
+            <value>
+                <fullName>Volume_Selected__c</fullName>
+                <default>false</default>
+                <label>Volume_Selected__c</label>
+            </value>
+            <value>
+                <fullName>Base_Price_Goal__c</fullName>
+                <default>false</default>
+                <label>Base_Price_Goal__c</label>
+            </value>
+            <value>
+                <fullName>Base_Price_Goal_W2P__c</fullName>
+                <default>false</default>
+                <label>Base_Price_Goal_W2P__c</label>
+            </value>
+            <value>
+                <fullName>Base_Price_Goal_W2P_Volume_Adj__c</fullName>
+                <default>false</default>
+                <label>Base_Price_Goal_W2P_Volume_Adj__c</label>
+            </value>
+            <value>
+                <fullName>Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c</fullName>
+                <default>false</default>
+                <label>Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c</label>
+            </value>
+            <value>
+                <fullName>OpptyGrades__c</fullName>
+                <default>false</default>
+                <label>OpptyGrades__c</label>
+            </value>
+            <value>
+                <fullName>Opportunity_Grades__c</fullName>
+                <default>false</default>
+                <label>Opportunity_Grades__c</label>
+            </value>
+            <value>
+                <fullName>Goal__c</fullName>
+                <default>false</default>
+                <label>Goal__c</label>
+            </value>
+            <value>
+                <fullName>Interest_Rate__c</fullName>
+                <default>false</default>
+                <label>Interest_Rate__c</label>
+            </value>
+            <value>
+                <fullName>CIP_Price__c</fullName>
+                <default>false</default>
+                <label>CIP_Price__c</label>
+            </value>
+            <value>
+                <fullName>CIF_Price__c</fullName>
+                <default>false</default>
+                <label>CIF_Price__c</label>
+            </value>
+            <value>
+                <fullName>FCA_EXW_Price__c</fullName>
+                <default>false</default>
+                <label>FCA_EXW_Price__c</label>
+            </value>
+            <value>
+                <fullName>DAP_DDP_Price__c</fullName>
+                <default>false</default>
+                <label>DAP_DDP_Price__c</label>
+            </value>
+            <value>
+                <fullName>Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c</fullName>
+                <default>false</default>
+                <label>Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c</label>
+            </value>
+            <value>
+                <fullName>CIP_Price_woGoal__c</fullName>
+                <default>false</default>
+                <label>CIP_Price_woGoal__c</label>
+            </value>
+            <value>
+                <fullName>CIF_Price_woGoal__c</fullName>
+                <default>false</default>
+                <label>CIF_Price_woGoal__c</label>
+            </value>
+            <value>
+                <fullName>FCA_EXW_Price_woGoal__c</fullName>
+                <default>false</default>
+                <label>FCA_EXW_Price_woGoal__c</label>
+            </value>
+            <value>
+                <fullName>DAP_DDP_Price_woGoal__c</fullName>
+                <default>false</default>
+                <label>DAP_DDP_Price_woGoal__c</label>
+            </value>
+            <value>
+                <fullName>SBQQ_ListPrice_woGoal__c</fullName>
+                <default>false</default>
+                <label>SBQQ_ListPrice_woGoal__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Segmentation__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Segmentation__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_PaymentTerm__c</fullName>
+                <default>false</default>
+                <label>Unbundling_PaymentTerm__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_BagSize__c</fullName>
+                <default>false</default>
+                <label>Unbundling_BagSize__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Zone__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Zone__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Volume__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Volume__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Quality__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Quality__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Goal__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Goal__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Incoterm_1__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Incoterm_1__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Incoterm_2__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Incoterm_2__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Incoterm_3__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Incoterm_3__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_Incoterm_4__c</fullName>
+                <default>false</default>
+                <label>Unbundling_Incoterm_4__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_AUX__c</fullName>
+                <default>false</default>
+                <label>Unbundling_AUX__c</label>
+            </value>
+            <value>
+                <fullName>Payment_Discount__c</fullName>
+                <default>false</default>
+                <label>Payment_Discount__c</label>
+            </value>
+            <value>
+                <fullName>Freight_Cost__c</fullName>
+                <default>false</default>
+                <label>Freight_Cost__c</label>
+            </value>
+            <value>
+                <fullName>Bank_Note__c</fullName>
+                <default>false</default>
+                <label>Bank_Note__c</label>
+            </value>
+            <value>
+                <fullName>With_Bank_Note__c</fullName>
+                <default>false</default>
+                <label>With_Bank_Note__c</label>
+            </value>
+            <value>
+                <fullName>Without_Bank_Note__c</fullName>
+                <default>false</default>
+                <label>Without_Bank_Note__c</label>
+            </value>
+            <value>
+                <fullName>Unbundling_BankNote__c</fullName>
+                <default>false</default>
+                <label>Unbundling_BankNote__c</label>
+            </value>
+            <value>
+                <fullName>Cap_CNY__c</fullName>
+                <default>false</default>
+                <label>Cap_CNY__c</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Unit Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Discount (%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Discount (Amt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Markup (%)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <controllingFieldValue>Product Option</controllingFieldValue>
+            <valueName>Markup (Amt)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Volume_Selected__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote</controllingFieldValue>
+            <valueName>Opportunity_Grades__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ__Quantity__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Index_Grade__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Index_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Industry_Grade__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Prime_Disc_if_Grade_Matches__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Prime_Disc_if_does_not_Match_Grade__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Vol_Adj_Cap__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Base_Price_Goal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Base_Price_Goal_W2P__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Base_Price_Goal_W2P_Volume_Adj__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>OpptyGrades__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Goal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Interest_Rate__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>CIP_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>CIF_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>FCA_EXW_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>DAP_DDP_Price__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>CIP_Price_woGoal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>CIF_Price_woGoal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>FCA_EXW_Price_woGoal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>DAP_DDP_Price_woGoal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>SBQQ_ListPrice_woGoal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Segmentation__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_PaymentTerm__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_BagSize__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Zone__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Volume__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Quality__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Goal__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Incoterm_1__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Incoterm_2__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Incoterm_3__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_Incoterm_4__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_AUX__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Payment_Discount__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Freight_Cost__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Bank_Note__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>With_Bank_Note__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Without_Bank_Note__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Unbundling_BankNote__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line</controllingFieldValue>
+            <valueName>Cap_CNY__c</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Target</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Norm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Floor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quote Line Pricing Guidance</controllingFieldValue>
+            <valueName>Explanation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

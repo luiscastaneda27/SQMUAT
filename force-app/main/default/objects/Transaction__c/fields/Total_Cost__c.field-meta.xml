@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+				AND(
+								YEAR(Date__c) = 2020,
+								Sale__c = true),
+				Product__r.Costo__c * QuantityInMT__c, 
+				IF(
+								AND(
+												YEAR(Date__c) &lt;&gt; 2020,
+								    Sale__c = true),
+									Product__r.Costo_A_OANTERIOR__c * QuantityInMT__c, 0
+								)
+				)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

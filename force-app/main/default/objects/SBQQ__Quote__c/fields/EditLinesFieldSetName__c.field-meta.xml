@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EditLinesFieldSetName__c</fullName>
+    <description>selecciona el conjunto de campos en Line Editor a mostrar.</description>
+    <externalId>false</externalId>
+    <formula>IF(  ISPICKVAL(SBQQ__Opportunity2__r.Product__c, &apos;Iodine&apos;)  , &apos;Line_Editor_Iodine&apos;, 
+  IF(  CONTAINS(SBQQ__PriceBook__r.Name, &apos;Fixed Price&apos;)  , &apos;Line_Editor_Fixed_Price&apos;, 
+
+    CASE( text(SBQQ__Opportunity2__r.Market__c ),
+      &apos;China&apos;, &apos;Line_Editor_China&apos; ,
+      &apos;SBQQ__LineEditor&apos;)
+  )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>EditLinesFieldSetName</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

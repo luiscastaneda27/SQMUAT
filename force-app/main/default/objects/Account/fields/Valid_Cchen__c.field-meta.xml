@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_Cchen__c</fullName>
+    <externalId>false</externalId>
+    <formula>Validez_CCHEN__c &gt;= Today()</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Valid Cchen</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

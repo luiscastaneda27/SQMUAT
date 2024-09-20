@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B4__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Frequency of negotiations with the customer</inlineHelpText>
+    <label>B4 - Negotiation terms</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LT Contract</fullName>
+                <default>false</default>
+                <label>LT Contract</label>
+            </value>
+            <value>
+                <fullName>Yearly</fullName>
+                <default>false</default>
+                <label>Yearly</label>
+            </value>
+            <value>
+                <fullName>Semesterly</fullName>
+                <default>false</default>
+                <label>Semesterly</label>
+            </value>
+            <value>
+                <fullName>Quarterly	Spot</fullName>
+                <default>false</default>
+                <label>Quarterly	Spot</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

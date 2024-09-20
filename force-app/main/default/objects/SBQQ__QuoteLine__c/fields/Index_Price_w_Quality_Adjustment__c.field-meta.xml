@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Index_Price_w_Quality_Adjustment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Grades_Matches__c,  Index_Price__c*( 1+  Prime_Disc_if_Grade_Matches__c  ) , Index_Price__c*( 1+  Prime_Disc_if_does_not_Match_Grade__c   ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>Applies the Prime/Discount to Index Price</inlineHelpText>
+    <label>Index Price w/ Quality Adjustment</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

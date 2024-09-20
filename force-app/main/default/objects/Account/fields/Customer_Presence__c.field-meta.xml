@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Presence__c</fullName>
+    <description>Identify custumer presence to SQM</description>
+    <externalId>false</externalId>
+    <label>Customer Presence</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Worldwide presence</fullName>
+                <default>false</default>
+                <label>Worldwide presence</label>
+            </value>
+            <value>
+                <fullName>Presence in the continent</fullName>
+                <default>false</default>
+                <label>Presence in the continent</label>
+            </value>
+            <value>
+                <fullName>Presence only in the country</fullName>
+                <default>false</default>
+                <label>Presence only in the country</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
