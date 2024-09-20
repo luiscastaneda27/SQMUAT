@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Caso de Soporte de la Plataforma</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Subject</fieldNames>
+        <fieldNames>CreatedById</fieldNames>
+        <fieldNames>Description</fieldNames>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Soporte_Interno</recordTypeName>
+</PathAssistant>

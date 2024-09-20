@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Create_user_Service_now</fullName>
+    <availability>online</availability>
+    <displayType>massActionButton</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Create user Service now</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <requireRowSelection>false</requireRowSelection>
+    <url>https://sqmprod.service-now.com/sp?id=sc_cat_item&amp;sys_id=19c99cfe1b3fad104dea1028bd4bcb48&amp;sysparm_category=91fe0fdfdb9040106606b29f2996195b</url>
+</WebLink>

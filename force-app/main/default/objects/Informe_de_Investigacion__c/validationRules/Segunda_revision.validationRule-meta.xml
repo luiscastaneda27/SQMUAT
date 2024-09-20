@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segunda_revision</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Etapa__c, &quot;2da Revisión&quot;)  &amp;&amp; 
+NOT(ISPICKVAL(Estatus_Revision_1__c, &quot;Aprobado&quot;))</errorConditionFormula>
+    <errorMessage>Antes de avanzar a la revisión del PMD debes enviar a aprobar al JGC y GC</errorMessage>
+</ValidationRule>

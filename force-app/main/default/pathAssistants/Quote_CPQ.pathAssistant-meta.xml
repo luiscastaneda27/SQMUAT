@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>SBQQ__Quote__c</entityName>
+    <fieldName>SBQQ__Status__c</fieldName>
+    <masterLabel>Quote CPQ</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong&gt;Price:&lt;/strong&gt; The quote was rejected without knowing the specific reason other than high price.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong&gt;Lost to competitor:&lt;/strong&gt; The quote was rejected specifically because the costumer took a more competitive offer from a competitor.&lt;/p&gt;</info>
+        <picklistValueName>Rejected</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

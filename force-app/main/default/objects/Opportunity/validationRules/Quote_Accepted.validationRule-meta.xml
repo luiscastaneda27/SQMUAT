@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Accepted</fullName>
+    <active>false</active>
+    <errorConditionFormula>ISPICKVAL(StageName, &quot;Closed Won&quot;) &amp;&amp; 
+NOT(ISPICKVAL(SBQQ__PrimaryQuote__r.SBQQ__Status__c, &quot;Accepted&quot;))</errorConditionFormula>
+    <errorDisplayField>SBQQ__PrimaryQuote__c</errorDisplayField>
+    <errorMessage>You cannot close an Opportunity won if you do not have a Quote accepted by the client</errorMessage>
+</ValidationRule>

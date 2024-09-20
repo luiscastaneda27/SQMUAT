@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>MFA para usuarios Admin que además de ingresar con SSO pueden usar usuario y contraseña.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>MFA</label>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ForceTwoFactor</name>
+    </userPermissions>
+</PermissionSet>

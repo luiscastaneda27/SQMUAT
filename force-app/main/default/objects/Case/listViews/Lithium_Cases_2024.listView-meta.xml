@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lithium_Cases_2024</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>BusinessLine__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>notEqual</operation>
+        <value>Case.Comunidad,Case.Helpdesk</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2023 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>BusinessLine__c</field>
+        <operation>equals</operation>
+        <value>Lithium Carbonate,Lithium Hydroxide</value>
+    </filters>
+    <label>Lithium Cases 2024</label>
+</ListView>

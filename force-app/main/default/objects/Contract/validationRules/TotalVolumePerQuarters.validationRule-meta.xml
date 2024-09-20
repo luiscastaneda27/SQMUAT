@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TotalVolumePerQuarters</fullName>
+    <active>true</active>
+    <errorConditionFormula>(Q1_Volume__c + Q2_Volume__c + Q3_Volume__c + Q4_Volume__c)  &lt;&gt; 
+Contracted_volume__c</errorConditionFormula>
+    <errorMessage>The sum of the volumes for each Quarter must be equal to the total contracted volume</errorMessage>
+</ValidationRule>

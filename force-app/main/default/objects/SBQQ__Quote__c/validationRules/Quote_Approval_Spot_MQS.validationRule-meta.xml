@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_Approval_Spot_MQS</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(CONTAINS(Type_of_Opportunity__c , &quot;Formula&quot;)) &amp;&amp;
+NOT(CONTAINS(Type_of_Opportunity__c , &quot;Fixed&quot;)) &amp;&amp;
+Quote_Approve__c = false  &amp;&amp; 
+NOT(ISPICKVAL(SBQQ__Opportunity2__r.Contract.Type_of_contract__c, &quot;Formula&quot;)) &amp;&amp;
+OR(ISPICKVAL(SBQQ__Status__c, &quot;Presented&quot;),
+ISPICKVAL(SBQQ__Status__c, &quot;Accepted&quot;)) &amp;&amp;
+OR( OffSpec_Discount_Director__c = 1, 
+ OffSpec_Discount_Senior_Director__c = 1,
+ OffSpec_Discount_VP__c = 1,
+ OnSpec_Discount_Director__c = 1, 
+ OnSpec_Discount_Senior_Director__c = 1, 
+ OnSpec_Discount_VP__c = 1,
+ Requires_approval_for_amount__c = true)</errorConditionFormula>
+    <errorMessage>You cannot submit or accept a Quote without first requesting its approval (Spot process).</errorMessage>
+</ValidationRule>

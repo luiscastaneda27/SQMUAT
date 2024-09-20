@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restriccion_cambio_cantidad_de_ietms</fullName>
+    <active>true</active>
+    <description>No permite cambiar los detalles una vez que la Quotes esta aprobada.
+Caso 00010082</description>
+    <errorConditionFormula>AND( $Profile.Name  &lt;&gt; &apos;System Administrator&apos;,
+ Quote.Quote_Approved__c = True,
+
+OR(
+    ISCHANGED( Quantity ),
+    ISCHANGED( UnitPrice ),
+    ISCHANGED( Min_Order_Set__c ),
+    ISCHANGED( Discount ),
+    ISCHANGED( Quarter__c ),
+    ISCHANGED( A_o__c ),
+    ISCHANGED( ServiceDate ),
+    ISCHANGED(  Delivery_Country__c ),
+    ISCHANGED( Packing__c ),
+    ISCHANGED( Description )
+
+    ))</errorConditionFormula>
+    <errorMessage>You cannot modify the items of the quote when it has been approved</errorMessage>
+</ValidationRule>

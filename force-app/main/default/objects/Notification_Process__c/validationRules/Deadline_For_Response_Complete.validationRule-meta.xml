@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Deadline_For_Response_Complete</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISPICKVAL(Type__c, &apos;With Approval&apos;),
+ISBLANK(Deadline_For_Response__c)
+)</errorConditionFormula>
+    <errorDisplayField>Deadline_For_Response__c</errorDisplayField>
+    <errorMessage>You must complete the Deadline For Response field.</errorMessage>
+</ValidationRule>

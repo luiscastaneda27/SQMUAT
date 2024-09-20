@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_All_New</fullName>
+    <active>true</active>
+    <description>Alerta para casos de tipo comunidad en estado New que 
+
+Calidad_Cambio_de_Criticidad</description>
+    <errorConditionFormula>AND(
+OR(RecordType.DeveloperName = &apos;Self_Audit&apos;,
+RecordType.DeveloperName = &apos;Sample_Request&apos;,
+RecordType.DeveloperName = &apos;Reclamos_Calidad_Interno&apos;,
+RecordType.DeveloperName = &apos;Reclamos_Calidad&apos;,
+RecordType.DeveloperName = &apos;Otros&apos;,
+RecordType.DeveloperName = &apos;Cuestionarios&apos;,
+RecordType.DeveloperName = &apos;Auditoria_de_Cliente&apos;),
+NOT(ISPICKVAL(Status, &quot;New&quot;)),
+ISCHANGED(Priority)
+)</errorConditionFormula>
+    <errorDisplayField>Priority</errorDisplayField>
+    <errorMessage>No puedes cambiar la Prioridad del Caso cuando el proceso ha comenzado.</errorMessage>
+</ValidationRule>

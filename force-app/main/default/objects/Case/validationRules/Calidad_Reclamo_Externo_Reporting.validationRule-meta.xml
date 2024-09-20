@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calidad_Reclamo_Externo_Reporting</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								RecordType.DeveloperName = &quot;Reclamos_Calidad&quot;,
+								ISPICKVAL(Status, &quot;Reporting&quot;),
+								Informes_de_Investigacion_Aceptados__c &lt; 1
+								),
+				TRUE, FALSE
+				)</errorConditionFormula>
+    <errorMessage>No puedes culminar le etapa &quot;Investigación&quot; si aún no cuentas con la aceptación de la investigación. Valida el estado de tus reportes de investigación.</errorMessage>
+</ValidationRule>

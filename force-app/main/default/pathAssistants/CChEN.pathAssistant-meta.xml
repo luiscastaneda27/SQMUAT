@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Yearly_CChEN_declaration__c</entityName>
+    <fieldName>Status__c</fieldName>
+    <masterLabel>CChEN</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Thanks for your great job!!&lt;/p&gt;</info>
+        <picklistValueName>Approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Responsible: User Who Create Yearly CChEN Declaration record&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Attach the Document Yearly CChEN Declaration&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;Next Steps:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Proceed to mark the status as completed.&lt;/span&gt;&lt;/li&gt;&lt;li&gt;The record will automatically be sent for approval&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Date__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Responsible: CChEN Manager&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Review the document&lt;/li&gt;&lt;li&gt;Complete the left field&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;Next Steps:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Respond to the Request for Approval&lt;/li&gt;&lt;li&gt;The record will automatically change to the following status&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Sent to approve</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

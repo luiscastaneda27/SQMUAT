@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Investigations_to_Approve</fullName>
+    <columns>NAME</columns>
+    <columns>Fecha_de_asignacion__c</columns>
+    <columns>Caso__c</columns>
+    <columns>Etapa__c</columns>
+    <columns>Ingeniero_de_Calidad__c</columns>
+    <columns>Fecha_inicio_IC__c</columns>
+    <columns>Estatus_Revision_1__c</columns>
+    <columns>Estatus_Revision_2__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Etapa__c</field>
+        <operation>equals</operation>
+        <value>1ra Revisión,2da Revisión</value>
+    </filters>
+    <label>Investigations to Approve</label>
+</ListView>

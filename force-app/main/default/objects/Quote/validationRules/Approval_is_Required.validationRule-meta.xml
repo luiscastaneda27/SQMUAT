@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_is_Required</fullName>
+    <active>true</active>
+    <description>Quote requiere ser enviada a aprobación.</description>
+    <errorConditionFormula>AND(IsSyncing = TRUE,
+				Requires_approval__c = TRUE,
+				Quote_Approved__c = FALSE)</errorConditionFormula>
+    <errorMessage>This Quote must be Submitted to Approval.</errorMessage>
+</ValidationRule>

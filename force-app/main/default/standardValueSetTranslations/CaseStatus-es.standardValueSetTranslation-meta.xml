@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Audit Report</masterLabel>
+        <translation>Reporte Auditoría</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Closed</masterLabel>
+        <translation>Cerrado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Progress</masterLabel>
+        <translation>En Progreso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In Transit to Subsidiary</masterLabel>
+        <translation><!-- In Transit to Subsidiary --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>In transit to Santiago</masterLabel>
+        <translation><!-- In transit to Santiago --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Information Request</masterLabel>
+        <translation><!-- Information Request --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Internal Report</masterLabel>
+        <translation>Reporte Interno</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Investigation</masterLabel>
+        <translation>Investigación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Negotiation</masterLabel>
+        <translation>Negociación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>New</masterLabel>
+        <translation>Nuevo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>On Hold</masterLabel>
+        <translation>En Espera</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Partial closure</masterLabel>
+        <translation>Cierre Parcial</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Planning</masterLabel>
+        <translation>Planificación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prepare Santiago Delivery</masterLabel>
+        <translation><!-- Prepare Santiago Delivery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Prepare Subsidiary Delivery</masterLabel>
+        <translation><!-- Prepare Subsidiary Delivery --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reported to costumer</masterLabel>
+        <translation>Reporte a cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reporting</masterLabel>
+        <translation>Reporte a Cliente</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Request Review</masterLabel>
+        <translation><!-- Request Review --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Review</masterLabel>
+        <translation>Revisión</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Review SP</masterLabel>
+        <translation><!-- Review SP --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Sample Preparation</masterLabel>
+        <translation><!-- Sample Preparation --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Send to Customer</masterLabel>
+        <translation><!-- Send to Customer --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>To be assigned</masterLabel>
+        <translation>Por asignar</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Validation</masterLabel>
+        <translation>Validación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Validation KU</masterLabel>
+        <translation><!-- Validation KU --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Waiting for costumer answer</masterLabel>
+        <translation>Esperando respuesta de cliente</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_by_small_customer_purchase_size</fullName>
+    <active>false</active>
+    <description>Para oportunidades cerradas perdidas por tamaño de la compra, exige indicar Distribuidor que se sugiere al cliente contactar.</description>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+							 ISPICKVAL(Loss_Reason__c, &quot;Small Customer&quot;),
+								ISBLANK( Distributor__c )
+								), TRUE, FALSE
+				)</errorConditionFormula>
+    <errorMessage>If the Opportunity was lost due to the Customer&apos;s purchase size you should suggest a distributor.</errorMessage>
+</ValidationRule>

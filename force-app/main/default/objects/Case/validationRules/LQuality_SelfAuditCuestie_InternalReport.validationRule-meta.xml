@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_SelfAuditCuestie_InternalReport</fullName>
+    <active>true</active>
+    <description>Alerta para casos de tipo Self Audit, Cuestionarios y otros, que estén en etapa Internal Report y que no tengan ing. de calidad asignado.
+
+
+Calidad_CuestionariosSelfAudit_InternalR</description>
+    <errorConditionFormula>AND(
+OR(RecordType.DeveloperName =&apos;Self_Audit&apos;, RecordType.DeveloperName = &apos;Cuestionarios&apos;,
+RecordType.DeveloperName = &apos;Otros&apos;),
+ISPICKVAL(Status, &quot;Internal Report&quot;),
+ISBLANK(Ingeniero_de_Calidad__c)
+)</errorConditionFormula>
+    <errorDisplayField>Ingeniero_de_Calidad__c</errorDisplayField>
+    <errorMessage>No puedes comenzar a trabajar el Reporte si aún no asignas al ingeniero responsable.</errorMessage>
+</ValidationRule>

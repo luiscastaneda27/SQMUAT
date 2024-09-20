@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Tabla_Index_Price__c$Name</field>
+    </columns>
+    <columns>
+        <field>Tabla_Index_Price__c$Date__c</field>
+    </columns>
+    <columns>
+        <field>Tabla_Index_Price__c$Code_Index_Price__c</field>
+    </columns>
+    <columns>
+        <field>Tabla_Index_Price__c$CurrencyIsoCode</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Tabla_Index_Price__c$Index_Value__c</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>Pricing Model - Index Price Report</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Pricing_Model_Index_Price__c</reportType>
+    <scope>user</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Tabla_Index_Price__c$Name</sortColumn>
+    <sortOrder>Desc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Tabla_Index_Price__c$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

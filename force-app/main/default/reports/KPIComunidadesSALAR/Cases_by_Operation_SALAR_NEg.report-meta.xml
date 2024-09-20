@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_12624919</developerName>
+        <masterLabel>Operation</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Localidad__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Victoria</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Colonia de Pintados</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>La Tirana</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pozo Almonte</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Huatacondo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tamentíca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alto Hospicio</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Iquique</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Chanavayita</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cañamo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Caramucho</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quillagua</sourceValue>
+            </sourceValues>
+            <value>Nueva Victoria</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>San Pedro de Atacama</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Rio Grande</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Solor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Toconao</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Talabre</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Camar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Socaire</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Peine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Machuca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Catarpe</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quitor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Soncor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Larache</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Yaye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sequitor y Checar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cucuter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Guatin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Coyo</sourceValue>
+            </sourceValues>
+            <value>Salar de Atacama</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Antofagasta</sourceValue>
+            </sourceValues>
+            <value>Salar del Carmen</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Calama</sourceValue>
+            </sourceValues>
+            <value>Pedro de Valdivia</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Tocopilla</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Caleta Buena</sourceValue>
+            </sourceValues>
+            <value>Puerto de Tocopilla</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>María Elena</sourceValue>
+            </sourceValues>
+            <value>Coya Sur</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>picklist</bucketType>
+        <developerName>BucketField_99697882</developerName>
+        <masterLabel>SQM Operation</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>Case.Localidad__c</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Colonia de Pintados</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Alto Hospicio</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Victoria</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>La Tirana</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Pozo Almonte</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Huatacondo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tamentíca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Iquique</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Chanavayita</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cañamo</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Caramucho</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quillagua</sourceValue>
+            </sourceValues>
+            <value>Nueva Victoria</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>María Elena</sourceValue>
+            </sourceValues>
+            <value>Coya Sur</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Calama</sourceValue>
+            </sourceValues>
+            <value>Pedro de Valdivia</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Caleta Buena</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Tocopilla</sourceValue>
+            </sourceValues>
+            <value>Puerto de Tocopilla</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Antofagasta</sourceValue>
+            </sourceValues>
+            <value>Salar del Carmen</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>San Pedro de Atacama</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Rio Grande</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Solor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Toconao</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Talabre</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Camar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Socaire</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Peine</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Machuca</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Catarpe</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quitor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Soncor</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Larache</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Yaye</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sequitor y Checar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Cucuter</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Guatin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Coyo</sourceValue>
+            </sourceValues>
+            <value>Salar de Atacama</value>
+        </values>
+    </buckets>
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_26883357</developerName>
+        <masterLabel>VP</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>OWNER</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Atilio Narváez</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Carolina Guzman</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Leonor González</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Manuel Ossandon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Juan Manuel Pérez Choque</sourceValue>
+            </sourceValues>
+            <value>VP Operaciones Potasio y Litio</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>María Alejandra Zuleta</sourceValue>
+            </sourceValues>
+            <value>VP Tecnología y Medio Ambiente Potasio Litio</value>
+        </values>
+    </buckets>
+    <chart>
+        <backgroundColor1>#FFFFFF</backgroundColor1>
+        <backgroundColor2>#FFFFFF</backgroundColor2>
+        <backgroundFadeDir>Diagonal</backgroundFadeDir>
+        <chartSummaries>
+            <axisBinding>y</axisBinding>
+            <column>RowCount</column>
+        </chartSummaries>
+        <chartType>Donut</chartType>
+        <enableHoverLabels>false</enableHoverLabels>
+        <expandOthers>false</expandOthers>
+        <groupingColumn>STATUS</groupingColumn>
+        <legendPosition>Right</legendPosition>
+        <location>CHART_BOTTOM</location>
+        <showAxisLabels>true</showAxisLabels>
+        <showPercentage>false</showPercentage>
+        <showTotal>true</showTotal>
+        <showValues>false</showValues>
+        <size>Medium</size>
+        <summaryAxisRange>Auto</summaryAxisRange>
+        <textColor>#000000</textColor>
+        <textSize>12</textSize>
+        <titleColor>#000000</titleColor>
+        <titleSize>18</titleSize>
+    </chart>
+    <columns>
+        <field>OWNER</field>
+    </columns>
+    <columns>
+        <field>ACCOUNT.NAME</field>
+    </columns>
+    <columns>
+        <field>SUBJECT</field>
+    </columns>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>AGE</field>
+    </columns>
+    <columns>
+        <field>OPEN</field>
+    </columns>
+    <columns>
+        <field>CLOSED</field>
+    </columns>
+    <currency>USD</currency>
+    <description>Muestra casos abiertos y cerrados por VP.</description>
+    <filter>
+        <criteriaItems>
+            <column>RECORDTYPE</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Case.Comunidad</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Faena__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>Salar de Atacama</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Case.Faena__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>Salar de Atacama</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>STATUS</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Cases by Operation SALAR</name>
+    <params>
+        <name>units</name>
+        <value>d</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CaseList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATEONLY</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

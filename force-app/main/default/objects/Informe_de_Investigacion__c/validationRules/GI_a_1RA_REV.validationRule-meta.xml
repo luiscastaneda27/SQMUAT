@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GI_a_1RA_REV</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(Etapa__c ,&quot;1ra Revisión&quot;),
+								Informe_Cliente_adjuntado__c = FALSE
+								),
+				true, false)</errorConditionFormula>
+    <errorMessage>Antes de avanzar con la primera revisión debes declarar y adjuntar Informe a Cliente.</errorMessage>
+</ValidationRule>

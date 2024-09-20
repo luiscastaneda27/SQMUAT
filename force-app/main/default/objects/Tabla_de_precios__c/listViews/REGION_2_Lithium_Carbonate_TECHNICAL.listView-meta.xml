@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REGION_2_Lithium_Carbonate_TECHNICAL</fullName>
+    <columns>NAME</columns>
+    <columns>Territory__c</columns>
+    <columns>Quantity__c</columns>
+    <columns>Product_Family__c</columns>
+    <columns>Product_use__c</columns>
+    <columns>Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory__c</field>
+        <operation>equals</operation>
+        <value>&quot;REGION 2: ASOC, JAPAN&quot;</value>
+    </filters>
+    <filters>
+        <field>Product_Family__c</field>
+        <operation>equals</operation>
+        <value>Lithium Carbonate</value>
+    </filters>
+    <filters>
+        <field>Product_use__c</field>
+        <operation>equals</operation>
+        <value>TECHNICAL</value>
+    </filters>
+    <label>REGION 2/Lithium Carbonate/TECHNICAL</label>
+</ListView>

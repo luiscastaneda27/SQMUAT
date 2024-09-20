@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Notificaction_Denied</fullName>
+        <description>Email Owner - Denied</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Quote_Review_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Owner_Approved</fullName>
+        <description>Email Owner - Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SBQQ__SalesRep__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Quote_Review_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Request_Approval</fullName>
+        <description>Email - Request Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniela.carvajal@sqm.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Quote_Review</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Result</fullName>
+        <description>Email - Result</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Quote_Review_Denied</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Amount_Approved</fullName>
+        <field>Amount_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Amount Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Discount_Approved</fullName>
+        <field>Discount_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Discount Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_10</fullName>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_11</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_12</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_13</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_14</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_2</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_3</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_4</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_5</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_6</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_7</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_8</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_False_9</fullName>
+        <description>Update field, quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_1</fullName>
+        <description>Update field -&gt; Quote Approve = True</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_10</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_11</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_12</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_13</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_14</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_3</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_4</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_5</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_6</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_7</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_8</fullName>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Quote_Approve_True_9</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Aux_Field_Quote_Approve_False</fullName>
+        <description>Update field -&gt; Quote Approve = False</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Aux Field Quote Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Aux_Field_Quote_Aprove_True</fullName>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Aux Field Quote Aprove True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Date_Submited_9</fullName>
+        <field>Date_submit__c</field>
+        <formula>TODAY()</formula>
+        <name>Update Date Submited</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Field_Quote_Approve_VP_EMEAI</fullName>
+        <description>Field updated when the approval process finish as &quot;Approved&quot;</description>
+        <field>Quote_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Quote Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Approved</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Draft</fullName>
+        <description>Update Status -&gt; Draft</description>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Draft</literalValue>
+        <name>Update Status Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Rejected</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>Denied</literalValue>
+        <name>Update Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Send_to_Approve</fullName>
+        <field>SBQQ__Status__c</field>
+        <literalValue>In Review</literalValue>
+        <name>Update Status Send to Approve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_date_submit</fullName>
+        <field>Date_submit__c</field>
+        <formula>TODAY()</formula>
+        <name>Update date submit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <tasks>
+        <fullName>Notification_Quote_Approved</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Notification Quote Approved</subject>
+    </tasks>
+    <tasks>
+        <fullName>Notification_Quote_Rejected</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Notification Quote Rejected</subject>
+    </tasks>
+</Workflow>

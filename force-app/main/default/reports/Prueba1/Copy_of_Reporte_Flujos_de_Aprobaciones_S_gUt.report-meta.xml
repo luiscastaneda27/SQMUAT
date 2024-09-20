@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <block>
+        <blockInfo>
+            <blockId>B0</blockId>
+            <joinTable>ProcessInstance</joinTable>
+        </blockInfo>
+        <columns>
+            <field>ProcessInstance.Nodes$ProcessNode</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>ProcessInstance$ElapsedTimeInDays</field>
+        </columns>
+        <columns>
+            <aggregateTypes>Sum</aggregateTypes>
+            <field>ProcessInstance.Nodes$ElapsedTimeInHours</field>
+        </columns>
+        <columns>
+            <field>ProcessInstance$TableEnumOrId</field>
+        </columns>
+        <columns>
+            <field>ProcessInstance$TargetName</field>
+        </columns>
+        <currency>USD</currency>
+        <filter>
+            <booleanFilter>1 OR 2</booleanFilter>
+            <criteriaItems>
+                <column>ProcessInstance.Nodes$ProcessNode</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>Head of Quality Management Lithium</value>
+            </criteriaItems>
+            <criteriaItems>
+                <column>ProcessInstance.Nodes$ProcessNode</column>
+                <columnToColumn>false</columnToColumn>
+                <isUnlocked>true</isUnlocked>
+                <operator>equals</operator>
+                <value>Quality Manager Lithium</value>
+            </criteriaItems>
+        </filter>
+        <format>Summary</format>
+        <name>Flujos de Aprobaciones block 1</name>
+        <params>
+            <name>co</name>
+            <value>1</value>
+        </params>
+        <reportType>FlujosDeAprobaciones__c</reportType>
+        <scope>organization</scope>
+        <showGrandTotal>true</showGrandTotal>
+        <showSubTotals>true</showSubTotals>
+        <sortColumn>ProcessInstance.Nodes$ElapsedTimeInHours</sortColumn>
+        <sortOrder>Desc</sortOrder>
+        <timeFrameFilter>
+            <dateColumn>ProcessInstance$CompletedDate</dateColumn>
+            <interval>INTERVAL_CUSTOM</interval>
+        </timeFrameFilter>
+    </block>
+    <blockInfo>
+        <blockId xsi:nil="true"/>
+        <joinTable>ProcessInstance</joinTable>
+    </blockInfo>
+    <format>MultiBlock</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ProcessInstance$LastActor</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ProcessInstance$ProcessDefinition</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Copy of Reporte Flujos de Aprobaciones S</name>
+    <params>
+        <name>lsk</name>
+        <value>1</value>
+    </params>
+    <reportType>FlujosDeAprobaciones__c</reportType>
+    <showDetails>true</showDetails>
+</Report>

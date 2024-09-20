@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_SamplesR_PrepareStgoDelivery</fullName>
+    <active>true</active>
+    <description>Alerta cuando el caso es tipo Samples Request en etapa &quot;Prepare Santiago Delivery&quot; y no se ha realizado la solicitud al laboratorio (check).
+
+Sample_Request1_SamplePreparation</description>
+    <errorConditionFormula>Requested_to_Laboratory__c=False &amp;&amp;  ISPICKVAL(Status,&quot;Prepare_Santiago_Delivery&quot;) &amp;&amp; RecordType.DeveloperName  = &quot;Sample_Request&quot;</errorConditionFormula>
+    <errorDisplayField>Requested_to_Laboratory__c</errorDisplayField>
+    <errorMessage>Please complete &quot;Request laboratory&quot; Checkbox before to continue.</errorMessage>
+</ValidationRule>

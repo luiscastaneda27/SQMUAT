@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Volumen_vs_Volumen</fullName>
+    <active>false</active>
+    <description>Validate that the total volumen &gt;= Volumen in the opportunity.</description>
+    <errorConditionFormula>Total_Volume__c   &lt;=   Volume__c</errorConditionFormula>
+    <errorMessage>Please check the information, the Total Volume must be higher or equal than Volume.</errorMessage>
+</ValidationRule>

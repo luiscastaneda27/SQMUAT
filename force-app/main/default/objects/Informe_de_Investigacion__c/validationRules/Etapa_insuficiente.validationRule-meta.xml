@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapa_insuficiente</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(Etapa__c, &quot;Insuficiente&quot;),
+								OR(
+												ISBLANK(Descripcion__c), 
+								    ISBLANK(TEXT(Motivo_de_devolucion__c))
+											)
+								), true, false)</errorConditionFormula>
+    <errorMessage>Debes indicar el motivo de devolución y describirlo.</errorMessage>
+</ValidationRule>

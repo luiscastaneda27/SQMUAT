@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valid_offers_accepted</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(StageName, &quot;Closed Won&quot;),
+								 QuotesInOpp__c &lt; 1
+								),
+				TRUE, FALSE)</errorConditionFormula>
+    <errorMessage>You must have an offer accepted by the client before closing Opportunity as closed won</errorMessage>
+</ValidationRule>

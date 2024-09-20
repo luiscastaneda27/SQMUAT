@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calidad_Self_Audit_PartialClosure</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								RecordType.DeveloperName = &quot;Self_Audit&quot;,
+								ISPICKVAL(Status, &quot;Partial closure&quot;),
+								Documento_Aprobado__c = False
+								),
+				TRUE, FALSE
+				)</errorConditionFormula>
+    <errorMessage>No puedes avanzar al cierre parcial del caso si aún no es aprobado el documento. Valida el historial de aprobaciones del caso.</errorMessage>
+</ValidationRule>

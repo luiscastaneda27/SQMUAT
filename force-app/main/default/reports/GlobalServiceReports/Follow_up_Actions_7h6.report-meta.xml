@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_CASE_OWNER_NAME</field>
+    </columns>
+    <columns>
+        <field>Seguimiento_de_acciones__c.Descripcion_de_accion__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>Seguimiento_de_acciones__c.Fecha_comprometida__c</field>
+    </columns>
+    <columns>
+        <field>Seguimiento_de_acciones__c.Responsable__c</field>
+    </columns>
+    <columns>
+        <field>Seguimiento_de_acciones__c.Estado__c</field>
+    </columns>
+    <columns>
+        <field>CUST_CREATED_ALIAS</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Tabular</format>
+    <name>Tracking Actions - Cases</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>AccountCustomEntity$Seguimiento_de_acciones__c@Seguimiento_de_acciones__c.Caso_de_origen__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>DUE_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

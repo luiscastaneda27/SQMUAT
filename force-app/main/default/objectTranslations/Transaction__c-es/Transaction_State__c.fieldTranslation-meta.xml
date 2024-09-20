@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estado</label>
+    <name>Transaction_State__c</name>
+    <picklistValues>
+        <masterLabel>Cancelled</masterLabel>
+        <translation>Cancelado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivered</masterLabel>
+        <translation>Entregado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Invoiced</masterLabel>
+        <translation>Facturado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open Order</masterLabel>
+        <translation>Pedido abierto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

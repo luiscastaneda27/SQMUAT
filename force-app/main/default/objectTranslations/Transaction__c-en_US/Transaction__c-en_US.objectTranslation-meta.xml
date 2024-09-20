@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Transaction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Transactions</value>
+    </caseValues>
+    <layouts>
+        <layout>Budget</layout>
+        <sections>
+            <label>Product</label>
+            <section>Product</section>
+        </sections>
+        <sections>
+            <label>Transaction Details</label>
+            <section>Transaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Forecast</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Formato Transaction</layout>
+        <sections>
+            <label>Product</label>
+            <section>Product</section>
+        </sections>
+        <sections>
+            <label>Transaction Details</label>
+            <section>Transaction Details</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label>Budget</label>
+        <name>Budget</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Forecast</label>
+        <name>Forecast</name>
+    </recordTypes>
+    <recordTypes>
+        <label>HQ</label>
+        <name>HQ</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Transactions</label>
+        <name>Transactions</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

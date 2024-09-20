@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Update_Aux_Field_Contract_Approve_False</fullName>
+        <field>Contract_Approve__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Aux Field Contract Approve False</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Aux_Field_Contract_Approve_True</fullName>
+        <field>Contract_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Aux Field Contract Approve True</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Activate</fullName>
+        <field>Status</field>
+        <literalValue>Activated</literalValue>
+        <name>Update Status Activate</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Draft</fullName>
+        <field>Status</field>
+        <name>Update Status Draft</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>NextValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Lost</fullName>
+        <description>Move to Lost Status</description>
+        <field>Status</field>
+        <literalValue>Lost</literalValue>
+        <name>Update Status Lost</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Send_to_Approval</fullName>
+        <field>Status</field>
+        <literalValue>In Approval Process</literalValue>
+        <name>Update Status Send to Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ValidacionRDP</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(Etapa__c, &quot;Validación RDP&quot;),
+								ISPICKVAL(Estatus_RDP__c, &quot;Pendiente&quot;)
+								),
+				TRUE, FALSE)</errorConditionFormula>
+    <errorMessage>No puedes avanzar sin marcar la RDP como completada.</errorMessage>
+</ValidationRule>

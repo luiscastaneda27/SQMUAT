@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sample_Request3_In_transit_to_Santiago</fullName>
+    <active>true</active>
+    <description>Complete &quot;Received in Santiago&quot; checkbox to continue</description>
+    <errorConditionFormula>ISPICKVAL(Status,&quot;Prepare_Subsidiary_Delivery&quot;) &amp;&amp;  Received_in_Stgo__c=false &amp;&amp; RecordType.DeveloperName = &quot;Sample_Request&quot;</errorConditionFormula>
+    <errorDisplayField>Received_in_Stgo__c</errorDisplayField>
+    <errorMessage>Please complete &quot;Received in Santiago&quot; checkbox before to continue.</errorMessage>
+</ValidationRule>

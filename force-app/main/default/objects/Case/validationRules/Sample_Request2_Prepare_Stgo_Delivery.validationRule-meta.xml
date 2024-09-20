@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sample_Request2_Prepare_Stgo_Delivery</fullName>
+    <active>true</active>
+    <description>Comple Delivery Fields:  National Courier, Delivery Date Santiago and National Tracking Number</description>
+    <errorConditionFormula>AND(ISPICKVAL(Status,&quot;In_transit_to_Santiago&quot;),
+RecordType.DeveloperName = &quot;Sample_Request&quot;,
+OR(ISBLANK(National_Courier__c),ISBLANK(Delivery_Date_Stgo__c),ISBLANK(National_Tracking_Number__c)))</errorConditionFormula>
+    <errorMessage>Before to continue you need to comple National Courier, Delivery Date Santiago and National Tracking Number</errorMessage>
+</ValidationRule>

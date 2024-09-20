@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HD2_Helpdesk_Incidents_Priority</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+    RecordType.DeveloperName = &apos;Helpdesk&apos;,
+    ISPICKVAL(subject_issue__c, &apos;Incidents&apos;),
+    OR (
+        AND (
+            ISPICKVAL(Is_the_Issue_a_Stopper__c, &apos;Yes&apos;),
+            OR (
+                    ISPICKVAL(Priority, &apos;Middle&apos;),
+																    ISPICKVAL(Priority, &apos;Low&apos;)
+            )
+        ),
+        AND (
+            ISPICKVAL(Is_the_Issue_a_Stopper__c, &apos;No&apos;),
+                OR (
+																				ISPICKVAL(Priority, &apos;High&apos;),
+                    ISPICKVAL(Priority, &apos;Medium&apos;)
+            )
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Priority</errorDisplayField>
+    <errorMessage>If the value of the Is the Issue a Stopper? field is &quot;Yes&quot; the Priority must be &quot;Critical&quot; or &quot;Major&quot;.
+If the value of the Is the Issue a Stopper? field is &quot;No&quot; the Priority must be &quot;Medium&quot; or &quot;Minor&quot;. (HD2)</errorMessage>
+</ValidationRule>

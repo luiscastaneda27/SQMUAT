@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_file_attached</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+					NOT(Has_Attachment__c),
+		 ISCHANGED(Status__c) 			
+				)</errorConditionFormula>
+    <errorMessage>You must add a file before submitting for approval</errorMessage>
+</ValidationRule>

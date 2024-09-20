@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Área responsable</label>
+    <name>Area_Responsable__c</name>
+    <picklistValues>
+        <masterLabel>Abastecimiento</masterLabel>
+        <translation>Abastecimiento</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calidad</masterLabel>
+        <translation>Calidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Despacho</masterLabel>
+        <translation>Despacho</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratorio</masterLabel>
+        <translation>Laboratorio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logística</masterLabel>
+        <translation>Logística</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mantención</masterLabel>
+        <translation>Mantención</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Procesos</masterLabel>
+        <translation>Procesos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Producción</masterLabel>
+        <translation>Producción</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Producto terminado</masterLabel>
+        <translation>Producto terminado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Proyecto</masterLabel>
+        <translation>Proyecto</translation>
+    </picklistValues>
+</CustomFieldTranslation>

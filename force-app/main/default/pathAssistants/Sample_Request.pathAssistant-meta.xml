@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Sample Request</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Thanks for your great job!!&lt;/p&gt;</info>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Received_in_Filial__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Complete the left field&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Change &lt;/span&gt;&lt;u style=&quot;font-size: 13px;&quot;&gt;Case Owner&lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;: Commercial Planning Member -&amp;gt; Account Owner&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Go to &lt;/span&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Send to Customer&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>In_Transit_to_Subsidiary</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Received_in_Stgo__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Complete the left field&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Go to &lt;/span&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Prepare Subsidiary Delivery&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>In_transit_to_Santiago</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;Complete information the Create Sample Request Screen&lt;/li&gt;&lt;li&gt;Go to &lt;strong style=&quot;font-size: 13px;&quot;&gt;Request&lt;/strong&gt; &lt;strong style=&quot;font-size: 13px;&quot;&gt;Review&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;Automatic Change &lt;u&gt;Case Owner&lt;/u&gt;: User who created the Case -&amp;gt; Sample Queue&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p class=&quot;ql-indent-1&quot;&gt;*Once you move to the next state you will no longer be able to make changes to the case.&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>National_Courier__c</fieldNames>
+        <fieldNames>Delivery_Date_Stgo__c</fieldNames>
+        <fieldNames>National_Tracking_Number__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Change &lt;/span&gt;&lt;u style=&quot;font-size: 13px;&quot;&gt;Case Owner&lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;: Sample Queue -&amp;gt; Commercial Planning Member&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Complete the left fields&lt;/li&gt;&lt;li&gt;Go to&lt;strong&gt; In Transit to Santiago&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Prepare_Santiago_Delivery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Validate_Samples__c</fieldNames>
+        <fieldNames>Prepare_Documents__c</fieldNames>
+        <fieldNames>International_Courier__c</fieldNames>
+        <fieldNames>Delivery_Date_Filial__c</fieldNames>
+        <fieldNames>Tracking_Number_Filial__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Complete the left fields&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Go to&lt;/span&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt; In transit to Subsidiary&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Prepare_Subsidiary_Delivery</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Change the &lt;/span&gt;&lt;u&gt;Case Owner: &lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Sample Queue -&amp;gt; &lt;/span&gt;User who will manage the case.&lt;/li&gt;&lt;li&gt;If the case have all information to manage the sample, continue with &lt;strong&gt;next&lt;/strong&gt; &lt;strong&gt;step (Sample Preparation). &lt;/strong&gt;If not, contact to the &lt;strong&gt;creator case&lt;/strong&gt; and assign the case.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Request Review</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Requested_to_Laboratory__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Change &lt;/span&gt;&lt;u style=&quot;font-size: 13px;&quot;&gt;Case Owner&lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;: Case Management -&amp;gt; Quality Team Member&lt;/span&gt;&lt;/li&gt;&lt;li&gt;Complete the left field&lt;/li&gt;&lt;li&gt;Go to &lt;strong style=&quot;font-size: 13px;&quot;&gt;Prepare Santiago Delivery&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Change &lt;/span&gt;&lt;u style=&quot;font-size: 13px;&quot;&gt;Case Owner&lt;/u&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;: Quality Team Member -&amp;gt; Sample Queue&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Sample Preparation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Customer_Courier__c</fieldNames>
+        <fieldNames>Delivery_Date_Customer__c</fieldNames>
+        <fieldNames>Tracking_Number_Customer__c</fieldNames>
+        <fieldNames>Received_by_the_customer__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;Complete the left fields&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Go to &lt;/span&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Closed&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Send_to_Customer</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Sample_Request</recordTypeName>
+</PathAssistant>

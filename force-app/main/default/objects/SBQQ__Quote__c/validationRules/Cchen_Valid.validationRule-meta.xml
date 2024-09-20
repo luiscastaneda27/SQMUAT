@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cchen_Valid</fullName>
+    <active>true</active>
+    <description>Validates if a valid Cchen exists for the account.</description>
+    <errorConditionFormula>And(
+ISPICKVAL(SBQQ__Status__c, &apos;Accepted&apos;),	
+CONTAINS(Owner:User.UserRole.Name, &apos;Lithium&apos;),
+SBQQ__Account__r.Valid_Cchen__c = False)</errorConditionFormula>
+    <errorMessage>This account still does not have a valid CCHEN Statement, please manage it in order to move forward with this quotation.</errorMessage>
+</ValidationRule>

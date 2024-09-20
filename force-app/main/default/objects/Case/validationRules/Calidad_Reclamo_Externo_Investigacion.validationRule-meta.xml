@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calidad_Reclamo_Externo_Investigacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>RecordType.DeveloperName = &quot;Reclamos_Calidad&quot; &amp;&amp;
+ISPICKVAL(Status, &quot;Investigation&quot;) &amp;&amp;
+ISBLANK(Ingeniero_de_Calidad__c)</errorConditionFormula>
+    <errorDisplayField>Ingeniero_de_Calidad__c</errorDisplayField>
+    <errorMessage>No puedes comenzar la investigación sin la asignación del Ingeniero de Calidad.</errorMessage>
+</ValidationRule>

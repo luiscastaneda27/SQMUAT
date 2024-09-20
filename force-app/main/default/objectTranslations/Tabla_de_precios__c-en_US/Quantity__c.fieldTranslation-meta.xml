@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Quantity --></label>
+    <name>Quantity__c</name>
+    <picklistValues>
+        <masterLabel>1 - 50</masterLabel>
+        <translation><!-- 1 - 50 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1.000 - 2.000</masterLabel>
+        <translation><!-- 1.000 - 2.000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>1.000-1.500</masterLabel>
+        <translation><!-- 1.000-1.500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>100 - 300</masterLabel>
+        <translation><!-- 100 - 300 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2.000 - 4.000</masterLabel>
+        <translation><!-- 2.000 - 4.000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>300 - 1.000</masterLabel>
+        <translation><!-- 300 - 1.000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>300 - 500</masterLabel>
+        <translation><!-- 300 - 500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>4.000 - 7.000</masterLabel>
+        <translation><!-- 4.000 - 7.000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>50 - 100</masterLabel>
+        <translation><!-- 50 - 100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>500 - 1.000</masterLabel>
+        <translation><!-- 500 - 1.000 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt; 1.500</masterLabel>
+        <translation><!-- &gt; 1.500 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&gt; 7.000</masterLabel>
+        <translation><!-- &gt; 7.000 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

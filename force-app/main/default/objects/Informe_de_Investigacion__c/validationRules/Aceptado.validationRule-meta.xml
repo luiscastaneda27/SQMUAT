@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Aceptado</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Etapa__c, &quot;Aceptado&quot;)  &amp;&amp; 
+NOT(ISPICKVAL(Estatus_Revision_2__c, &quot;Aprobado&quot;))</errorConditionFormula>
+    <errorMessage>Para finalizar el proceso con una aceptación del informe a Cliente debes enviar a aprobación de PMD</errorMessage>
+</ValidationRule>

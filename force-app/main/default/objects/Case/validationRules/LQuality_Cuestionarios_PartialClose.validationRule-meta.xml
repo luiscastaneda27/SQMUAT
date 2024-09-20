@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_Cuestionarios_PartialClose</fullName>
+    <active>true</active>
+    <description>Alerta cuando el caso es tipo cuestionario, en etapa Cierre parcial y no el documento no ha sido aprobado.</description>
+    <errorConditionFormula>AND(								RecordType.DeveloperName = &quot;Cuestionarios&quot;,
+ISPICKVAL(Status, &quot;Partial closure&quot;),
+Documento_Aprobado__c = False
+)</errorConditionFormula>
+    <errorMessage>No puedes cerrar esta etapa el documento no ha aprobado. Valida el historial de aprobaciones del caso.</errorMessage>
+</ValidationRule>

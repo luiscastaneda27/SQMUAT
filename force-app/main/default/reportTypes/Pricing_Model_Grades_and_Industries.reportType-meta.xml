@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Tabla_de_Industria_Grado__c</baseObject>
+    <category>quotes</category>
+    <deployed>true</deployed>
+    <description>Displays Grades and Industries data for Lithium Pricing Model (CPQ)</description>
+    <label>Pricing Model - Grades and Industries</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Id</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <field>Name</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CurrencyIsoCode</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedDate</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>CreatedBy</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedDate</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>LastModifiedBy</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Grade__c</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Industry__c</field>
+            <table>Tabla_de_Industria_Grado__c</table>
+        </columns>
+        <masterLabel>Tabla de Industrias y Grados</masterLabel>
+    </sections>
+</ReportType>

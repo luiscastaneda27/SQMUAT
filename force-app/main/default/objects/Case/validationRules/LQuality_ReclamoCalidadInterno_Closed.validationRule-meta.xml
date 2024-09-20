@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_ReclamoCalidadInterno_Closed</fullName>
+    <active>true</active>
+    <description>Alerta para casos de calidad interno, que pasen a etapa &quot;Closed&quot; sin reporte de investigación aceptados. Este campo debe ser mayor o igual a 1.
+
+Calidad_Reclamo_Interno_Closed_SinInform</description>
+    <errorConditionFormula>AND(
+OR(
+RecordType.DeveloperName = &quot;Reclamos_Calidad_Interno&quot;,
+RecordType.DeveloperName = &quot;Claim_to_External_Supplier&quot;),		
+ISPICKVAL(Status, &quot;Closed&quot;),
+Informes_de_Investigacion_Aceptados__c  &lt; 1								)</errorConditionFormula>
+    <errorMessage>No puedes cerrar el Caso si aún no cuentas con la aprobación de al menos un Informe de Investigación.</errorMessage>
+</ValidationRule>

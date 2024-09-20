@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REGION_1_Lithium_Hydroxide_LHT_B</fullName>
+    <columns>NAME</columns>
+    <columns>Territory__c</columns>
+    <columns>Quantity__c</columns>
+    <columns>Product_Family__c</columns>
+    <columns>Product_use__c</columns>
+    <columns>Price__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Territory__c</field>
+        <operation>equals</operation>
+        <value>&quot;REGION 1: NAFTA, EMEA, LATAM&quot;</value>
+    </filters>
+    <filters>
+        <field>Product_Family__c</field>
+        <operation>equals</operation>
+        <value>Lithium hydroxide</value>
+    </filters>
+    <filters>
+        <field>Product_use__c</field>
+        <operation>equals</operation>
+        <value>LHT-B</value>
+    </filters>
+    <label>REGION 1/Lithium Hydroxide/LHT-B</label>
+</ListView>

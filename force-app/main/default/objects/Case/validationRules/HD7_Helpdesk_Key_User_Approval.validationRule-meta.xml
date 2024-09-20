@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HD7_Helpdesk_Key_User_Approval</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+RecordType.DeveloperName = &apos;Helpdesk&apos;,
+ISPICKVAL(subject_issue__c, &apos;Improvements&apos;),
+NOT(ISPICKVAL(Status, &apos;New&apos;)),
+NOT(ISPICKVAL(Status, &apos;Closed&apos;)),
+NOT(ISPICKVAL(Sub_estado__c, &apos;Cancelado&apos;)),
+Key_User_Approved__c = False)</errorConditionFormula>
+    <errorMessage>To change status must be approved by Key User. HD7</errorMessage>
+</ValidationRule>

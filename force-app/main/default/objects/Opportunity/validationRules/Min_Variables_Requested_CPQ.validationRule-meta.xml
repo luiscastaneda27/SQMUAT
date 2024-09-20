@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Min_Variables_Requested_CPQ</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISNEW() &amp;&amp; 
+OR(
+  ISBLANK(TEXT(Account.Product__c)), 
+  ISBLANK(TEXT(Account.A3__c)),
+  ISBLANK(TEXT(Account.Zone__c)), 
+  ISBLANK(TEXT(Account.Territory__c)), 
+  ISBLANK(Account.W2P_Factor__c))</errorConditionFormula>
+    <errorMessage>Please complete the fields Territory, Zone, W2P, Product, and Application before proceeding</errorMessage>
+</ValidationRule>

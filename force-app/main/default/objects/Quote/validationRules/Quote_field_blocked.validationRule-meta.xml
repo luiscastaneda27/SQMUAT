@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_field_blocked</fullName>
+    <active>true</active>
+    <description>Bloquea ciertos campos de la cotización cuando se encuentra aprobada.
+Caso 00010082</description>
+    <errorConditionFormula>AND( $Profile.Name  &lt;&gt; &apos;System Administrator&apos;,
+    Quote_Approved__c = True,
+    OR(  
+        ISCHANGED(Special_terms__c ),
+        ISCHANGED( Name ),
+        ISCHANGED( ExpirationDate ),
+        ISCHANGED( Validity_of_price__c ),
+        ISCHANGED( Special_delivery_terms__c ),
+        ISCHANGED( Special_Packing_Terms__c ),
+        ISCHANGED( Delivery_periods__c ),
+        ISCHANGED(Special_Payment_Terms__c)
+      )
+    )</errorConditionFormula>
+    <errorMessage>The quote has already been approved and cannot be modified.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comunidad_Comunidad_AprobTecnica</fullName>
+    <active>true</active>
+    <description>Esta alerta impide que un caso avance a etapa de reporte a cliente, en espera de respuesta de cliente, negociación o cierre, sin la aprobación del reporte técnico.</description>
+    <errorConditionFormula>OR(
+AND(
+RecordType.DeveloperName = &apos;Comunidad&apos;,
+NOT(Aprobacion_tecnica__c),
+OR(
+ISPICKVAL(Status,&apos;Reported to costumer&apos;),
+ISPICKVAL(Status,&apos;Waiting for costumer answer&apos;),
+ISPICKVAL(Status,&apos;Negotiation&apos;),
+ISPICKVAL(Status,&apos;Closed&apos;)),
+OR(
+TEXT(PRIORVALUE(Status)) =&apos;To be assigned&apos;,
+TEXT(PRIORVALUE(Status)) =&apos;Investigation&apos;)
+),
+AND(
+RecordType.DeveloperName = &apos;Comunidad&apos;,
+NOT(Aprobacion_cliente__c),
+TEXT(PRIORVALUE(Status)) =&apos;New&apos;,
+ISPICKVAL(Status,&apos;Closed&apos;),
+NOT(ISPICKVAL(Sub_estado__c, &apos;Cierre por información no verídica&apos;)),
+NOT(ISPICKVAL(Sub_estado__c, &apos;Cierre por falta de información&apos;))
+))</errorConditionFormula>
+    <errorMessage>Antes de ir a la etapa de reporte a cliente, en espera de respuesta de cliente, negociación o cierre, el informe técnico debe estar aprobado. Para ello, deber seleccionar el botón &quot;Solicitar Aprobación&quot; en la esquina superior derecha de esta ventana.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Account$Name</field>
+    </columns>
+    <columns>
+        <field>Account$Parent</field>
+    </columns>
+    <columns>
+        <field>Account$Customer_Account_ID__c</field>
+    </columns>
+    <columns>
+        <field>Account$Owner</field>
+    </columns>
+    <columns>
+        <field>Account$Product__c</field>
+    </columns>
+    <columns>
+        <field>Account$Application__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Country__c</field>
+    </columns>
+    <columns>
+        <field>Account.Opportunities$Territory__c</field>
+    </columns>
+    <currency>USD</currency>
+    <filter>
+        <criteriaItems>
+            <column>Account$Name</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>notContain</operator>
+            <value>Victoria,Colonia de Pintados,La Tirana,Pozo Almonte,Huatacondo,Tamentíca,Alto Hopicio,Iquique,Chanavayita,Cañamo,Caramucho,Quillagua,María Elena,Calama,Tocopilla,Caleta Buena,Antofagasta,San Pedro de Atacama,Rio Grande,Solor,Toconao,Talabre,Camar,Socaire,Peine,Machuca,Catarpe,Quitor,Soncor,Larache,Yaye,Sequitor y Checar,Cucuter,Guatin,Coyo</value>
+        </criteriaItems>
+        <language>es</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Accounts by owner</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Cuentas_Oportunidades__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>Account$Owner</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>Account$CreatedDate</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

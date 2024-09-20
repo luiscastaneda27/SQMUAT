@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequestedApproval_QuotesCPQ_Lithium</fullName>
+    <active>true</active>
+    <description>For all quotes created using CPQ (Quaterly/Semesterly/Monthly and spot quotes) and that requires approval by amount or discounts, it is necessary to have an approval to move to next steps -&gt; Approved, Presented and Accepted.</description>
+    <errorConditionFormula>AND(Level_of_approval__c  &lt;&gt; &quot;NO Requieres Approval&quot;,
+Quote_Approve__c = FALSE,
+OR(NOT(CONTAINS(Type_of_Opportunity__c , &quot;Formula&quot;)),NOT(CONTAINS( Type_of_Opportunity__c , &quot;Fixed&quot;))),
+OR(ISPICKVAL(SBQQ__Status__c, &quot;Presented&quot;),ISPICKVAL(SBQQ__Status__c, &quot;Accepted&quot;),ISPICKVAL(SBQQ__Status__c, &quot;Approved&quot;))
+
+)</errorConditionFormula>
+    <errorMessage>For this Quote, you need to request for approval before to move to the status &quot;Approved&quot;, &quot;Presented&quot; or &quot;Accepted&quot;. Please go to the button &quot;Submit for approval&quot; on the upper right corner of this quote.</errorMessage>
+</ValidationRule>

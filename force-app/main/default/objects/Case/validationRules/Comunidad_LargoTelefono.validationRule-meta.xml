@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comunidad_LargoTelefono</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &apos;Comunidad&apos;,
+    ISPICKVAL(Pais__c,&quot;Chile&quot;),
+    ISNEW(),
+    LEN(Telefono_movil__c) &lt;&gt; 8
+)</errorConditionFormula>
+    <errorMessage>Debe ingresar 8 dígitos en el teléfono móvil</errorMessage>
+</ValidationRule>

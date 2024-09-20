@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Bad sealing</masterLabel>
+        <translation>Bolsas mal selladas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Broken bags</masterLabel>
+        <translation>Bolsas rotas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Broken pallet</masterLabel>
+        <translation>Pallet rotos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Caking</masterLabel>
+        <translation>Compactación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Certificate of Analysis</masterLabel>
+        <translation>Certificado de análisis</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Color</masterLabel>
+        <translation>Color</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Damage container</masterLabel>
+        <translation>Contenedor dañado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Delivery delay</masterLabel>
+        <translation>Plazo de entrega</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Density</masterLabel>
+        <translation>Densidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Flow</masterLabel>
+        <translation>Flujo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Foreign substance</masterLabel>
+        <translation>Elemento extraño</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Leaning bag</masterLabel>
+        <translation>Producto inclinado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Missing label</masterLabel>
+        <translation>Sin etiqueta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Moisture</masterLabel>
+        <translation>Humedad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Non FIFO Shipment</masterLabel>
+        <translation>Non FIFO Shipment</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Other</masterLabel>
+        <translation>Otro</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Out of Specs</masterLabel>
+        <translation>Fuera de especificación</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Particle Size</masterLabel>
+        <translation>Tamaño partícula</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Shortage</masterLabel>
+        <translation>Menor peso</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Solubility</masterLabel>
+        <translation>Solubilidad</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Spilled product</masterLabel>
+        <translation>Derrame de producto</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wet bags</masterLabel>
+        <translation>Bolsas mojadas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Without carboard</masterLabel>
+        <translation>Sin cartón</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wrapping</masterLabel>
+        <translation>Wrapping</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wrong label</masterLabel>
+        <translation>Mala etiqueta</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wrong product</masterLabel>
+        <translation><!-- Wrong product --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Wrong quantity</masterLabel>
+        <translation><!-- Wrong quantity --></translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

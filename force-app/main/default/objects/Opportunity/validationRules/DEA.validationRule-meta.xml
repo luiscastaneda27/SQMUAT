@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DEA</fullName>
+    <active>false</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(Country__c, &quot;UNITED STATES&quot;),
+								ISPICKVAL(StageName, &quot;Closed Won&quot;),
+								ISPICKVAL(Product__c, &quot;Iodine&quot;),
+								DEA_Review__c = FALSE),
+				TRUE, FALSE)</errorConditionFormula>
+    <errorMessage>Please confirm you have attached the documents required by  the DEA for this Opportunity.</errorMessage>
+</ValidationRule>

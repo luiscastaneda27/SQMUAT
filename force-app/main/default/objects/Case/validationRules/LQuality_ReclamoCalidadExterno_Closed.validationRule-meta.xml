@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_ReclamoCalidadExterno_Closed</fullName>
+    <active>true</active>
+    <description>Alerta para casos de calidad Externos en etapa &quot;Cerrado&quot; que los siguientes campos vacíos: Declaró envío de informe a cliente, Informe de cliente adjunto, Compensaciones no aprobadas (para que lo requieran) y validación de compensación incompleta.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Reclamos_Calidad&quot;,
+ISPICKVAL(Status, &quot;Closed&quot;),
+OR(
+Declaro_envio_informe_a_Cliente__c = FALSE,
+Informe_a_Cliente_Adjunto__c = FALSE,
+AND(Requiere_Compensacion__c = TRUE,Requiere_Aprobacion__c = TRUE,Compensacion_Aprobada__c = FALSE),
+Compensation_Verification__c = FALSE)
+)</errorConditionFormula>
+    <errorMessage>Antes de cerrar el Caso debes Enviar el Informe al Cliente y luego adjuntarlo el Caso. Además, debes marcar los checkboxes asociados a esas actividades. Si aplicara una compensación, esta debe estar aprobada  y verificada antes del cierre.</errorMessage>
+</ValidationRule>

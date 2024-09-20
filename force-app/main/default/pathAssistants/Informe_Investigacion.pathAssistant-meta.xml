@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Informe_de_Investigacion__c</entityName>
+    <fieldName>Etapa__c</fieldName>
+    <masterLabel>Informe Investigación</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Causa_raiz_Encontrada__c</fieldNames>
+        <fieldNames>Investigador__c</fieldNames>
+        <fieldNames>Ingeniero_de_Calidad__c</fieldNames>
+        <fieldNames>Estatus_Revision_1__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;Is the report clear and understandable by any person (external to operations)?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report complaint in the format required with the customer?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;If any of the committed actions deadline are reached, is there any evidence attached of the implementation?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report in English?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;You must only approve or reject from the approval process&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;In case the investigation is &amp;quot;Rejected&amp;quot; you must indicate the reason in the field &amp;quot;Reason for rejection&amp;quot;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>1ra Revisión</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Causa_raiz_Encontrada__c</fieldNames>
+        <fieldNames>Investigador__c</fieldNames>
+        <fieldNames>Ingeniero_de_Calidad__c</fieldNames>
+        <fieldNames>Estatus_Revision_2__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;Is the report clear and understandable by any person (external to operations)?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report complaint in the format required with the customer?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;If any of the committed actions deadline are reached, is there any evidence attached of the implementation?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report in English?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;You must only approve or reject from the approval process&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;In case the investigation is &amp;quot;Rejected&amp;quot; you must indicate the reason in the field &amp;quot;Reason for rejection&amp;quot;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>2da Revisión</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Causa_raiz_Encontrada__c</fieldNames>
+        <fieldNames>Informe_Cliente_adjuntado__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;Responsible: Quality engineer.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;Keep in mind:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;Is the report clear and understandable by any person (external to operations)?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report complaint in the format required with the customer?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, sans-serif; font-size: 11pt;&quot;&gt;If any of the committed actions deadline are reached, is there any evidence attached of the implementation?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the report in English?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;Next Steps:&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Attach the Client report&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Check the box &amp;quot;Client Report attached&amp;quot;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Send the investigation for approval&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Generación de informe</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Etapa__c</fieldNames>
+        <fieldNames>Motivo_de_devolucion__c</fieldNames>
+        <fieldNames>Resultado_Revision_Info__c</fieldNames>
+        <fieldNames>Descripcion__c</fieldNames>
+        <picklistValueName>Insuficiente</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Etapa__c</fieldNames>
+        <fieldNames>Investigador__c</fieldNames>
+        <fieldNames>Ingeniero_de_Calidad__c</fieldNames>
+        <fieldNames>JGC__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Responsible: Quality engineer.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Assignment&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;You must assign the investigator responsible for the investigation using the &amp;quot;Investigator&amp;quot; field.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Finally mark the stage as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;b&gt;&lt;i&gt; &lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Nuevo</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Estatus_RDP__c</fieldNames>
+        <fieldNames>Informe_investigacion_adjuntado__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Responsible: Investigator.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Keep in mind&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Do you review the Problem solving &lt;/b&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;u&gt;CHECKLIST&lt;/u&gt; and everything needed was included?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;The root cause was clearly found?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Were all the possible causes of the problem evaluated?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the customer problem being answered&lt;/b&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Next Steps&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Attach the analysis document&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Report Completed in Status RDP&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>RDP</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Motivo_de_rechazo__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;To complete the rejection of the investigation you must:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;&lt;i&gt;Indicate the Reason for rejection.&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Arial; font-size: 10pt;&quot;&gt;Consider the following: If you mark the Investigation as Rejected by Status RDP or Customer Report, the system will create a replica of the investigation with the minimum information of this process. This is in order to measure and learn from the process itself.&lt;/b&gt;&lt;/p&gt;&lt;p style=&quot;text-align: left;&quot;&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Rechazado</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Resultado_Revision_Info__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Responsible: Investigator.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Information Review&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Do you have the MINIMUM information needed to begin the investigation?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Should a lot sample be requested of the customer?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Is there any additional document needed? (Photograph, Sample testing results from customer, etc…)&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;i&gt;﻿&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Use the &amp;quot;Info review result&amp;quot; field to reflect this analysis. This field reflects if there is the minimum information necessary to start the investigation&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Revisión de información</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Causa_raiz_Encontrada__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Responsible: Quality engineer.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Keep in mind&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Do you review the Problem solving &lt;/b&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;&lt;u&gt;CHECKLIST&lt;/u&gt; and everything needed was included?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;The root cause was clearly found?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 11pt; font-family: Calibri, sans-serif;&quot;&gt;Were all the possible causes of the problem evaluated?&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt;&quot;&gt;Is the customer problem being answered&lt;/b&gt;&lt;span style=&quot;font-size: 10pt;&quot;&gt;?&lt;/span&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;&lt;i&gt;Next Steps&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Indicate if a root cause was found&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 10pt; font-family: Arial;&quot;&gt;Advance to the &amp;quot;Report Generation&amp;quot; or rejected stage&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Validación RDP</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

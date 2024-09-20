@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Casos_Yodo</fullName>
+    <booleanFilter>1 or 2</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Ingeniero_de_Calidad__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Business_Line__c</field>
+        <operation>equals</operation>
+        <value>Iodine</value>
+    </filters>
+    <filters>
+        <field>BusinessLine__c</field>
+        <operation>equals</operation>
+        <value>Iodine</value>
+    </filters>
+    <label>Iodine Quality Cases</label>
+    <sharedTo>
+        <roleAndSubordinatesInternal>BI_Iodine</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Product_Manager_Director_Iodine</roleAndSubordinatesInternal>
+        <roleAndSubordinatesInternal>Senior_Quality_Manager_Iodine</roleAndSubordinatesInternal>
+    </sharedTo>
+</ListView>

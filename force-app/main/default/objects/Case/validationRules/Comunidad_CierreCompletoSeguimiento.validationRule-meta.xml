@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comunidad_CierreCompletoSeguimiento</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &apos;Comunidad&apos;,
+    ISPICKVAL(Status,&apos;Closed&apos;),
+    OR(
+       ISPICKVAL(Sub_estado__c,&apos;Cierre completado&apos;),
+       ISPICKVAL(Sub_estado__c,&apos;Cerrado con Seguimiento&apos;)
+    ),
+    NOT(Aprobacion_cliente__c)
+)</errorConditionFormula>
+    <errorMessage>Para poder cerrar el caso completado o con seguimiento debe haber aprobado el informe a cliente</errorMessage>
+</ValidationRule>

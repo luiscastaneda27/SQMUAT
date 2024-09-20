@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Help_Desk</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Proyecto__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Service_Provider__c</columns>
+    <columns>OWNER_NAME</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <columns>subject_issue__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Case.Helpdesk</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>HelpDesk - Open</label>
+    <sharedTo>
+        <group>Admin</group>
+    </sharedTo>
+</ListView>

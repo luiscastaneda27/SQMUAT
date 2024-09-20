@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Marketing_Assistant_cant_owner</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account.Owner.Profile.Name = &apos;Sales &amp; Marketing Assistant&apos;</errorConditionFormula>
+    <errorMessage>The owner of the account must be the Sales Manager responsible for this client, please go into the account link to correct the account owner to the responsible Sales Manager.</errorMessage>
+</ValidationRule>

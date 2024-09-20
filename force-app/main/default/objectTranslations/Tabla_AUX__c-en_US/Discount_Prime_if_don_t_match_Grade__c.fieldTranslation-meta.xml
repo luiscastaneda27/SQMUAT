@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Discount/Prime if don&apos;t match Grade --></label>
+    <name>Discount_Prime_if_don_t_match_Grade__c</name>
+</CustomFieldTranslation>

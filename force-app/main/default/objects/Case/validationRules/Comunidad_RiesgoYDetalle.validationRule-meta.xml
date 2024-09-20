@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comunidad_RiesgoYDetalle</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   RecordType.DeveloperName = &apos;Comunidad&apos;,
+   NOT(ISBLANK(TEXT(Riesgos__c))),
+   ISBLANK(TEXT(Tipos_de_Riesgos__c))
+)</errorConditionFormula>
+    <errorDisplayField>Tipos_de_Riesgos__c</errorDisplayField>
+    <errorMessage>Debe registrar el tipo de riesgo asociado al caso</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calidad_Reclamo_Externo_EC_ToBeAssigned</fullName>
+    <active>true</active>
+    <description>Controla cumplimiento del proceso en relación a la etapa Recopilación de información.</description>
+    <errorConditionFormula>RecordType.DeveloperName = &quot;Reclamos_Calidad&quot; &amp;&amp;
+RInfo_Completa__c = false &amp;&amp;
+ISPICKVAL(Status, &quot;To be assigned&quot;)</errorConditionFormula>
+    <errorMessage>Debes completar el evento clave &quot;Recopilación de información&quot;.</errorMessage>
+</ValidationRule>

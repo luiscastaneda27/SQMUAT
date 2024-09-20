@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Helpdesk_campos_obligatorios_new_users</fullName>
+    <active>true</active>
+    <description>Si desde el picklist &quot;Categoria&quot;, es seleccionada la opción &quot;License for new user&quot;, entonces los campos de la sección &quot;Only for new users&quot; no pueden estar en blanco.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL( subject_issue__c , &quot;License for new users&quot;),
+      OR(
+      ISBLANK( First_Name_User__c),
+      ISBLANK( Last_Name_User__c),
+      ISBLANK( Name_Manager__c ),
+      ISBLANK( Email__c ),
+      ISPICKVAL( SQM_Filial__c , &quot;&quot;),
+      ISPICKVAL( Salesforce_Rol_User__c , &quot;&quot;) 
+))</errorConditionFormula>
+    <errorMessage>Please, complete all the fields of the section &quot;Only for new users&quot; before saving the case.</errorMessage>
+</ValidationRule>

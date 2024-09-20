@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Volumen_between_Opp_and_Contract</fullName>
+    <active>true</active>
+    <description>Validate that Total Volumen of the opportunity is equal to volumen of the contract when the kind of negociation is Contracted.</description>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL(Type_of_Negotiation__c, &quot;Contract&quot;),
+								Total_Volume__c &lt;&gt; Contract.Contracted_volume__c
+								),
+				true, false
+				)</errorConditionFormula>
+    <errorDisplayField>Total_Volume__c</errorDisplayField>
+    <errorMessage>Please, check the information. The Total Volume must be equal than Contracted Volumen.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quote_blocked_by_price_validity</fullName>
+    <active>true</active>
+    <description>Once the quote is &quot;Invalid Price&quot;, the users cannot change the status. That rule applies for all uses less admins (ID profile: 00e3 000001Dhap).</description>
+    <errorConditionFormula>AND(
+   OR(
+      ISPICKVAL(SBQQ__Status__c, &quot;Draft&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;In Review&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;Approved&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;Denied&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;Presented&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;Accepted&quot;),
+      ISPICKVAL(SBQQ__Status__c, &quot;Rejected&quot;)
+      ),
+ISCHANGED(SBQQ__Status__c),SBQQ__ExpirationDate__c &lt; TODAY(),
+ Created_Date__c  &gt;= DATEVALUE(&quot;2022-07-13&quot;),
+ $User.ProfileId  &lt;&gt; &quot;00e3i000001Dhap&quot;
+   )</errorConditionFormula>
+    <errorMessage>The price is not valid, please create a new quote or clone that record. Only for specially cases, contact admin users.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Lithium Carbonate</masterLabel>
+        <translation>Carbonato de Litio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lithium Hydroxide</masterLabel>
+        <translation>Hidróxido de Litio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Yodo</masterLabel>
+        <translation>Yodo</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

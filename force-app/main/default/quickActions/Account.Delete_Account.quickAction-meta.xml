@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Action is used to create a helpdesk case to request deleting an the account.</description>
+    <fieldOverrides>
+        <field>Additional_Information__c</field>
+        <formula>&quot; Information to identify the account:&quot; &amp; 
+&quot; &quot;  &amp; 
+&quot; - Account Name: &quot; &amp; Account.Name &amp; 
+&quot; &quot;  &amp; 
+&quot; - Customer Account ID: &quot; &amp; Account.Customer_Account_ID__c  &amp; 
+&quot; &quot;  &amp; 
+&quot; - ID Salesforce: &quot;  &amp; Account.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Description</field>
+        <formula>&quot;Enter the reason why the account should be deleted.&quot;</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Priority</field>
+        <literalValue>Medium</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Proyecto__c</field>
+        <literalValue>Sales Cloud</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>&quot;Delete Account - Name: &quot; &amp;  Account.Name</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>subject_issue__c</field>
+        <literalValue>Data Cleansing</literalValue>
+    </fieldOverrides>
+    <label>Delete Account</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Subject</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Description</field>
+                <uiBehavior>Required</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Priority</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Proyecto__c</field>
+                <uiBehavior>Readonly</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>subject_issue__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns/>
+    </quickActionLayout>
+    <successMessage>Your case was created, Helpdesk team is going to review.</successMessage>
+    <targetObject>Case</targetObject>
+    <targetParentField>Account</targetParentField>
+    <targetRecordType>Case.Helpdesk</targetRecordType>
+    <type>Create</type>
+</QuickAction>

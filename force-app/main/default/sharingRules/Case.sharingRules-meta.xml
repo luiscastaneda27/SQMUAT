@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Heldesk_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Helpdesk cases with all users</description>
+        <label>Heldesk Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>System_Administrator</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Iodine_Cases</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Share Iodine Cases with Iodine Commercial Team</description>
+        <label>Iodine Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vice_President_Iodine_ICH</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Iodine</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_QualityC_Head_of_Quality</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Esta regla permite compartir los casos de calidad (7 tipos) con el rol Head of Quality Management Lithium y subordinados</description>
+        <label>L QualityC Head of Quality</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Head_of_Quality_Management</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request,External Quality Claims,Self Audit,Internal Quality Claims,Client Audit,Questionnaires,Other Cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Li2CO3,LiOH</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_QualityC_Technical_Commercial</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Esta regla permite compartir los casos de calidad (7 tipos) con el rol Technical Commercial Director Lithium y subordinados</description>
+        <label>L QualityC Technical Commercial</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Technical_Commercial_Director_Lithium</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request,External Quality Claims,Self Audit,Internal Quality Claims,Client Audit,Questionnaires,Other Cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Li2CO3,LiOH</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>L_SalesC_Vice_President</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Esta regla permite compartir los casos de calidad (7 tipos) con el rol Vice President Lithium y subordinados</description>
+        <label>L SalesC Vice President</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Vice_President_Lithium</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request,External Quality Claims,Self Audit,Internal Quality Claims,Client Audit,Questionnaires,Other Cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Li2CO3,LiOH</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Quality_Team_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Quality Team Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Product_Manager_Director_Iodine</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request,External Quality Claims,Self Audit,Internal Quality Claims,Client Audit,Questionnaires,Other Cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Iodine</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Heldesk_Cases</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share Heldesk cases with all users.</description>
+        <label>Share Heldesk Cases</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Administrador_del_Sistema</roleAndSubordinatesInternal>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Share_Quality_Case_with</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Esta regla permite compartir los casos de calidad (7 tipos) con el rol  Commercial Planiing Team</description>
+        <label>Share Quality Case with</label>
+        <sharedTo>
+            <role>Commercial_Planning</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request,External Quality Claims,Self Audit,Internal Quality Claims,Client Audit,Questionnaires,Other Cases</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Business_Line__c</field>
+            <operation>equals</operation>
+            <value>Li2CO3,LiOH</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

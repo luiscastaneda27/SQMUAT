@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SBQQ__All</fullName>
+    <booleanFilter>1 AND 2 AND 3</booleanFilter>
+    <columns>CREATED_DATE</columns>
+    <columns>SBQQ__Type__c</columns>
+    <columns>NAME</columns>
+    <columns>Level_of_approval__c</columns>
+    <columns>SBQQ__Status__c</columns>
+    <columns>SBQQ__Account__c</columns>
+    <columns>SBQQ__Opportunity2__c</columns>
+    <columns>SBQQ__Primary__c</columns>
+    <columns>SBQQ__LineItemsGrouped__c</columns>
+    <columns>SBQQ__NetAmount__c</columns>
+    <columns>SBQQ__ExpirationDate__c</columns>
+    <columns>UPDATEDBY_USER</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Market__c</field>
+        <operation>equals</operation>
+        <value>China</value>
+    </filters>
+    <filters>
+        <field>SBQQ__NetAmount__c</field>
+        <operation>greaterThan</operation>
+        <value>USD 7500000</value>
+    </filters>
+    <filters>
+        <field>SBQQ__NetAmount__c</field>
+        <operation>lessThan</operation>
+        <value>USD 15000000</value>
+    </filters>
+    <label>All</label>
+</ListView>

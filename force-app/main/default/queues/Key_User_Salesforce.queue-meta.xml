@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Key User Salesforce</name>
+    <queueMembers>
+        <users>
+            <user>carolina.molina@sqm.com</user>
+            <user>claudia.gutierrez@sqm.com</user>
+            <user>lisette.salas@sqm.com</user>
+            <user>manuel.ossandon.carvajal@sqm.com</user>
+            <user>maria.alejandra.zuleta@sqm.com</user>
+            <user>robert.fernandez.pena@sqm.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

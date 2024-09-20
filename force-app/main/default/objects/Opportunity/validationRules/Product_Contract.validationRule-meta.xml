@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product_Contract</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(Type_of_Negotiation__c, &quot;Contract&quot;) &amp;&amp;
+OR(
+ISNULL(ContractId),  
+TEXT(Contract.Product__c) &lt;&gt; TEXT(Product__c))</errorConditionFormula>
+    <errorMessage>The product of the Opportunity must be the same as the one selected in the Contract</errorMessage>
+</ValidationRule>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>Username</identityMapping>
+    <issuer>https://sts.windows.net/ee9a0945-3e32-4c74-8986-8e411af80f3c/</issuer>
+    <loginUrl>https://login.microsoftonline.com/ee9a0945-3e32-4c74-8986-8e411af80f3c/saml2</loginUrl>
+    <name>SQM Login</name>
+    <oauthTokenEndpoint>https://crm-sqm--uat.sandbox.my.salesforce.com/services/oauth2/token</oauthTokenEndpoint>
+    <redirectBinding>true</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P1VM00000000Kz</requestSigningCertId>
+    <salesforceLoginUrl>https://crm-sqm--uat.sandbox.my.salesforce.com</salesforceLoginUrl>
+    <samlEntityId>https://crm-sqm.my.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <singleLogoutBinding>RedirectBinding</singleLogoutBinding>
+    <singleLogoutUrl>https://login.microsoftonline.com/ee9a0945-3e32-4c74-8986-8e411af80f3c/saml2</singleLogoutUrl>
+    <useConfigRequestMethod>false</useConfigRequestMethod>
+    <useSameDigestAlgoForSigning>false</useSameDigestAlgoForSigning>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC8DCCAdigAwIBAgIQXH0u5isV4ZVE19uysYNNpDANBgkqhkiG9w0BAQsFADA0MTIwMAYDVQQDEylNaWNyb3NvZnQgQXp1cmUgRmVkZXJhdGVkIFNTTyBDZXJ0aWZpY2F0ZTAeFw0yMjEwMTQxNDE0NDFaFw0yNTEwMTQxNDE0MzZaMDQxMjAwBgNVBAMTKU1pY3Jvc29mdCBBenVyZSBGZWRlcmF0ZWQgU1NPIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1GhfYes6PPkSbJfkxoQ5rKh8I7aPIs1/fJE2n0NgBGjpQKqz5FrXniYU9nnR3NUQW9DDtP+6uAU0JuZmyPOcZzWMeCxbLH5w6mslHHH0hbK9bo+pe0aCQvzUwR6ALKjR5iOwgDlVrSvvzFyuESnwnjyFHSJMWs2V7uNDdS2efAp1wxcqIXyQC21ITHnga4DzNVgKOkDh5Dg7Nyc76L2AeASvhMKyBPI5IrhZKd2a2gBQdwAWxofJ2zEokqr3xiz4AiYN/VZT/Gr9wsi08F3UIRlJssS/3xiN0UASlkAeCmObbl2uU9o7bO8wWbbfgtp1+avwdX0gIA1Q96ogotKZOQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQCChGpejDso8e4ue9ejqlhmpd3lJf4OtXYUqGr/9zToAqt+wtdwceCEKkLvJ43kflbmFKm4sFSndRnIuQDSgJO7oV6eleSyRmltDztEYLQx2Dy+jywVIkkDZ18q8e/OVocsDRjwhrnDDDc4xhcilxBN4Gb1/rfAO8aNmu9WHJOBQ4O3IPcjeopxaQ2V783P4AWWVPCWGYfKokpVu7Rgier+ZhS+zrRPS/xJP1sCVDQZ2IGNKOiGDAsIr9qCUAX24MeyxtkYfwkGDyam1vyHqMf1YbCF5vuG9ztNetUPVb8dZ9518aGzZnkJYyX7tRWeUExHxP4BwZ3IM+UMNOl6XPBL</validationCert>
+</SamlSsoConfig>

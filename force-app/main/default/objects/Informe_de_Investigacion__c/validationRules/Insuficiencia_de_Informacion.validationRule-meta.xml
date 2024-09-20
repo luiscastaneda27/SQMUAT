@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insuficiencia_de_Informacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISCHANGED(Etapa__c),ISPICKVAL(Resultado_Revision_Info__c, &quot;Informacion_insuficiente&quot;),OR(TEXT(Etapa__c) &lt;&gt; &quot;Revisión de información&quot;,TEXT(Etapa__c) &lt;&gt;&quot;Insuficiente&quot;))</errorConditionFormula>
+    <errorMessage>Si no cuentas con información suficiente para realizar la investigación debes seleccionar la etapa &quot;Insuficiente&quot;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Samples --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Samples --></value>
+    </caseValues>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Formato Samples</layout>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Sample Number --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>No puedes enviar muestras si no cuentas con la documentación de CChEN al día.</errorMessage>
+        <name>Samples_CChEN</name>
+    </validationRules>
+</CustomObjectTranslation>

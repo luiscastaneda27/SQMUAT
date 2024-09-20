@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Invalid_Price_NotUsers_Lithium</fullName>
+    <active>true</active>
+    <description>User are not allow to move for Invalid Price Stage. Only Admin and flow&apos; user.</description>
+    <errorConditionFormula>AND(ISCHANGED(SBQQ__Status__c),
+ISPICKVAL(SBQQ__Status__c , &quot;Invalid Price&quot;),
+$Profile.Name  &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorMessage>It is not allowed moving to Invalid Price. The  Invalid Price stage is assigned  automatically.</errorMessage>
+</ValidationRule>

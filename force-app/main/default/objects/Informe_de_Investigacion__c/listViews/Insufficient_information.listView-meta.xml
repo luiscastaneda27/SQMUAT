@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Insufficient_information</fullName>
+    <columns>NAME</columns>
+    <columns>Fecha_de_asignacion__c</columns>
+    <columns>Caso__c</columns>
+    <columns>Etapa__c</columns>
+    <columns>Ingeniero_de_Calidad__c</columns>
+    <columns>Investigador__c</columns>
+    <columns>Resultado_Revision_Info__c</columns>
+    <columns>Motivo_de_devolucion__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Etapa__c</field>
+        <operation>equals</operation>
+        <value>Insuficiente</value>
+    </filters>
+    <label>Insufficient information</label>
+</ListView>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Caso Calidad Interno</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Responsible: Q&lt;/i&gt;uality engineer &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Investigation has its own path to success.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Investigation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;&lt;i&gt;Responsible: Case Creator&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 15px; font-family: docs-Calibri;&quot;&gt;Is all the information attached to the case?&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 15px; font-family: docs-Calibri;&quot;&gt;Lot number&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 15px; font-family: docs-Calibri;&quot;&gt;Clear description&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 15px; font-family: docs-Calibri;&quot;&gt;Evidences&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;Responsible: PMD&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Select the Quality Engineer responsible for the process&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>To be assigned</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Reclamos_Calidad_Interno</recordTypeName>
+</PathAssistant>

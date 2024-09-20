@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Email_Notificaction_Request_Approval</fullName>
+        <description>Email Notificaction - Request Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Cchen_Manager_Lithium</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Yearly_Cchen_Request_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notificaction_Request_Approved</fullName>
+        <description>Email Notificaction - Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Yearly_Cchen_Declaration_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Email_Notificaction_Request_Rejected</fullName>
+        <description>Email Notificaction - Request Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Yearly_Cchen_Declaration_Rejected</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>CCHEN_Enviado_a_aprobar</fullName>
+        <field>Status__c</field>
+        <literalValue>Sent to approve</literalValue>
+        <name>CCHEN Enviado a aprobar</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CCHEN_Vigente</fullName>
+        <field>Request__c</field>
+        <literalValue>Valid</literalValue>
+        <name>CCHEN Vigente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CChEN2_Approve</fullName>
+        <field>CChEN_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>CChEN2 Approve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>CChEN_Approve</fullName>
+        <field>CChEN_Approve__c</field>
+        <literalValue>1</literalValue>
+        <name>CChEN Approve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Approved</fullName>
+        <field>Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Update Status Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_New</fullName>
+        <field>Status__c</field>
+        <literalValue>New</literalValue>
+        <name>Update Status New</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Rejected</fullName>
+        <field>Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Update Status Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Sent_to_Approve</fullName>
+        <field>Status__c</field>
+        <literalValue>Sent to approve</literalValue>
+        <name>Update Status Sent to Approve</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <tasks>
+        <fullName>Nuevo_CChEN_por_aprobar</fullName>
+        <assignedTo>Cchen_Manager_Lithium</assignedTo>
+        <assignedToType>role</assignedToType>
+        <dueDateOffset>3</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Nuevo CChEN por aprobar</subject>
+    </tasks>
+</Workflow>

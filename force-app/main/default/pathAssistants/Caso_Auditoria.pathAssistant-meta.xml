@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Caso Auditoria</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Responsible: User assigned by PMD.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt; Was there any action committed due to the audit?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Were the actions committed reviewed with the compromised areas?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Create committed actions in the Audit process.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Attach report&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Audit Report</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>RecordTypeId</fieldNames>
+        <fieldNames>Status</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Responsible: Sales Coordinator.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;Are there all the document attached to the case?&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;﻿&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;﻿&lt;/i&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b&gt;Responsible: &lt;/b&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;User assigned by PMD.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;A checklist of everything that is going to be audit was asked to the customer in order to prepare the areas?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;&lt;i&gt;Was all the meeting shceduled to enable the audits?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;Are all logistics arranged (accommodation, fliht tickets, transport, EPP, etc…)?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Manage the requested information&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;</info>
+        <picklistValueName>Planning</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Ingeniero_de_Calidad__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Responsible: PMD.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;u style=&quot;font-size: 15px;&quot;&gt;﻿&lt;/u&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;&lt;i&gt;Keep in mind:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 11pt;&quot;&gt;&lt;i&gt;Are there all the document attached to the case?&lt;/i&gt;&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Select the Quality Engineer responsible for the process&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>To be assigned</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Auditoria_de_Cliente</recordTypeName>
+</PathAssistant>

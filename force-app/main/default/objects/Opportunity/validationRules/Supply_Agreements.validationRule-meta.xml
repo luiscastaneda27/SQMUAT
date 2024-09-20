@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supply_Agreements</fullName>
+    <active>true</active>
+    <description>Valida que el usuario indique un SA para Oportunidades cerradas ganadas de tipo Contrato</description>
+    <errorConditionFormula>TEXT(Type_of_Negotiation__c) = &quot;Contract&quot;  &amp;&amp; 
+ISBLANK(ContractId)</errorConditionFormula>
+    <errorDisplayField>ContractId</errorDisplayField>
+    <errorMessage>For Contract-type Opportunities, you must indicate the previously created SA.</errorMessage>
+</ValidationRule>

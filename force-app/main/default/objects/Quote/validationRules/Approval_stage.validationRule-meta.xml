@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approval_stage</fullName>
+    <active>true</active>
+    <description>Quote requiere ser enviada a aprobación.</description>
+    <errorConditionFormula>IF(
+				AND(
+								Requires_approval__c = true,
+								Quote_Approved__c = false,
+								OR(
+												ISPICKVAL(Status ,&quot;Denied&quot;),
+												ISPICKVAL(Status ,&quot;Presented&quot;),
+												ISPICKVAL(Status ,&quot;Accepted&quot;)
+												)
+								),
+				true, false)</errorConditionFormula>
+    <errorMessage>You cannot advance to a resolution status if the quote requires approval</errorMessage>
+</ValidationRule>

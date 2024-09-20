@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequiredApproval_FormFixedContracLithium</fullName>
+    <active>true</active>
+    <description>For quotes associated to contracts and that requieres approval by amount or discounts, it is necessary to request to have an approval before to move to next stages: Approved, Accepted or Presented.</description>
+    <errorConditionFormula>AND(Level_of_approval__c  &lt;&gt; &quot;NO Requieres Approval&quot;,
+Quote_Approve__c = FALSE, 
+OR(CONTAINS(Type_of_Opportunity__c , &quot;Formula&quot;), CONTAINS(Type_of_Opportunity__c , &quot;Fixed&quot;)),
+OR(ISPICKVAL(SBQQ__Status__c , &quot;Approved&quot;),
+ISPICKVAL(SBQQ__Status__c , &quot;Presented&quot;),
+ISPICKVAL(SBQQ__Status__c , &quot;Accepted&quot;))
+)</errorConditionFormula>
+    <errorMessage>For this Quote, you need to request for approval before to move to the status &quot;Approved&quot;, &quot;Presented&quot; or &quot;Accepted&quot;. Please go to the button &quot;Submit for approval&quot; on the upper right corner of this quote.</errorMessage>
+</ValidationRule>

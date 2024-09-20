@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HD1_Helpdesk_Closed</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND (
+RecordType.DeveloperName = &apos;Helpdesk&apos;,
+ISPICKVAL(Status,&apos;Closed&apos;),
+In_Production__c = False,
+ISPICKVAL(Sub_estado__c,&apos;Cierre completado&apos;),
+User_Approved__c = False
+				)</errorConditionFormula>
+    <errorMessage>To Closed Complete the case, the solution must be implemented in production and approved by the user. (HD1)</errorMessage>
+</ValidationRule>

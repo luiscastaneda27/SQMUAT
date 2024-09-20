@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Other_field_only_availabe_when_selected</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+NOT(ISPICKVAL(Loss_Reason__c, &apos;Other&apos;)),
+ISCHANGED(Other__c)						  
+		)</errorConditionFormula>
+    <errorDisplayField>Other__c</errorDisplayField>
+    <errorMessage>Loss Reason must be &apos;Other&apos;</errorMessage>
+</ValidationRule>

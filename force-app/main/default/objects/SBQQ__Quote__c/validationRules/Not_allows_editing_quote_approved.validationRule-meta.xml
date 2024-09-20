@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_allows_editing_quote_approved</fullName>
+    <active>true</active>
+    <description>Quote approved cannot be modified.</description>
+    <errorConditionFormula>AND( $Profile.Name  &lt;&gt; &apos;System Administrator&apos;,
+    Quote_Approve__c = True,
+    ISCHANGED(SBQQ__NetAmount__c)
+   )</errorConditionFormula>
+    <errorMessage>The quote has already been approved and cannot be modified. If you want editing it, please request &quot;reject&quot; your quote.</errorMessage>
+</ValidationRule>

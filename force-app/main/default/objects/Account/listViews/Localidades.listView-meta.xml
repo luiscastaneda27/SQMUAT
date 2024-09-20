@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Localidades</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Comunidad</value>
+    </filters>
+    <label>Localidades</label>
+    <sharedTo>
+        <roleAndSubordinates>SQM_Comunidades</roleAndSubordinates>
+    </sharedTo>
+</ListView>

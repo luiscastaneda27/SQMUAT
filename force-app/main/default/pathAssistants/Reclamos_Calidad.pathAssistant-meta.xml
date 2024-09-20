@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Case</entityName>
+    <fieldName>Status</fieldName>
+    <masterLabel>Reclamos Calidad</masterLabel>
+    <pathAssistantSteps>
+        <picklistValueName>Closed</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Responsible: Q&lt;/i&gt;uality engineer &lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Investigation has its own path to success.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Investigation</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Posible_compensacion__c</fieldNames>
+        <fieldNames>Monto_estimado_a_compensar__c</fieldNames>
+        <fieldNames>OwnerId</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;&lt;i&gt;Responsible: Case Creator&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: docs-Calibri; font-size: 15px;&quot;&gt;Is all the information attached to the case?&lt;/b&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b style=&quot;font-family: docs-Calibri; font-size: 15px;&quot;&gt;Lot number&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: docs-Calibri; font-size: 15px;&quot;&gt;Clear description&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: docs-Calibri; font-size: 15px;&quot;&gt;Evidence&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b style=&quot;font-family: docs-Calibri; font-size: 15px;&quot;&gt;Costs estimation&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;If you consider compensation as part of the resolution, you must check the &amp;quot;Possible Compensation&amp;quot; field and indicate a certain amount.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Compensation_Verification__c</fieldNames>
+        <fieldNames>Monto_a_Compensar__c</fieldNames>
+        <fieldNames>Monto_estimado_a_compensar__c</fieldNames>
+        <fieldNames>Costo_total__c</fieldNames>
+        <info>&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;&lt;em&gt;Responsible: Case Creator&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;At this stage you must first:&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Verify the final amount of compensation with the Client.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Complete the Transaction field.&lt;/strong&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;&lt;em&gt;Next Steps:&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/strong&gt;&lt;/li&gt;&lt;li&gt;&lt;strong&gt;Finally proceed to mark the status as completed.&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Partial closure</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Informe_a_Cliente_Adjunto__c</fieldNames>
+        <fieldNames>Documento_Aprobado__c</fieldNames>
+        <fieldNames>Compensation_Verification__c</fieldNames>
+        <fieldNames>Declaro_envio_informe_a_Cliente__c</fieldNames>
+        <info>&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;i&gt;Responsible: Case Creator&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 13px;&quot;&gt;At this stage you must first:&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ol&gt;&lt;li&gt;&lt;b&gt;Attach Report to Client. &lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Request the approval of the Sales Manager responsible for the Account. &lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Send report to Client.&lt;/b&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-size: 14.6667px; font-family: Calibri, Arial;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Reporting</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Ingeniero_de_Calidad__c</fieldNames>
+        <fieldNames>Requiere_Compensacion__c</fieldNames>
+        <fieldNames>Monto_a_Compensar__c</fieldNames>
+        <info>&lt;p&gt;&lt;b&gt;Responsible: PMD&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b style=&quot;font-family: Calibri, Arial; font-size: 14.6667px;&quot;&gt;&lt;i&gt;Next Steps:&lt;/i&gt;&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;b&gt;Select the Quality Engineer responsible for the process&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/b&gt;&lt;/li&gt;&lt;li&gt;&lt;b&gt;Finally proceed to mark the status as completed.&lt;/b&gt;&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>To be assigned</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Reclamos_Calidad</recordTypeName>
+</PathAssistant>

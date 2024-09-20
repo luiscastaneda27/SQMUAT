@@ -1,0 +1,1288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Aprobacion_Self_Audit</fullName>
+        <description>Aprobación Self Audit</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Asignacion_Caso</fullName>
+        <description>Asignación de Caso</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_assignment</template>
+    </alerts>
+    <alerts>
+        <fullName>Community_Approval_Case</fullName>
+        <description>Community - Approval Case</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.canalsqm@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Community_Approved_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Community_Rejected_Case</fullName>
+        <description>Community - Rejected Case</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.canalsqm@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Community_Rejected_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Compensacion_Aprobada</fullName>
+        <description>Compensacion Aprobada</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>Product_Manager_Director_Iodine</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Compensacion_Rechazada</fullName>
+        <description>Compensacion Rechazada</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>Product_Manager_Director_Iodine</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Compensacion_necesita_aprobacion</fullName>
+        <description>Compensacion necesita aprobacion</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Product_Manager_Director_Iodine</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Send_To_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Correo_cierre_caso</fullName>
+        <ccEmails>rzamorano@nectia.com</ccEmails>
+        <description>Correo cierre caso</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Envio_de_Correo_para_cierre_de_caso</template>
+    </alerts>
+    <alerts>
+        <fullName>Correo_de_aviso_de_vencimiento_de_evento_clave</fullName>
+        <description>Correo de aviso de vencimiento de evento clave</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Plantilla_de_prueba_para_evento_clave_vencido</template>
+    </alerts>
+    <alerts>
+        <fullName>Correo_para_Cierre_de_Caso_Manual</fullName>
+        <description>Correo para Cierre de Caso Manual</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Envio_de_Correo_para_cierre_de_caso_manual</template>
+    </alerts>
+    <alerts>
+        <fullName>Cuestionario_aprobado</fullName>
+        <description>Cuestionario aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Cuestionario_rechazado</fullName>
+        <description>Cuestionario rechazado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Envio_de_Correo_al_Cliente_cuando_a_creado_el_caso_desde_la_comunidad</fullName>
+        <description>Envio de Correo a Cliente cuando recibe el Caso</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Envio_de_Correo_de_Recepci_n_de_Caso_a_Cliente</template>
+    </alerts>
+    <alerts>
+        <fullName>Helpdesk_Case_Improvement_Key_User_Approved</fullName>
+        <description>Helpdesk Case Improvement Key User Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Helpdesk_Case_Approval_Process_Key_User_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>Helpdesk_Case_Improvement_Key_User_Rejected</fullName>
+        <description>Helpdesk Case Improvement Key User Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Helpdesk_Case_Rejection_by_Key_User_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>Helpdesk_case_approval_process_response</fullName>
+        <description>Helpdesk case approval process response</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Helpdesk_case_approval_process_response</template>
+    </alerts>
+    <alerts>
+        <fullName>Invitation_Survey_Helpdesk</fullName>
+        <description>Invitation Survey Helpdesk</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Invitation_Survey_Helpdesk</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Community_Case</fullName>
+        <description>New Community Case</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/New_Community_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Sample_Request</fullName>
+        <description>New Sample Request</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>Commercial_Planning</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Sample_Request</template>
+    </alerts>
+    <alerts>
+        <fullName>Nuevo_Caso_Critico_Major</fullName>
+        <description>Nuevo Caso Critico&amp;Major</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>Product_Manager_Director_Iodine</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Critical_Major_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>Nuevo_Caso_de_Calidad</fullName>
+        <description>Nuevo Caso de Calidad</description>
+        <protected>false</protected>
+        <recipients>
+            <field>ContactId</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>qualitymanagementsystem@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/SQM_new_Quality_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Reclamo_Calidad_Internal</fullName>
+        <description>Reclamo Calidad Internal</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <recipients>
+            <recipient>Product_Manager_Director_Iodine</recipient>
+            <type>role</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Case_Internal</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_Calidad_Aprobado</fullName>
+        <description>Reporte Calidad Aprobado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>Reporte_Calidad_Rechazado</fullName>
+        <description>Reporte Calidad Rechazado</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Self_Audit_Rechazada</fullName>
+        <description>Self Audit Rechazada</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Case_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Vencimiento_SLA_Calidad</fullName>
+        <description>Vencimiento SLA Calidad</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/SLA_Not_met</template>
+    </alerts>
+    <alerts>
+        <fullName>Vencimiento_SLA_OtrosCasos</fullName>
+        <description>Vencimiento SLA Otros Casos</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/SLA_Not_met_other_Cases</template>
+    </alerts>
+    <alerts>
+        <fullName>test</fullName>
+        <ccEmails>daniela.carvajal@sqm.com</ccEmails>
+        <description>test</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>sf.servicecloud@sqm.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/New_Sample_Request</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Actualiza_prioridad_de_Improv_y_Accesess</fullName>
+        <description>Actualiza la prioridad de los casos de Improvements y Accesess</description>
+        <field>Priority</field>
+        <literalValue>Medium</literalValue>
+        <name>Actualiza prioridad de Improv y Accesess</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_prioridad_de_QAP_y_Others</fullName>
+        <description>Actualiza la prioridad de los casos de QAP y Others</description>
+        <field>Priority</field>
+        <literalValue>Low</literalValue>
+        <name>Actualiza prioridad de QAP y Others</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Actualiza_prioridad_de_incidents</fullName>
+        <description>Actualiza la prioridad de los casos de Incidents</description>
+        <field>Priority</field>
+        <literalValue>High</literalValue>
+        <name>Actualiza prioridad de incidents</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobaci_n_informe_cliente</fullName>
+        <field>Aprobacion_cliente__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprobación informe cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprobacion_tecnica</fullName>
+        <field>Aprobacion_tecnica__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprobación técnica</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ApruebaCompensacion</fullName>
+        <field>Compensacion_Aprobada__c</field>
+        <literalValue>1</literalValue>
+        <name>ApruebaCompensacion</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Aprueba_doc</fullName>
+        <field>Documento_Aprobado__c</field>
+        <literalValue>1</literalValue>
+        <name>Aprueba doc</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Information_Request</fullName>
+        <description>avanza de New a Information Request</description>
+        <field>Status</field>
+        <literalValue>Information Request</literalValue>
+        <name>Avanza a Information Request</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Information_Requests</fullName>
+        <description>avanza de New a Information Request</description>
+        <field>Status</field>
+        <literalValue>Information Request</literalValue>
+        <name>Avanza a Information Request</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Review</fullName>
+        <description>Avanza desde New a Review</description>
+        <field>Status</field>
+        <literalValue>Review</literalValue>
+        <name>Avanza a Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Review_C</fullName>
+        <description>Avanza desde New a Review</description>
+        <field>Status</field>
+        <literalValue>Review</literalValue>
+        <name>Avanza a Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Review_SP</fullName>
+        <description>Avanza de Review a ReviewSP</description>
+        <field>Status</field>
+        <literalValue>Review SP</literalValue>
+        <name>Avanza a Review SP</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_a_Review_SP_C</fullName>
+        <description>Avanza de Review a ReviewSP</description>
+        <field>Status</field>
+        <literalValue>Review SP</literalValue>
+        <name>Avanza a Review SP</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_de_Review_SP_a_Validation_KU</fullName>
+        <description>Avanza de ReviewSP a Validation KU</description>
+        <field>Status</field>
+        <literalValue>Validation KU</literalValue>
+        <name>Avanza de Review SP a Validation KU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Avanza_de_Review_SP_a_Validation_KU_C</fullName>
+        <description>Avanza de ReviewSP a Validation KU</description>
+        <field>Status</field>
+        <literalValue>Validation KU</literalValue>
+        <name>Avanza de Review SP a Validation KU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Cambia_estado_a_Cerrado</fullName>
+        <description>Pasa del estado Validation a Closed</description>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Cambia estado a Cerrado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Cambia_estado_a_Cerrado_C</fullName>
+        <description>Pasa del estado Validation a Closed</description>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Cambia estado a Cerrado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Cambia_subestado</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>A la espera de aprobación de investigación</literalValue>
+        <name>Cambia subestado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ChangeToAssign</fullName>
+        <field>Status</field>
+        <literalValue>Por Asignar</literalValue>
+        <name>ChangeToAssign</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ChangeToCustomerReport</fullName>
+        <field>Status</field>
+        <literalValue>Informe a Cliente</literalValue>
+        <name>ChangeToCustomerReport</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ChangeToInvestigation</fullName>
+        <field>Status</field>
+        <literalValue>Investigación</literalValue>
+        <name>ChangeToInvestigation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Change_Owner_Review</fullName>
+        <field>OwnerId</field>
+        <lookupValue>daniela.carvajal@sqm.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Change Owner - Review</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Estado_a_reporte_cliente</fullName>
+        <field>Status</field>
+        <literalValue>Reported to costumer</literalValue>
+        <name>Estado a reporte cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MarcaAsignacion_completada</fullName>
+        <field>Asignacion_Completa__c</field>
+        <literalValue>1</literalValue>
+        <name>MarcaAsignacion_completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MarcaInformeCliente_completada</fullName>
+        <field>InformeCliente_Completa__c</field>
+        <literalValue>1</literalValue>
+        <name>MarcaInformeCliente_completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MarcaInvestigacion_completada</fullName>
+        <field>Investigacion_Completa__c</field>
+        <literalValue>1</literalValue>
+        <name>MarcaInvestigacion_completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>MarcaRInfo_completada</fullName>
+        <field>RInfo_Completa__c</field>
+        <literalValue>1</literalValue>
+        <name>MarcaRInfo_completada</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_estado_aprobaci_n_reporte_cliente</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>A la espera de aprobación de reporte a cliente</literalValue>
+        <name>Sub estado aprobación reporte cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_estado_generacion_reporte_a_cliente</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En generación de reporte a cliente</literalValue>
+        <name>Sub estado generación reporte a cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_estado_reporte_aprobado</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Reporte a cliente aprobado</literalValue>
+        <name>Sub estado reporte aprobado</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_estado_volver</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En generación de reporte técnico</literalValue>
+        <name>Sub estado volver</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sub_estado_volver_cliente</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En generación de reporte a cliente</literalValue>
+        <name>Sub estado volver cliente</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Attached_Documentation_Field</fullName>
+        <field>Attached_documentation__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Attached Documentation Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_DEV_Configurations_Field</fullName>
+        <field>DEV_Configurations__c</field>
+        <literalValue>0</literalValue>
+        <name>Update DEV Configurations Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Effort_Estimate_Approved</fullName>
+        <field>Effort_Estimate_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Effort Estimate Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Effort_Estimate_Rejected</fullName>
+        <field>Effort_Estimate_Submitted_for_Approval__c</field>
+        <literalValue>0</literalValue>
+        <name>Update Effort Estimate Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Effort_Estimate_send_approved</fullName>
+        <field>Effort_Estimate_Submitted_for_Approval__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Effort Estimate send approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Estimation_Approved_Date</fullName>
+        <field>Date_Estimation_Approved__c</field>
+        <formula>Now()</formula>
+        <name>Update Estimation Approved Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Finish_Development_Date</fullName>
+        <field>Date_Finish_Development__c</field>
+        <formula>Now()</formula>
+        <name>Update Finish Development Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_In_production_Field</fullName>
+        <field>In_Production__c</field>
+        <literalValue>0</literalValue>
+        <name>Update In production Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Key_User_Approved_Field</fullName>
+        <field>Key_User_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update Key User Approved Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Helpdesk_Admin</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Update Owner</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>Update Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_In_Progress</fullName>
+        <description>Status advances to In Progress</description>
+        <field>Status</field>
+        <literalValue>In Progress</literalValue>
+        <name>Update Status In Progress</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_On_Hold</fullName>
+        <field>Status</field>
+        <literalValue>On Hold</literalValue>
+        <name>Update Status On Hold</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Review</fullName>
+        <field>Status</field>
+        <literalValue>Review</literalValue>
+        <name>Update Status - Review</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Status_Validation</fullName>
+        <field>Status</field>
+        <literalValue>Validation</literalValue>
+        <name>Update Status Validation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Approval_Estimation</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Aprobación Estimación</literalValue>
+        <name>Update Sub Status Approval Estimation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Approval_Key_User</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En espera aprobación Key User</literalValue>
+        <name>Update Sub Status Approval Key User</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Approved_in_DEV</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Aprobado en DEV</literalValue>
+        <name>Update Sub Status Approved in DEV</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Canceled</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Cancelado</literalValue>
+        <name>Update Sub Status Canceled</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Closed_Completed</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Cierre completado</literalValue>
+        <name>Update Sub Status Closed Completed</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_DEV_Setting</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Configuraciones DEV</literalValue>
+        <name>Update Sub Status DEV Setting</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_In_Estimation</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En estimación</literalValue>
+        <name>Update Sub Status In Estimation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_UAT_Approved</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Aprobado UAT</literalValue>
+        <name>Update Sub Status UAT Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_UAT_Validation</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>Validación UAT</literalValue>
+        <name>Update Sub Status UAT Validation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_Waiting_Prioritization</fullName>
+        <field>Sub_estado__c</field>
+        <literalValue>En espera Priorización</literalValue>
+        <name>Update Sub Status Waiting Prioritization</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Sub_Status_for_Rejection</fullName>
+        <field>Sub_estado__c</field>
+        <name>Update Sub Status for Rejection</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_UAT_Configuration_Field</fullName>
+        <field>UAT_Configurations__c</field>
+        <literalValue>0</literalValue>
+        <name>Update UAT Configuration Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_User_Approved_Date</fullName>
+        <field>Date_User_Approved__c</field>
+        <formula>Now()</formula>
+        <name>Update User Approved Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_User_Approved_Field</fullName>
+        <field>User_Approved__c</field>
+        <literalValue>1</literalValue>
+        <name>Update User Approved Field</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_key_user_approval_date</fullName>
+        <field>Date_Key_User_Approved__c</field>
+        <formula>now()</formula>
+        <name>Update key user approval date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Validation_KU_a_Validation</fullName>
+        <description>Va del estado validation KU a Validation</description>
+        <field>Status</field>
+        <literalValue>Validation</literalValue>
+        <name>Validation KU a Validation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Validation_KU_a_Validation_C</fullName>
+        <description>Va del estado validation KU a Validation</description>
+        <field>Status</field>
+        <literalValue>Validation</literalValue>
+        <name>Validation KU a Validation</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>cierre_de_caso</fullName>
+        <field>Status</field>
+        <literalValue>Closed</literalValue>
+        <name>cierre de caso</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Envia correo al Crear Caso de la Comunidad</fullName>
+        <actions>
+            <name>Envio_de_Correo_al_Cliente_cuando_a_creado_el_caso_desde_la_comunidad</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Type</field>
+            <operation>equals</operation>
+            <value>Reclamo,Requerimiento,Otro</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Envio de Correo para Cierre de Caso Manual</fullName>
+        <actions>
+            <name>Correo_para_Cierre_de_Caso_Manual</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Improvements_Accesess Major</fullName>
+        <actions>
+            <name>Actualiza_prioridad_de_Improv_y_Accesess</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Improvements,Accesses</value>
+        </criteriaItems>
+        <description>Asigna la prioridad Major a los casos de helpdesk de Improvements y Accesess</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Incidencias Criticas</fullName>
+        <actions>
+            <name>Actualiza_prioridad_de_incidents</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Incidents</value>
+        </criteriaItems>
+        <description>Asigna la prioridad Critical a los casos de helpdesk de incidencias</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Tarea para cuando el Caso se Cierra 1%2E1</fullName>
+        <actions>
+            <name>Tarea_de_Seguimiento_1</name>
+            <type>Task</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Sub_estado__c</field>
+            <operation>equals</operation>
+            <value>Cerrado con Seguimiento</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>qap y other Minor</fullName>
+        <actions>
+            <name>Actualiza_prioridad_de_QAP_y_Others</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Helpdesk</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Other,Questions about process</value>
+        </criteriaItems>
+        <description>Actualiza la prioridad de los casos de QAP y Other</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>test</fullName>
+        <actions>
+            <name>test</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Case.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Sample Request</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Caso_Aprobado</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>El Caso que se encontraba en estado de Investigación fue APROBADO por favor continua su  gestión.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso Aprobado</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_Cerrado</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>El Caso que ha pasado 7 dias en el estado en respuesta a cliente a sido Cerrado.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso Cerrado</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_Rechazado</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>El Caso que se encontraba en estado de Investigación fue RECHAZADO.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso Rechazado</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_en_Cierre_Parcial_vencido</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Su caso en estado de Cierre Parcial esta vencido, por favor gestionelo para que complete su cierre adecuado.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso en Cierre Parcial vencido</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_en_Esperando_Respuesta_de_Cliente</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Su caso en estado de Esperando Respuesta de Cliente, por favor gestionelo antes de vencer.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso en Esperando Respuesta de Cliente</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_en_Informe_a_cliente_esta_proximo_a_vencer</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Su caso en estado de Informe a cliente esta proximo a vencer, por favor gestionelo.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso en Informe a cliente esta proximo a vencer</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_en_Investigaci_n_proximo_a_vencer</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Su caso en estado de investigación esta proximo a vencer, por favor gestionelo a tiempo.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso en Investigación proximo a vencer</subject>
+    </tasks>
+    <tasks>
+        <fullName>Caso_por_asignar_proximo_a_vencer</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Su caso esta estado por asignar, por favor asignelo antes de su vencimiento.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Caso por asignar proximo a vencer</subject>
+    </tasks>
+    <tasks>
+        <fullName>Tarea_de_Seguimiento_1</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>No olvides hacerle seguimiento a tu Caso</description>
+        <dueDateOffset>7</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Tarea de Seguimiento 1</subject>
+    </tasks>
+    <tasks>
+        <fullName>Tienes_Casos_Nuevos_por_Asignar</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Tienes casos Nuevos por asignar, recuerda hacerlo antes de su vencimiento.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Tienes Casos Nuevos por Asignar</subject>
+    </tasks>
+    <tasks>
+        <fullName>Tienes_Casos_vencidos_sin_asignaci_n</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>Tienes casos vencidos si asignar, recuerda gestionarlos para bajar el volumen de casos vencidos.</description>
+        <dueDateOffset>0</dueDateOffset>
+        <notifyAssignee>true</notifyAssignee>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Tienes Casos vencidos sin asignación</subject>
+    </tasks>
+</Workflow>

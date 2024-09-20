@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Budget</fullName>
+    <active>true</active>
+    <label>Budget</label>
+    <picklistValues>
+        <picklist>Transaction_State__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoiced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open Order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

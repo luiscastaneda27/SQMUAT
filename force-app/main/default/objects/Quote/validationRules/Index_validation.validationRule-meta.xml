@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Index_validation</fullName>
+    <active>true</active>
+    <description>Validación para descripción de ríndice cuando checkbox está activo</description>
+    <errorConditionFormula>AND( Index__c  = true, ISBLANK( Index_description__c ))</errorConditionFormula>
+    <errorDisplayField>Index_description__c</errorDisplayField>
+    <errorMessage>Please, complete the rebate description.</errorMessage>
+</ValidationRule>

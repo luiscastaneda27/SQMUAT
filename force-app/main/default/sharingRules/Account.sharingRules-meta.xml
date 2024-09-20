@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Colaboracion_Cuentas_2</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <label>Colaboración Cuentas 2</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>SQM_Comunidades</roleAndSubordinatesInternal>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Person Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingGuestRules>
+        <fullName>Colaboracion_Cuentas</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Para comunidad de servicio</description>
+        <label>Colaboración Cuentas</label>
+        <sharedTo>
+            <guestUser>Portal_SQM</guestUser>
+        </sharedTo>
+        <booleanFilter>1 OR 2</booleanFilter>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Person Account</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Comunidad</value>
+        </criteriaItems>
+        <includeHVUOwnedRecords>false</includeHVUOwnedRecords>
+    </sharingGuestRules>
+    <sharingOwnerRules>
+        <fullName>Cchen</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Cchen Profile can see all accounts to check and approve documentation</description>
+        <label>Cchen</label>
+        <sharedTo>
+            <role>Cchen_Manager_Lithium</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Vice_President_Lithium</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jefe_comunidad_comparte_con_l_der_de_comunidad</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Las cuentas de Jefe comunidad Pampa y subordinados se comparten con el rol del líder de comunidad y encargado de comunidad pampa, en modo lectura.</description>
+        <label>Jefe comunidad comparte con líder de comunidad</label>
+        <sharedTo>
+            <role>Lider_de_Comunidad_Pampa</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Jefe_de_Comunidad_Pampa</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jefe_comunidad_salar_u_subordinados_comparte_cuentas_con_Encargado_comunidad_sal</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Cuentas de Jefe comunidad Salar y subordinados se comparten con Rol Encargado comunidad salar, en modo lectura.</description>
+        <label>Jefe comunidad salar u subordinados comparte cuentas con Encargado comunidad sal</label>
+        <sharedTo>
+            <role>Encargado_de_Comunidad_Salar</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Jefe_de_Comunidad_Salar</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jefe_comunidad_salar_y_subordinados_comparte_cuentas_con_l_der_comunidad_salar</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Cuentas de Jefe comunidad salar y subordinados se comparten con Rol Líder comunidad salar, en modo lectura.</description>
+        <label>Jefe comunidad salar y subordinados comparte cuentas con líder comunidad salar</label>
+        <sharedTo>
+            <role>Lider_de_Comunidad_Salar</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Jefe_de_Comunidad_Salar</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jefe_de_comunidad_comparte_cuentas_con_encargado_comunidad_pampa</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>None</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>Cuentas de jefe de comunidad pampa y subordinados se comparten con rol encargado de comunidad pampa en modo lectura.</description>
+        <label>Jefe de comunidad comparte cuentas con encargado comunidad pampa</label>
+        <sharedTo>
+            <role>Encargado_de_Comunidad_Pampa</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Jefe_de_Comunidad_Pampa</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Jose_accounts_access</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <label>Jose accounts access</label>
+        <sharedTo>
+            <group>Jose_Errazuriz</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Vice_President_Lithium</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>SC_EMEAI_and_DIRECTOR_EMEAI_AMARICAS_LITHIUM</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Read</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Read</opportunityAccessLevel>
+        </accountSettings>
+        <description>The rule allows sharing the Pieter&apos;s account with Sales Coordinator. That happens because the Director has account as Sales Managers.</description>
+        <label>SC EMEAI and DIRECTOR EMEAI - AMARICAS LITHIUM</label>
+        <sharedTo>
+            <role>SC_EMEAI_Lithium</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>Director_EMEAI_Americas_Lithium</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_Account_with_Quality_Lithium_Team</fullName>
+        <accessLevel>Read</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Read</contactAccessLevel>
+            <opportunityAccessLevel>None</opportunityAccessLevel>
+        </accountSettings>
+        <description>The Cases are associated to accounts, so Quality Team need access to accounts and solve the cases.</description>
+        <label>Share Account with Quality Lithium Team</label>
+        <sharedTo>
+            <roleAndSubordinatesInternal>Quality</roleAndSubordinatesInternal>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BI_Lithium</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sharing_Account_with_group_China</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Sharing rule Account, which gives access to Contracts, Opp and Cases owned by Sales Manager</description>
+        <label>Sharing Account with group China</label>
+        <sharedTo>
+            <group>S_M_Assistant_China</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>SM_China_Lithium</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sharing_Account_with_group_Japon</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Sharing rule Account, which gives access to Contracts, Opp and Cases owned by Sales Manager</description>
+        <label>Sharing Account with group Japon</label>
+        <sharedTo>
+            <group>SM_Assistant_Japon</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>SM_Japan_Lithium</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Sharing_Account_with_group_Korea</fullName>
+        <accessLevel>Edit</accessLevel>
+        <accountSettings>
+            <caseAccessLevel>Edit</caseAccessLevel>
+            <contactAccessLevel>Edit</contactAccessLevel>
+            <opportunityAccessLevel>Edit</opportunityAccessLevel>
+        </accountSettings>
+        <description>Sharing rule Account, which gives access to Contracts, Opp and Cases owned by Sales Manager</description>
+        <label>Sharing Account with group Korea</label>
+        <sharedTo>
+            <group>SM_Assistant_Korea</group>
+        </sharedTo>
+        <sharedFrom>
+            <role>SM_Korea_Lithium</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

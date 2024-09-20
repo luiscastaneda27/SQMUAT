@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Territory --></label>
+    <name>Territory__c</name>
+    <picklistValues>
+        <masterLabel>REGION 1: NAFTA, EMEA, LATAM</masterLabel>
+        <translation><!-- REGION 1: NAFTA, EMEA, LATAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REGION 2: ASOC, JAPAN</masterLabel>
+        <translation><!-- REGION 2: ASOC, JAPAN --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REGION 3: INDIA</masterLabel>
+        <translation><!-- REGION 3: INDIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>REGION 4: CHINA</masterLabel>
+        <translation><!-- REGION 4: CHINA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

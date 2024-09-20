@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Quote_Lithium_created_by_Iodine_Team</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>This rule share Lithium quotes created by Iodine team with BI Lithium</description>
+        <label>Quote Lithium created by Iodine Team</label>
+        <sharedTo>
+            <role>BI_Lithium</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>Quality_Grade__c</field>
+            <operation>notEqual</operation>
+            <value>I2-82</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>true</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+</SharingRules>

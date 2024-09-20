@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sales_Lithium</fullName>
+    <booleanFilter>1 AND (2 or 3 or 4)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CORE.USERS.USERNAME</columns>
+    <columns>CORE.USER_ROLE.NAME</columns>
+    <columns>CORE.USERS.ACTIVE</columns>
+    <columns>CORE.PROFILE.NAME</columns>
+    <columns>CORE.USERS.EMAIL</columns>
+    <columns>CORE.USERS.DEPARTMENT</columns>
+    <columns>CORE.USERS.DIVISION</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.DEPARTMENT</field>
+        <operation>equals</operation>
+        <value>Sales Lithium</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.DEPARTMENT</field>
+        <operation>equals</operation>
+        <value>Contract Compliance CCHEN</value>
+    </filters>
+    <filters>
+        <field>CORE.USERS.DEPARTMENT</field>
+        <operation>equals</operation>
+        <value>Business Intellegence</value>
+    </filters>
+    <label>Sales Lithium</label>
+    <language>en_US</language>
+</ListView>

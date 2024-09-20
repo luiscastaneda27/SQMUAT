@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus_RDP_Completado</fullName>
+    <active>true</active>
+    <description>Regla de validación que impide pasar a Estatus RDP sin antes adjuntar el informe de investigación resultante de la RDP</description>
+    <errorConditionFormula>IF(
+				AND(
+								ISPICKVAL( Estatus_RDP__c, &quot;Completado&quot;),
+								Informe_investigacion_adjuntado__c = false
+								),
+				TRUE, FALSE)</errorConditionFormula>
+    <errorMessage>Debes adjuntar el informe resultante de la RDP bajo el formato indicado.</errorMessage>
+</ValidationRule>

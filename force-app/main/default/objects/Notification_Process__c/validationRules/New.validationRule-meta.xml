@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New</fullName>
+    <active>true</active>
+    <description>A new record only be created in a New status</description>
+    <errorConditionFormula>AND(
+ ISNEW(),
+ NOT( ISPICKVAL( Status__c , &apos;New&apos; ) )
+)</errorConditionFormula>
+    <errorMessage>When you are creating a new record, the only status allowed is New</errorMessage>
+</ValidationRule>

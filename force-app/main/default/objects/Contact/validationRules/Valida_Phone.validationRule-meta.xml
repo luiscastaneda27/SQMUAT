@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Valida_Phone</fullName>
+    <active>true</active>
+    <errorConditionFormula>NOT(ISBLANK(Phone)) &amp;&amp;
+LEFT(Phone, 1) &lt;&gt; &quot;+&quot;</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>The phone number must start with the &quot;+&quot; character</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HD4_Helpdesk_Modify_Closed_Case</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+AND(
+NOT(ISNEW()),
+RecordType.DeveloperName = &apos;Helpdesk&apos;,
+ISPICKVAL(PRIORVALUE(Status) , &apos;Closed&apos;)), true, false)</errorConditionFormula>
+    <errorMessage>It is not possible to modify a Closed Case. (HD4)</errorMessage>
+</ValidationRule>

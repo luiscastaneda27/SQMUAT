@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>Quality_Grade__c</field>
+        <formula>text(Opportunity.Quality_Grade__c)</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__Account__c</field>
+        <formula>Opportunity.AccountId</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>SBQQ__StartDate__c</field>
+        <formula>Opportunity.CloseDate</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>W2P_Factor__c</field>
+        <formula>Opportunity.Account.W2P_Factor__c</formula>
+    </fieldOverrides>
+    <label>New Quote</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__StartDate__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>SBQQ__Primary__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <targetObject>SBQQ__Quote__c</targetObject>
+    <targetParentField>SBQQ__Opportunity2__c</targetParentField>
+    <type>Create</type>
+</QuickAction>

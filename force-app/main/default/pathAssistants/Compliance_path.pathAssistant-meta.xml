@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <entityName>Account</entityName>
+    <fieldName>Compliance_Status__c</fieldName>
+    <masterLabel>Compliance path</masterLabel>
+    <pathAssistantSteps>
+        <fieldNames>Product__c</fieldNames>
+        <fieldNames>Application__c</fieldNames>
+        <fieldNames>Compliance_Approved_Product__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/li&gt;&lt;li&gt;Finally proceed to mark the stage as completed.&lt;/li&gt;&lt;li&gt;Remember to assign the quality engineer responsible for this case, otherwise you won&amp;#39;t be able to complete this stage.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Approval</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Name</fieldNames>
+        <fieldNames>TaxID__c</fieldNames>
+        <fieldNames>Phone</fieldNames>
+        <fieldNames>Product__c</fieldNames>
+        <fieldNames>ShippingAddress</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/li&gt;&lt;li&gt;Finally proceed to mark the stage as completed.  &lt;/li&gt;&lt;li&gt;Remember to assign the quality engineer responsible for this case, otherwise you won&amp;#39;t be able to complete this stage.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>New</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ol&gt;&lt;li&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/li&gt;&lt;li&gt;Finally proceed to mark the stage as completed.&lt;/li&gt;&lt;li&gt;Remember to assign the quality engineer responsible for this case, otherwise you won&amp;#39;t be able to complete this stage.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Rejected</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Product__c</fieldNames>
+        <fieldNames>Application__c</fieldNames>
+        <info>&lt;ol&gt;&lt;li&gt;To complete this stage of the process you must mark the status as completed in the MILESTONES box below.&lt;/li&gt;&lt;li&gt;Finally proceed to mark the stage as completed.&lt;/li&gt;&lt;li&gt;Remember to assign the quality engineer responsible for this case, otherwise you won&amp;#39;t be able to complete this stage.&lt;/li&gt;&lt;/ol&gt;</info>
+        <picklistValueName>Sent to approval</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

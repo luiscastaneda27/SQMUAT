@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCHEN</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISPICKVAL(StageName,&quot;Closed Won&quot;) &amp;&amp; 
+OR(Account.Validez_CCHEN__c  &lt; TODAY(),
+Account.Parent.Validez_CCHEN__c &lt; TODAY()) &amp;&amp; 
+OR(ISPICKVAL(Product__c, &quot;Lithium Carbonate&quot;),
+ISPICKVAL(Product__c, &quot;	Lithium Hydroxide&quot;))</errorConditionFormula>
+    <errorMessage>You cannot close an opportunity won if the client does not have their CCHEN documentation in force</errorMessage>
+</ValidationRule>

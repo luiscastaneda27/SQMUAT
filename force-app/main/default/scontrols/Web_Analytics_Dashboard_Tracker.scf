@@ -1,0 +1,69 @@
+<!-- 
+//Copyright (c) 2009, Mark Sivill, Sales Engineering, Salesforce.com Inc.
+//All rights reserved.
+//
+//Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+//Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+//Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+//Neither the name of the salesforce.com nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission. 
+//THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES,
+//INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+//DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, 
+//SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; 
+//LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN 
+//CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, 
+//EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+//
+// History
+//
+// Version	Date			Author			Comments
+// 1.0		31-07-2009		Mark Sivill		Initial version
+//
+//
+-->
+<html>
+<head>
+<title>
+Web Analytics Dashboard Tracker S-control
+</title>
+</head>
+<body bgcolor="#F3F3EC">
+<p>Tracking</p>
+<div id="debugText"></div>
+
+<script type="text/javascript">
+  var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+  document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+<script type="text/javascript">
+
+// (un)comment out following lines to remove/add debug to screen
+//
+// debug statements start
+//
+var text1 = document.createElement("P");
+text1.innerHTML = "Window URL - " + window.location.href;
+document.getElementById("debugText").appendChild(text1); 
+var text2 = document.createElement("P");
+text2.innerHTML = "Window Title - " + window.document.title;
+document.getElementById("debugText").appendChild(text2);
+var text3 = document.createElement("P");
+text3.innerHTML = "Top Window URL - " + window.top.location.href;
+document.getElementById("debugText").appendChild(text3);
+var text4 = document.createElement("P");
+text4.innerHTML = "Top Window URL - " + window.top.document.title;
+document.getElementById("debugText").appendChild(text4);
+//
+// debug statements end
+//
+
+// Google tracking code
+var pageTracker = _gat._getTracker("UA-XXXXXX-X");
+document.title = window.top.document.title + " (S-control Dashboard Tracker)";
+pageTracker._trackPageview( window.top.location.pathname  + window.top.location.hash  + window.top.location.search);
+
+</script>
+</body>
+</html>

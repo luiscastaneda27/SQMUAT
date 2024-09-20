@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>OP_de_Rol_BI_Lithium_y_subordinados_se_comparten_con_Rol_cchen_Manager</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Oportunidades de Rol BI Lithium y subordinados con rol Cchen Manager (nueva jerarquía)</description>
+        <label>OP de Rol BI Lithium y subordinados se comparten con Rol cchen Manager</label>
+        <sharedTo>
+            <role>Cchen_Manager_Lithium</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>BI_Lithium</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

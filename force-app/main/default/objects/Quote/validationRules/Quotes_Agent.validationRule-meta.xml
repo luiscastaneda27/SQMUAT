@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quotes_Agent</fullName>
+    <active>true</active>
+    <errorConditionFormula>Agent__c = true &amp;&amp; 
+ISBLANK( Agente__r.Id )</errorConditionFormula>
+    <errorMessage>You must select a Sales Agent.</errorMessage>
+</ValidationRule>

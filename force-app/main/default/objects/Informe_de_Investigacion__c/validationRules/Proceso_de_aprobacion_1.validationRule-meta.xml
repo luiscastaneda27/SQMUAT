@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proceso_de_aprobacion_1</fullName>
+    <active>true</active>
+    <errorConditionFormula>IF(
+				AND(
+								ISBLANK(TEXT(Estatus_Revision_1__c)),
+								ISPICKVAL( Etapa__c, &quot;1ra Revisión&quot;)
+								),
+				TRUE, FALSE
+				)</errorConditionFormula>
+    <errorMessage>No puedes avanzar manualmente hacia la etapa 1ra revisión, debes enviar a aprobación la investigación.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Salesforce Team --></label>
+    <name>Salesforce_Team__c</name>
+    <picklistValues>
+        <masterLabel>Administrator</masterLabel>
+        <translation><!-- Administrator --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial Planning</masterLabel>
+        <translation><!-- Commercial Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commnunity</masterLabel>
+        <translation><!-- Commnunity --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>External Community</masterLabel>
+        <translation><!-- External Community --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales - Iodine</masterLabel>
+        <translation><!-- Sales - Iodine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales - Lithium</masterLabel>
+        <translation><!-- Sales - Lithium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales - Pricing</masterLabel>
+        <translation><!-- Sales - Pricing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service - Iodine</masterLabel>
+        <translation><!-- Service - Iodine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service - Lithium</masterLabel>
+        <translation><!-- Service - Lithium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TBD</masterLabel>
+        <translation><!-- TBD --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technology</masterLabel>
+        <translation><!-- Technology --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

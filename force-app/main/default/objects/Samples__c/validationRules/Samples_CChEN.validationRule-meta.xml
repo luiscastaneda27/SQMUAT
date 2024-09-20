@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Samples_CChEN</fullName>
+    <active>true</active>
+    <errorConditionFormula>Quote__r.Opportunity.Account.CChEN_Valido__c = FALSE</errorConditionFormula>
+    <errorMessage>You cannot send samples to a customer without updated CChEN documentation</errorMessage>
+</ValidationRule>

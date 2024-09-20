@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation>Distribuidor</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Intercompany</masterLabel>
+        <translation>Intercompañía</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Relate Customer</masterLabel>
+        <translation>Cliente Relacionado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Third Parties</masterLabel>
+        <translation>Terceras Partes</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

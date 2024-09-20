@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_ReclamoCalidadExterno_Closed2</fullName>
+    <active>true</active>
+    <description>Alerta para casos de calidad Externos en etapa &quot;Cerrado&quot; que los siguientes campos vacíos:</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Reclamos_Calidad&quot;,
+ISPICKVAL(Status, &quot;Closed&quot;),
+ISBLANK(Transaction__c)
+)</errorConditionFormula>
+    <errorMessage>Before closing the Case you must complete the Transaction field</errorMessage>
+</ValidationRule>

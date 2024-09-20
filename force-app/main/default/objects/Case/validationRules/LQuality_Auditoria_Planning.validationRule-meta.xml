@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_Auditoria_Planning</fullName>
+    <active>true</active>
+    <description>Alerta para los casos tipo Auditoría de cliente que este en etapa Planning que tengan en blanco el campo ingeniero de calidad.</description>
+    <errorConditionFormula>RecordType.DeveloperName = &quot;Auditoria_de_Cliente&quot; &amp;&amp;
+ISPICKVAL(Status, &quot;Planning&quot;) &amp;&amp;
+ISBLANK(Ingeniero_de_Calidad__c)</errorConditionFormula>
+    <errorDisplayField>Ingeniero_de_Calidad__c</errorDisplayField>
+    <errorMessage>No puedes comenzar la planificación sin la asignación del Ingeniero de Calidad responsable.</errorMessage>
+</ValidationRule>

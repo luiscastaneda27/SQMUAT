@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sample_Request4_Prepare_Subsid_Delivery</fullName>
+    <active>true</active>
+    <description>Complete Validate Samples, Prepare Documents, International Courier, Delivery Date Filial and Tracking Number Filial.</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Sample_Request&quot;,
+ISPICKVAL(Status,&quot;In_transit_to_Subsidiary&quot;),
+OR(Validate_Samples__c =false,Prepare_Documents__c =false,ISBLANK(Tracking_Number_Filial__c),
+ISBLANK(International_Courier__c),ISBLANK( Delivery_Date_Filial__c ))
+  )</errorConditionFormula>
+    <errorMessage>Please complete next fields before to continue: Validate Samples, Prepare Documents, International Courier, Delivery Date Filial and Tracking Number Filial.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Usuarios_activos_sin_comunidad_ext</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND 5</booleanFilter>
+    <columns>Salesforce_Team__c</columns>
+    <columns>CORE.USER_ROLE.NAME</columns>
+    <columns>CORE.PROFILE.NAME</columns>
+    <columns>FULL_NAME</columns>
+    <columns>CORE.USERS.USERNAME</columns>
+    <columns>CORE.USERS.EMAIL</columns>
+    <columns>CORE.USERS.ACTIVE</columns>
+    <columns>CORE.USERS.DIVISION</columns>
+    <columns>CORE.USERS.DEPARTMENT</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ACTIVE</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notEqual</operation>
+        <value>SQM Comunidad</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notEqual</operation>
+        <value>System Administrator</value>
+    </filters>
+    <filters>
+        <field>Salesforce_Team__c</field>
+        <operation>notEqual</operation>
+        <value>TBD</value>
+    </filters>
+    <filters>
+        <field>CORE.PROFILE.NAME</field>
+        <operation>notEqual</operation>
+        <value>Sales Insights Integration User</value>
+    </filters>
+    <label>Usuarios activos_excCmunidad</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Admin</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LQuality_ReclamoCalidadExterno_PartialCl</fullName>
+    <active>true</active>
+    <description>Alerta para reclamos de calidad externo, que pasa a etapa de Cierre Parcial con alguno de los siguientes campos incompletos: Declaro envio de informe a Cliente, Informe a cliente adjunto o Documento aprobado,</description>
+    <errorConditionFormula>AND(RecordType.DeveloperName = &quot;Reclamos_Calidad&quot;,
+ISPICKVAL(Status, &quot;Partial closure&quot;),
+OR(
+Declaro_envio_informe_a_Cliente__c = FALSE,
+Informe_a_Cliente_Adjunto__c = FALSE,
+Documento_Aprobado__c = false)
+)</errorConditionFormula>
+    <errorMessage>Antes de ir a la etapa &quot;Cierre Parcial&quot; el reporte de investigación debe estar aprobado, debes &quot;Enviar el Informe al Cliente&quot; y adjuntarlo al Caso. Para las dos últimas acciones, es necesario marcar los checkboxes correspondientes.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comunidad_CamposJuridica</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+   RecordType.DeveloperName = &apos;Comunidad&apos;,
+   ISPICKVAL(Tipo_de_persona__c,&apos;Jurídica&apos;),
+   OR(
+      ISBLANK(Razon_Social__c),
+      ISBLANK(RUT_o_DNI__c),
+      ISBLANK(Representante_legal__c)
+   )
+)</errorConditionFormula>
+    <errorMessage>Debe ingresar los datos de persona jurídica (razón social, RUT o DNI, representante legal)</errorMessage>
+</ValidationRule>

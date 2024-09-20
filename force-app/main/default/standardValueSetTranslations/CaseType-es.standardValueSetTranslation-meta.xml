@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Chemical</masterLabel>
+        <translation>Químico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Otro</masterLabel>
+        <translation><!-- Otro --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Package</masterLabel>
+        <translation>Envases</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Physical</masterLabel>
+        <translation>Físico</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Reclamo</masterLabel>
+        <translation><!-- Reclamo --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Requerimiento</masterLabel>
+        <translation><!-- Requerimiento --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Service</masterLabel>
+        <translation>Servicio</translation>
+    </valueTranslation>
+</StandardValueSetTranslation>

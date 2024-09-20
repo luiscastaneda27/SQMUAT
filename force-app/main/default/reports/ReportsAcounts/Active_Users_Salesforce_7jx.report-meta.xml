@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_89722731</developerName>
+        <masterLabel>Proyect</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <sourceColumnName>ROLE</sourceColumnName>
+        <useOther>false</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Director ASIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Director ASIA Japón</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Director EMEA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Director NAFTA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator China</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator Europa Occidental</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator Japón</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator Mexico y LATAM</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator NA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Coordinator Oriente Medio</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager África</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager China</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager Europa Occidental</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager Japón</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager Korea</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager NA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Sales Manager Oriente Medio</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Senior Director ASIA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Senior Director NAFTA &amp; EMEA</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Vice President</sourceValue>
+            </sourceValues>
+            <value>Sales</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Encargado de Comunidad Pampa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jefe de Comunidad Pampa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jefe de Comunidad Salar</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Líder de Comunidad Pampa</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Líder de Comunidad Salar</sourceValue>
+            </sourceValues>
+            <value>Comunidades</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Ingeniero de Calidad</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Investigador</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jefe Gestión de Calidad</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Product Manager</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Product Manager Director</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Quality Manager</sourceValue>
+            </sourceValues>
+            <value>Service</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Administrador del Sistema</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>CCheN Manager</sourceValue>
+            </sourceValues>
+            <value>Sales+</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>CREATED_DATE</field>
+    </columns>
+    <columns>
+        <field>FIRST_NAME</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>USERNAME</field>
+    </columns>
+    <columns>
+        <field>ROLE</field>
+    </columns>
+    <columns>
+        <field>PROFILE</field>
+    </columns>
+    <columns>
+        <field>ALIAS</field>
+    </columns>
+    <columns>
+        <field>ACTIVE</field>
+    </columns>
+    <columns>
+        <field>LAST_LOGIN</field>
+    </columns>
+    <currency>USD</currency>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>User.Salesforce_Team__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Active Users Salesforce</name>
+    <params>
+        <name>active</name>
+        <value>active</value>
+    </params>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>User</reportType>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>CREATED_DATE</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>LAST_LOGIN</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>
