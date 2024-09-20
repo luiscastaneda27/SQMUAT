@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Risks</label>
+    <name>Riesgos__c</name>
+    <picklistValues>
+        <masterLabel>Agua</masterLabel>
+        <translation><!-- Agua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Beneficios Sociales y Comunitarios</masterLabel>
+        <translation><!-- Beneficios Sociales y Comunitarios --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Comunicación con Comunidades y Grupos de Interés</masterLabel>
+        <translation><!-- Comunicación con Comunidades y Grupos de Interés --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contribuciones</masterLabel>
+        <translation><!-- Contribuciones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Creación de Empleo de Desarrollo de Habilidades</masterLabel>
+        <translation><!-- Creación de Empleo de Desarrollo de Habilidades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Preservación del Medioambiente</masterLabel>
+        <translation><!-- Preservación del Medioambiente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Riesgos de la Operación o Accidentes</masterLabel>
+        <translation><!-- Riesgos de la Operación o Accidentes --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Ingresa tu teléfono de contacto, para Chile use el formato 87654321 --></help>
+    <label><!-- Teléfono móvil --></label>
+    <name>Telefono_movil__c</name>
+</CustomFieldTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Notification Group</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notification Groups</value>
+    </caseValues>
+    <layouts>
+        <layout>Notification Group Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Select Accounts to Notify --></label>
+        <name>Select_Accounts_to_Notify</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send All Notifications --></label>
+        <name>Send_All_Notifications</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Send Second Email --></label>
+        <name>Send_Second_Email</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Salesforce Role User --></label>
+    <name>Salesforce_Rol_User__c</name>
+    <picklistValues>
+        <masterLabel>BI</masterLabel>
+        <translation><!-- BI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CCheN Manager</masterLabel>
+        <translation><!-- CCheN Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Commercial Planning</masterLabel>
+        <translation><!-- Commercial Planning --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director ASIA</masterLabel>
+        <translation><!-- Director ASIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director ASIA Japón</masterLabel>
+        <translation><!-- Director ASIA Japón --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director EMEA</masterLabel>
+        <translation><!-- Director EMEA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Director NAFTA</masterLabel>
+        <translation><!-- Director NAFTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Encargado de Comunidad Pampa</masterLabel>
+        <translation><!-- Encargado de Comunidad Pampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Encargado de Comunidad Salar</masterLabel>
+        <translation><!-- Encargado de Comunidad Salar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gerente Comunidades</masterLabel>
+        <translation><!-- Gerente Comunidades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ingeniero de Calidad</masterLabel>
+        <translation><!-- Ingeniero de Calidad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Investigador</masterLabel>
+        <translation><!-- Investigador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jefe Gestión de Calidad</masterLabel>
+        <translation><!-- Jefe Gestión de Calidad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jefe de Comunidad Pampa</masterLabel>
+        <translation><!-- Jefe de Comunidad Pampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Jefe de Comunidad Salar</masterLabel>
+        <translation><!-- Jefe de Comunidad Salar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Líder de Comunidad Pampa</masterLabel>
+        <translation><!-- Líder de Comunidad Pampa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Líder de Comunidad Salar</masterLabel>
+        <translation><!-- Líder de Comunidad Salar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Manager</masterLabel>
+        <translation><!-- Product Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Manager Director</masterLabel>
+        <translation><!-- Product Manager Director --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality Manager</masterLabel>
+        <translation><!-- Quality Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM Chief Executive Officer</masterLabel>
+        <translation><!-- SQM Chief Executive Officer --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM Comunidades</masterLabel>
+        <translation><!-- SQM Comunidades --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM Quality</masterLabel>
+        <translation><!-- SQM Quality --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator China</masterLabel>
+        <translation><!-- Sales Coordinator China --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator Europa Occidental</masterLabel>
+        <translation><!-- Sales Coordinator Europa Occidental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator Japón</masterLabel>
+        <translation><!-- Sales Coordinator Japón --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator Korea</masterLabel>
+        <translation><!-- Sales Coordinator Korea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator Mexico y LATAM</masterLabel>
+        <translation><!-- Sales Coordinator Mexico y LATAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator NA</masterLabel>
+        <translation><!-- Sales Coordinator NA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator Oriente Medio</masterLabel>
+        <translation><!-- Sales Coordinator Oriente Medio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Coordinator África</masterLabel>
+        <translation><!-- Sales Coordinator África --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager China</masterLabel>
+        <translation><!-- Sales Manager China --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager Europa Occidental</masterLabel>
+        <translation><!-- Sales Manager Europa Occidental --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager Japón</masterLabel>
+        <translation><!-- Sales Manager Japón --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager Korea</masterLabel>
+        <translation><!-- Sales Manager Korea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager Mexico y LATAM</masterLabel>
+        <translation><!-- Sales Manager Mexico y LATAM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager NA</masterLabel>
+        <translation><!-- Sales Manager NA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager Oriente Medio</masterLabel>
+        <translation><!-- Sales Manager Oriente Medio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Manager África</masterLabel>
+        <translation><!-- Sales Manager África --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Director ASIA</masterLabel>
+        <translation><!-- Senior Director ASIA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Director NAFTA &amp; EMEA</masterLabel>
+        <translation><!-- Senior Director NAFTA &amp; EMEA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Senior Quality Manager</masterLabel>
+        <translation><!-- Senior Quality Manager --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Commercial Director Lithium</masterLabel>
+        <translation><!-- Technical Commercial Director Lithium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Technical Commercial Manager Lithium</masterLabel>
+        <translation><!-- Technical Commercial Manager Lithium --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vice President</masterLabel>
+        <translation><!-- Vice President --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

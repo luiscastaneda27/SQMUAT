@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Stage</label>
+    <name>Etapa__c</name>
+    <picklistValues>
+        <masterLabel>1ra Revisión</masterLabel>
+        <translation>First Revision</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>2da Revisión</masterLabel>
+        <translation>Second Revision</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aceptado</masterLabel>
+        <translation>Accepted</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Generación de informe</masterLabel>
+        <translation>Report generation</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insuficiente</masterLabel>
+        <translation>Insufficient</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Nuevo</masterLabel>
+        <translation>New</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RDP</masterLabel>
+        <translation>RDP</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rechazado</masterLabel>
+        <translation>Rejected</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Revisión de información</masterLabel>
+        <translation>Information review</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validación RDP</masterLabel>
+        <translation>RDP Validation</translation>
+    </picklistValues>
+</CustomFieldTranslation>

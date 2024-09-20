@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Derrame en mar, río o ecosistema --></label>
+    <name>Derrame_en_mar_rio_o_ecosistema__c</name>
+</CustomFieldTranslation>

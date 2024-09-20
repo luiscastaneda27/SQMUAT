@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Oficina comercial</label>
+    <name>Commercial_Office__c</name>
+    <picklistValues>
+        <masterLabel>SQM-E</masterLabel>
+        <translation><!-- SQM-E --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-HQ</masterLabel>
+        <translation><!-- SQM-HQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-I</masterLabel>
+        <translation><!-- SQM-I --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-JP</masterLabel>
+        <translation><!-- SQM-JP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-KOR</masterLabel>
+        <translation><!-- SQM-KOR --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-MX</masterLabel>
+        <translation><!-- SQM-MX --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-NA</masterLabel>
+        <translation><!-- SQM-NA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-SH</masterLabel>
+        <translation><!-- SQM-SH --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM-ZA</masterLabel>
+        <translation><!-- SQM-ZA --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

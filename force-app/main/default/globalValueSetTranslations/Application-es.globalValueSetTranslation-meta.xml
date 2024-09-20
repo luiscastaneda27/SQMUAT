@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Air conditioning</masterLabel>
+        <translation>Aire Acondicionado</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Battery Materials</masterLabel>
+        <translation>Materiales de Batería</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Biocides</masterLabel>
+        <translation>Biocidas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>CC Powder</masterLabel>
+        <translation>CC Polvo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Cement / Adhesive</masterLabel>
+        <translation>Cemento /Adhesivo</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Chemicals</masterLabel>
+        <translation>Químicos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Colorant</masterLabel>
+        <translation>Colorante</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Distributor</masterLabel>
+        <translation><!-- Distributor --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fatty Acids</masterLabel>
+        <translation><!-- Fatty Acids --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Fluorochemicals</masterLabel>
+        <translation><!-- Fluorochemicals --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Frits &amp; Enamels</masterLabel>
+        <translation>Fritas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Glass</masterLabel>
+        <translation>Vidrio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Greases</masterLabel>
+        <translation>Grasas</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>I2 Derivatives</masterLabel>
+        <translation>I2 Derivados</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Iodophors</masterLabel>
+        <translation>Yodoforos</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lithium Derivatives</masterLabel>
+        <translation>Derivados de Litio</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lithium Metal</masterLabel>
+        <translation><!-- Lithium Metal --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Metallurgy</masterLabel>
+        <translation>Metalurgia</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Optical Polarizing Film</masterLabel>
+        <translation><!-- Optical Polarizing Film --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Others</masterLabel>
+        <translation>Otros</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>PVPI</masterLabel>
+        <translation><!-- PVPI --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Pharmaceutical</masterLabel>
+        <translation><!-- Pharmaceutical --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Toller</masterLabel>
+        <translation><!-- Toller --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Welding Rods</masterLabel>
+        <translation><!-- Welding Rods --></translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>XR Contrast Media</masterLabel>
+        <translation><!-- XR Contrast Media --></translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

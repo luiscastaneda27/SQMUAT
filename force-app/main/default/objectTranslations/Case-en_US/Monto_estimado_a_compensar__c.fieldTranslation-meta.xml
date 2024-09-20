@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Estimated amount to compensate</label>
+    <name>Monto_estimado_a_compensar__c</name>
+</CustomFieldTranslation>

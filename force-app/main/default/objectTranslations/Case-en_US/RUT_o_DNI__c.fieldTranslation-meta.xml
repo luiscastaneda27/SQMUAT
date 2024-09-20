@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>ENter your company&apos;s ID or taxpayer number. For Chile, use the following format: 12345678-9, with a dash and no periods</help>
+    <label>ID</label>
+    <name>RUT_o_DNI__c</name>
+</CustomFieldTranslation>

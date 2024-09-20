@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Air conditioning</fullName>
+        <default>false</default>
+        <label>Air conditioning</label>
+    </customValue>
+    <customValue>
+        <fullName>Battery Materials</fullName>
+        <default>false</default>
+        <label>Battery Materials</label>
+    </customValue>
+    <customValue>
+        <fullName>CC Powder</fullName>
+        <default>false</default>
+        <label>CC Powder</label>
+    </customValue>
+    <customValue>
+        <fullName>Cement / Adhesive</fullName>
+        <default>false</default>
+        <label>Cement / Adhesive</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemicals</fullName>
+        <default>false</default>
+        <label>Chemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>Distributor</fullName>
+        <default>false</default>
+        <label>Distributor</label>
+    </customValue>
+    <customValue>
+        <fullName>Colorant</fullName>
+        <default>false</default>
+        <label>Colorant</label>
+    </customValue>
+    <customValue>
+        <fullName>Fatty Acids</fullName>
+        <default>false</default>
+        <label>Fatty Acids</label>
+    </customValue>
+    <customValue>
+        <fullName>Frits &amp; Enamels</fullName>
+        <default>false</default>
+        <label>Frits &amp; Enamels</label>
+    </customValue>
+    <customValue>
+        <fullName>Glass</fullName>
+        <default>false</default>
+        <label>Glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Greases</fullName>
+        <default>false</default>
+        <label>Greases</label>
+    </customValue>
+    <customValue>
+        <fullName>Lithium Derivatives</fullName>
+        <default>false</default>
+        <label>Lithium Derivatives</label>
+    </customValue>
+    <customValue>
+        <fullName>Lithium Metal</fullName>
+        <default>false</default>
+        <label>Lithium Metal</label>
+    </customValue>
+    <customValue>
+        <fullName>Metallurgy</fullName>
+        <default>false</default>
+        <label>Metallurgy</label>
+    </customValue>
+    <customValue>
+        <fullName>Toller</fullName>
+        <default>false</default>
+        <label>Toller</label>
+    </customValue>
+    <customValue>
+        <fullName>Welding Rods</fullName>
+        <default>false</default>
+        <label>Welding Rods</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharmaceutical</fullName>
+        <default>false</default>
+        <label>Pharmaceutical</label>
+    </customValue>
+    <customValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </customValue>
+    <customValue>
+        <fullName>Biocides</fullName>
+        <default>false</default>
+        <label>Biocides</label>
+    </customValue>
+    <customValue>
+        <fullName>Fluorochemicals</fullName>
+        <default>false</default>
+        <label>Fluorochemicals</label>
+    </customValue>
+    <customValue>
+        <fullName>Iodophors</fullName>
+        <default>false</default>
+        <label>Iodophors</label>
+    </customValue>
+    <customValue>
+        <fullName>Optical Polarizing Film</fullName>
+        <default>false</default>
+        <label>Optical Polarizing Film</label>
+    </customValue>
+    <customValue>
+        <fullName>PVPI</fullName>
+        <default>false</default>
+        <label>PVPI</label>
+    </customValue>
+    <customValue>
+        <fullName>XR Contrast Media</fullName>
+        <default>false</default>
+        <label>XR Contrast Media</label>
+    </customValue>
+    <customValue>
+        <fullName>I2 Derivatives</fullName>
+        <default>false</default>
+        <label>I2 Derivatives</label>
+    </customValue>
+    <customValue>
+        <fullName>Tempered glass</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Tempered glass</label>
+    </customValue>
+    <customValue>
+        <fullName>Povidone Iodized</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Povidone Iodine</label>
+    </customValue>
+    <customValue>
+        <fullName>Pharma</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Pharma</label>
+    </customValue>
+    <customValue>
+        <fullName>X-rays contrast media</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>X-rays contrast media</label>
+    </customValue>
+    <customValue>
+        <fullName>LCD polarizing film</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>LCD polarizing film</label>
+    </customValue>
+    <customValue>
+        <fullName>Distribution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Distribution</label>
+    </customValue>
+    <customValue>
+        <fullName>Chemical products</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Chemical products</label>
+    </customValue>
+    <masterLabel>Application</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

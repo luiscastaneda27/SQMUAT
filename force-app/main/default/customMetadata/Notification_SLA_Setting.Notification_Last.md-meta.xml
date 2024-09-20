@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Notification Last</label>
+    <protected>false</protected>
+    <values>
+        <field>Notification_Body__c</field>
+        <value xsi:type="xsd:string">%USER%,
+An SLA is getting the expected date %EXPECTED%.
+To review the data realted to SLA, please visit:
+https://crm-sqm--devdt.sandbox.lightning.force.com/%RECORD%
+
+Greetings.
+SQM</value>
+    </values>
+    <values>
+        <field>Notification_Days__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Notification_Template__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Notification_Title__c</field>
+        <value xsi:type="xsd:string">An SLA is getting the end date</value>
+    </values>
+    <values>
+        <field>Notification_Type__c</field>
+        <value xsi:type="xsd:string">Email</value>
+    </values>
+</CustomMetadata>

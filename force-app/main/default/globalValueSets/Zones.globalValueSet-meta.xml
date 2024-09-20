@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>China North</fullName>
+        <default>false</default>
+        <label>China North</label>
+    </customValue>
+    <customValue>
+        <fullName>China East</fullName>
+        <default>false</default>
+        <label>China East</label>
+    </customValue>
+    <customValue>
+        <fullName>China South</fullName>
+        <default>false</default>
+        <label>China South</label>
+    </customValue>
+    <customValue>
+        <fullName>China West</fullName>
+        <default>false</default>
+        <label>China West</label>
+    </customValue>
+    <customValue>
+        <fullName>NAFTA 1</fullName>
+        <default>false</default>
+        <label>NAFTA 1</label>
+    </customValue>
+    <customValue>
+        <fullName>NAFTA 2</fullName>
+        <default>false</default>
+        <label>NAFTA 2</label>
+    </customValue>
+    <customValue>
+        <fullName>NAFTA 3</fullName>
+        <default>false</default>
+        <label>NAFTA 3</label>
+    </customValue>
+    <customValue>
+        <fullName>NAFTA 4</fullName>
+        <default>false</default>
+        <label>NAFTA 4</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA 1</fullName>
+        <default>false</default>
+        <label>EMEA 1</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA 2</fullName>
+        <default>false</default>
+        <label>EMEA 2</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA 3</fullName>
+        <default>false</default>
+        <label>EMEA 3</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA 4</fullName>
+        <default>false</default>
+        <label>EMEA 4</label>
+    </customValue>
+    <customValue>
+        <fullName>EMEA 5</fullName>
+        <default>false</default>
+        <label>EMEA 5</label>
+    </customValue>
+    <customValue>
+        <fullName>APAC 1</fullName>
+        <default>false</default>
+        <label>APAC 1</label>
+    </customValue>
+    <customValue>
+        <fullName>APAC 2</fullName>
+        <default>false</default>
+        <label>APAC 2</label>
+    </customValue>
+    <customValue>
+        <fullName>APAC 3</fullName>
+        <default>false</default>
+        <label>APAC 3</label>
+    </customValue>
+    <customValue>
+        <fullName>APAC 4</fullName>
+        <default>false</default>
+        <label>APAC 4</label>
+    </customValue>
+    <customValue>
+        <fullName>India 1</fullName>
+        <default>false</default>
+        <label>India 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Russia 1</fullName>
+        <default>false</default>
+        <label>Russia 1</label>
+    </customValue>
+    <description>Zones which will be assigned to accounts and used to calculate CIP Adjustment</description>
+    <masterLabel>Zones</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

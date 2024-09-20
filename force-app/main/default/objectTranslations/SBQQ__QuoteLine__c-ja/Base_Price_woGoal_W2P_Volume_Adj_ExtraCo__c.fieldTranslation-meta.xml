@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Base_Price_woGoal_W2P_Volume_Adj_ExtraCo --></label>
+    <name>Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c</name>
+</CustomFieldTranslation>

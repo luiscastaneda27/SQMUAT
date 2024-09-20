@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de devolución</label>
+    <name>Motivo_de_devolucion__c</name>
+    <picklistValues>
+        <masterLabel>Información insuficiente</masterLabel>
+        <translation>Información insuficiente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Área no correspondida</masterLabel>
+        <translation>Área no correspondida</translation>
+    </picklistValues>
+</CustomFieldTranslation>

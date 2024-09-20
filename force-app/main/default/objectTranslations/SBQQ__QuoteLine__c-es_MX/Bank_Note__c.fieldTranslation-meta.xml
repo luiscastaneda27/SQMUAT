@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates if customer uses Bank Note for payment (will add spread to Interest Rate) --></help>
+    <label><!-- Bank Note --></label>
+    <name>Bank_Note__c</name>
+</CustomFieldTranslation>

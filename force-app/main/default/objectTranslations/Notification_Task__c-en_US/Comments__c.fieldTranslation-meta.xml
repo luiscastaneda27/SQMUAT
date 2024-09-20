@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Comments --></label>
+    <name>Comments__c</name>
+    <picklistValues>
+        <masterLabel>No Comments</masterLabel>
+        <translation><!-- No Comments --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Feedback after 20 days</masterLabel>
+        <translation><!-- No Feedback after 20 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With Comments</masterLabel>
+        <translation><!-- With Comments --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

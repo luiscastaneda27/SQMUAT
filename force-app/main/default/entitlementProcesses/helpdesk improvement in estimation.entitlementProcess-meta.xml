@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>Horario de Oficina SQM Chile</businessHours>
+    <description>Time it takes for the support team to estimate improvement</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.Status</field>
+        <operation>equals</operation>
+        <value>In Progress</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <businessHours>Horario de Oficina SQM Chile</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>On Hold</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Sub_estado__c</field>
+            <operation>equals</operation>
+            <value>En estimación, Aprobación Estimación, En espera Priorización</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Improvements</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Estimation</milestoneName>
+        <minutesToComplete>960</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

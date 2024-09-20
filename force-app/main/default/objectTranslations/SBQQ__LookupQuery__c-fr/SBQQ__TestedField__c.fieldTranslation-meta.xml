@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Champ du Devis, de la Ligne de devis ou de l&apos;Option de devis qui est évalué par cette requête. Requis si Type de correspondance = Valeur de champ.</help>
+    <label><!-- Tested Field --></label>
+    <name>SBQQ__TestedField__c</name>
+    <picklistValues>
+        <masterLabel>Cliente_Industry__c</masterLabel>
+        <translation><!-- Cliente_Industry__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Code_Index_Price__c</masterLabel>
+        <translation><!-- Code_Index_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created_Date__c</masterLabel>
+        <translation><!-- Created_Date__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created_Week__c</masterLabel>
+        <translation><!-- Created_Week__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Created_Year__c</masterLabel>
+        <translation><!-- Created_Year__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CurrencyIsoCode</masterLabel>
+        <translation><!-- CurrencyIsoCode --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry_Grade__c</masterLabel>
+        <translation><!-- Industry_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packaging__c</masterLabel>
+        <translation><!-- Packaging__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment_Term__c</masterLabel>
+        <translation><!-- Payment_Term__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Code produit</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product_Type__c</masterLabel>
+        <translation><!-- Product_Type__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality_Grade__c</masterLabel>
+        <translation><!-- Quality_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volume_for_Vol_Adjustment__c</masterLabel>
+        <translation><!-- Volume_for_Vol_Adjustment__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone__c</masterLabel>
+        <translation><!-- Zone__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

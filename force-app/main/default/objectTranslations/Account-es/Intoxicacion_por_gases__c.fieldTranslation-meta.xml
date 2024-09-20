@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- A trabajadores o externos --></help>
+    <label><!-- Intoxicación por gases --></label>
+    <name>Intoxicacion_por_gases__c</name>
+</CustomFieldTranslation>

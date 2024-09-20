@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>SQM Filial</fullName>
+        <default>false</default>
+        <label>SQM Filial</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Europe</fullName>
+        <default>false</default>
+        <label>SQM Europe</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM SA</fullName>
+        <default>false</default>
+        <label>SQM SA</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Industrial</fullName>
+        <default>false</default>
+        <label>SQM Industrial</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Salar</fullName>
+        <default>false</default>
+        <label>SQM Salar</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Ecuador</fullName>
+        <default>false</default>
+        <label>SQM Ecuador</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Europe N.V.</fullName>
+        <default>false</default>
+        <label>SQM Europe N.V.</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Iberian S.A</fullName>
+        <default>false</default>
+        <label>SQM Iberian S.A</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Europe Italian Branch (Old)</fullName>
+        <default>false</default>
+        <label>SQM Europe Italian Branch (Old)</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Africa (PTY) Ltda.</fullName>
+        <default>false</default>
+        <label>SQM Africa (PTY) Ltda.</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Mexico SA de CV</fullName>
+        <default>false</default>
+        <label>SQM Mexico SA de CV</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Iberian</fullName>
+        <default>false</default>
+        <label>SQM Iberian</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM International</fullName>
+        <default>false</default>
+        <label>SQM International</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Europe Italian Branch</fullName>
+        <default>false</default>
+        <label>SQM Europe Italian Branch</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM NA</fullName>
+        <default>false</default>
+        <label>SQM NA</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Shanghai</fullName>
+        <default>false</default>
+        <label>SQM Shanghai</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Ecuador SA</fullName>
+        <default>false</default>
+        <label>SQM Ecuador SA</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Colombia</fullName>
+        <default>false</default>
+        <label>SQM Colombia</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Holland B.V.</fullName>
+        <default>false</default>
+        <label>SQM Holland B.V.</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Latinoamerica</fullName>
+        <default>false</default>
+        <label>SQM Latinoamerica</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Mag SpA</fullName>
+        <default>false</default>
+        <label>SQM Mag SpA</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Korea</fullName>
+        <default>false</default>
+        <label>SQM Korea</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Thailand</fullName>
+        <default>false</default>
+        <label>SQM Thailand</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Chile</fullName>
+        <default>false</default>
+        <label>SQM Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Africa</fullName>
+        <default>false</default>
+        <label>SQM Africa</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM North America (Old)</fullName>
+        <default>false</default>
+        <label>SQM North America (Old)</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Mexico</fullName>
+        <default>false</default>
+        <label>SQM Mexico</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Comercial</fullName>
+        <default>false</default>
+        <label>SQM Comercial</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Beijing</fullName>
+        <default>false</default>
+        <label>SQM Beijing</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM Japan</fullName>
+        <default>false</default>
+        <label>SQM Japan</label>
+    </customValue>
+    <customValue>
+        <fullName>SQM HQ</fullName>
+        <default>false</default>
+        <label>SQM HQ</label>
+    </customValue>
+    <masterLabel>SQM Filial</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

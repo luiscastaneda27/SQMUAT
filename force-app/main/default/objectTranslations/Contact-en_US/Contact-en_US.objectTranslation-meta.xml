@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- default --></label>
+        <name>sortablegrid__default</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contact Layout 2022</layout>
+        <sections>
+            <label><!-- Contact behavior --></label>
+            <section>Contact behavior</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Contacto Comunidad --></label>
+        <name>Contacto_Comunidad</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>The phone number must begin with the &quot;+&quot; character</errorMessage>
+        <name>Valida_HomePhone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The phone number must begin with the &quot;+&quot; character</errorMessage>
+        <name>Valida_MobilePhone</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>The phone number must begin with the &quot;+&quot; character</errorMessage>
+        <name>Valida_Phone</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Survey_Contact --></label>
+        <name>Send_Survey_Contact</name>
+    </webLinks>
+</CustomObjectTranslation>

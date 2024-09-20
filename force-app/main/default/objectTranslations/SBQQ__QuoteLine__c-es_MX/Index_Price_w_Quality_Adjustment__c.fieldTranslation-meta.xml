@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Applies the Prime/Discount to Index Price --></help>
+    <label><!-- Index Price w/ Quality Adjustment --></label>
+    <name>Index_Price_w_Quality_Adjustment__c</name>
+</CustomFieldTranslation>

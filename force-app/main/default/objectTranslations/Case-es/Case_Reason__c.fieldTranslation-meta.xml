@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Razón de caso</label>
+    <name>Case_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Bad sealing</masterLabel>
+        <translation>Bolsas mal selladas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken bags</masterLabel>
+        <translation>Bolsas rotas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Broken pallet</masterLabel>
+        <translation>Pallet rotos</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caking</masterLabel>
+        <translation>Compactación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Certificate of Analysis</masterLabel>
+        <translation>Certificado de análisis</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Color</masterLabel>
+        <translation>Color</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Damage container</masterLabel>
+        <translation>Contenedor dañado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Delivery delays</masterLabel>
+        <translation>Plazo de entrega</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Density</masterLabel>
+        <translation>Densidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Flow</masterLabel>
+        <translation>Flujo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Foreign substance</masterLabel>
+        <translation>Elemento extraño</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Leaning bag</masterLabel>
+        <translation>Producto inclinado</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Missing label</masterLabel>
+        <translation>Sin etiqueta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Moisture</masterLabel>
+        <translation>Humedad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Non FIFO Shipment</masterLabel>
+        <translation>Non FIFO Shipment</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Otro</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Out of Specs</masterLabel>
+        <translation>Fuera de especificación</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Particle Size</masterLabel>
+        <translation>Tamaño partícula</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Shortage</masterLabel>
+        <translation>Menor peso</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solubility</masterLabel>
+        <translation>Solubilidad</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Spilled product</masterLabel>
+        <translation>Derrame de producto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wet bags</masterLabel>
+        <translation>Bolsas mojadas</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Without carboard</masterLabel>
+        <translation>Sin cartón</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrapping</masterLabel>
+        <translation>Wrapping</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong label</masterLabel>
+        <translation>Mala etiqueta</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong product</masterLabel>
+        <translation><!-- Wrong product --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Wrong quantity</masterLabel>
+        <translation><!-- Wrong quantity --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

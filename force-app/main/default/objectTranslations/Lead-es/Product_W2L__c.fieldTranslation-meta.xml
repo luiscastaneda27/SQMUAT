@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Product W2L --></label>
+    <name>Product_W2L__c</name>
+    <picklistValues>
+        <masterLabel>Iodine</masterLabel>
+        <translation><!-- Iodine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lithium</masterLabel>
+        <translation><!-- Lithium --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

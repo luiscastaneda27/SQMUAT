@@ -2752,7 +2752,7 @@
 		<members>wrike2__WrikeGeneralSettings__mdt.wrike2__WrikePrimaryServer__c</members>
 		<name>CustomField</name>
 	</types>
-	<!--types>
+	<types>
 		<members>*</members>
 		<name>CustomHelpMenuSection</name>
 	</types>
@@ -5974,6 +5974,6 @@
 		<members>SBQQ__Quote__c.Notification_Quote_Rejected</members>
 		<members>Yearly_CChEN_declaration__c.Nuevo_CChEN_por_aprobar</members>
 		<name>WorkflowTask</name>
-	</types-->
+	</types>
 	<version>60.0</version>
 </Package>

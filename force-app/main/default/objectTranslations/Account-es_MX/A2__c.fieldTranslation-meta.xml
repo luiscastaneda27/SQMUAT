@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Understand the negotiation power of the customer. --></help>
+    <label><!-- A2 - Customer Market Size --></label>
+    <name>A2__c</name>
+    <picklistValues>
+        <masterLabel>Big player</masterLabel>
+        <translation><!-- Big player --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Local player</masterLabel>
+        <translation><!-- Local player --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medium player</masterLabel>
+        <translation><!-- Medium player --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

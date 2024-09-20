@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Investigation Report</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Investigation Reports</value>
+    </caseValues>
+    <layouts>
+        <layout>Formato Informe de Investigación</layout>
+        <sections>
+            <label>Reporting</label>
+            <section>Informe a Cliente</section>
+        </sections>
+        <sections>
+            <label>Insufficiency</label>
+            <section>Insuficiencia</section>
+        </sections>
+        <sections>
+            <label>RDP</label>
+            <section>RDP</section>
+        </sections>
+        <sections>
+            <label>Responsibles</label>
+            <section>Responsables</section>
+        </sections>
+        <sections>
+            <label>Custom links</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>To end the process with an acceptance of the report to the client, you must send the PMD to approve</errorMessage>
+        <name>Aceptado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must attach the report resulting from the RDP in the indicated format</errorMessage>
+        <name>Estatus_RDP_Completado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must indicate the reason for rejection</errorMessage>
+        <name>Etapa_Rechazado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must indicate the reason for the return and describe it</errorMessage>
+        <name>Etapa_insuficiente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Before proceeding with the first review you must declare and attach the report to the client</errorMessage>
+        <name>GI_a_1RA_REV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>If you do not have enough information to conduct out the investigation, you must select the &quot;Insufficient&quot; stage</errorMessage>
+        <name>Insuficiencia_de_Informacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Before proceeding you must complete those responsible for the investigation process</errorMessage>
+        <name>Nuevo_a_RevisionDeInformacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot continue to the first stage of review, you must send to approve the investigation</errorMessage>
+        <name>Proceso_de_aprobacion_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Before proceeding to the PMD review you must send to approve the JGC and GC</errorMessage>
+        <name>Segunda_revision</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot continue without marking the RDP as completed</errorMessage>
+        <name>ValidacionRDP</name>
+    </validationRules>
+    <workflowTasks>
+        <description>Record compromised actions in RDP.</description>
+        <name>Generacion_de_acciones</name>
+        <subject>Tracking Actions</subject>
+    </workflowTasks>
+</CustomObjectTranslation>

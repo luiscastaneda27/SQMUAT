@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Indicates if the product offered has a different Grade/Quality. Will be used for discounts approval criteria. --></help>
+    <label><!-- Offspec --></label>
+    <name>Offspec__c</name>
+</CustomFieldTranslation>

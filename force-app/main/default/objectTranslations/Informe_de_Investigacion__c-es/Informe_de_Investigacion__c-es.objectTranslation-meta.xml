@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value><!-- Investigation Report --></value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value><!-- Investigation Report --></value>
+    </caseValues>
+    <gender><!-- Feminine --></gender>
+    <layouts>
+        <layout>Formato Informe de Investigación</layout>
+        <sections>
+            <label>Informe a Cliente</label>
+            <section>Informe a Cliente</section>
+        </sections>
+        <sections>
+            <label>Insuficiencia</label>
+            <section>Insuficiencia</section>
+        </sections>
+        <sections>
+            <label>RDP</label>
+            <section>RDP</section>
+        </sections>
+        <sections>
+            <label>Responsables</label>
+            <section>Responsables</section>
+        </sections>
+        <sections>
+            <label>Vínculos personalizados</label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel><!-- Correlative II --></nameFieldLabel>
+    <validationRules>
+        <errorMessage>Para finalizar el proceso con una aceptación del informe a Cliente debes enviar a aprobación de PMD</errorMessage>
+        <name>Aceptado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debes adjuntar el informe resultante de la RDP bajo el formato indicado.</errorMessage>
+        <name>Estatus_RDP_Completado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debes indicar el motivo de rechazo.</errorMessage>
+        <name>Etapa_Rechazado</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Debes indicar el motivo de devolución y describirlo.</errorMessage>
+        <name>Etapa_insuficiente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Antes de avanzar con la primera revisión debes declarar y adjuntar Informe a Cliente.</errorMessage>
+        <name>GI_a_1RA_REV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Si no cuentas con información suficiente para realizar la investigación debes seleccionar la etapa &quot;Insuficiente&quot;</errorMessage>
+        <name>Insuficiencia_de_Informacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Antes de avanzar debes completar a los responsables del proceso de investigación.</errorMessage>
+        <name>Nuevo_a_RevisionDeInformacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No puedes avanzar manualmente hacia la etapa 1ra revisión, debes enviar a aprobación la investigación.</errorMessage>
+        <name>Proceso_de_aprobacion_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Antes de avanzar a la revisión del PMD debes enviar a aprobar al JGC y GC</errorMessage>
+        <name>Segunda_revision</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>No puedes avanzar sin marcar la RDP como completada.</errorMessage>
+        <name>ValidacionRDP</name>
+    </validationRules>
+    <workflowTasks>
+        <description>Registrar acciones comprometidas en RDP</description>
+        <name>Generacion_de_acciones</name>
+        <subject>Generación de Acciones</subject>
+    </workflowTasks>
+</CustomObjectTranslation>

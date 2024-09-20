@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Ingresa el lugar asociado a la razón de contacto --></help>
+    <label><!-- Localidad --></label>
+    <name>Localidad__c</name>
+    <picklistValues>
+        <masterLabel>Alto Hospicio</masterLabel>
+        <translation><!-- Alto Hospicio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Antofagasta</masterLabel>
+        <translation><!-- Antofagasta --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Calama</masterLabel>
+        <translation><!-- Calama --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caleta Buena</masterLabel>
+        <translation><!-- Caleta Buena --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Camar</masterLabel>
+        <translation><!-- Camar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Caramucho</masterLabel>
+        <translation><!-- Caramucho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Catarpe</masterLabel>
+        <translation><!-- Catarpe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cañamo</masterLabel>
+        <translation><!-- Cañamo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chanavayita</masterLabel>
+        <translation><!-- Chanavayita --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Colonia de Pintados</masterLabel>
+        <translation><!-- Colonia de Pintados --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Coyo</masterLabel>
+        <translation><!-- Coyo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cucuter</masterLabel>
+        <translation><!-- Cucuter --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Guatin</masterLabel>
+        <translation><!-- Guatin --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Huatacondo</masterLabel>
+        <translation><!-- Huatacondo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iquique</masterLabel>
+        <translation><!-- Iquique --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>La Tirana</masterLabel>
+        <translation><!-- La Tirana --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Larache</masterLabel>
+        <translation><!-- Larache --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Machuca</masterLabel>
+        <translation><!-- Machuca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>María Elena</masterLabel>
+        <translation><!-- María Elena --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Peine</masterLabel>
+        <translation><!-- Peine --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pozo Almonte</masterLabel>
+        <translation><!-- Pozo Almonte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quillagua</masterLabel>
+        <translation><!-- Quillagua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quitor</masterLabel>
+        <translation><!-- Quitor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rio Grande</masterLabel>
+        <translation><!-- Rio Grande --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>San Pedro de Atacama</masterLabel>
+        <translation><!-- San Pedro de Atacama --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sequitor y Checar</masterLabel>
+        <translation><!-- Sequitor y Checar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Socaire</masterLabel>
+        <translation><!-- Socaire --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Solor</masterLabel>
+        <translation><!-- Solor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Soncor</masterLabel>
+        <translation><!-- Soncor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Talabre</masterLabel>
+        <translation><!-- Talabre --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tamentíca</masterLabel>
+        <translation><!-- Tamentíca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Toconao</masterLabel>
+        <translation><!-- Toconao --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tocopilla</masterLabel>
+        <translation><!-- Tocopilla --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Victoria</masterLabel>
+        <translation><!-- Victoria --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yaye</masterLabel>
+        <translation><!-- Yaye --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

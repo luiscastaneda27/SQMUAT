@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Enter your region of residence</help>
+    <label>Region</label>
+    <name>Region__c</name>
+    <picklistValues>
+        <masterLabel>ANTOFAGASTA</masterLabel>
+        <translation><!-- ANTOFAGASTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ARICA Y PARINACOTA</masterLabel>
+        <translation><!-- ARICA Y PARINACOTA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ATACAMA</masterLabel>
+        <translation><!-- ATACAMA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>AYSÉN DEL GRAL. C. IBÁÑEZ DEL CAMPO</masterLabel>
+        <translation><!-- AYSÉN DEL GRAL. C. IBÁÑEZ DEL CAMPO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>BIOBÍO</masterLabel>
+        <translation><!-- BIOBÍO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>COQUIMBO</masterLabel>
+        <translation><!-- COQUIMBO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LA ARAUCANÍA</masterLabel>
+        <translation><!-- LA ARAUCANÍA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LIB. GRAL. BERNARDO O&apos;HIGGINS</masterLabel>
+        <translation><!-- LIB. GRAL. BERNARDO O&apos;HIGGINS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOS LAGOS</masterLabel>
+        <translation><!-- LOS LAGOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOS RÍOS</masterLabel>
+        <translation><!-- LOS RÍOS --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAGALLANES Y ANTÁRTICA CHILENA</masterLabel>
+        <translation><!-- MAGALLANES Y ANTÁRTICA CHILENA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MAULE</masterLabel>
+        <translation><!-- MAULE --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>METROPOLITANA</masterLabel>
+        <translation><!-- METROPOLITANA --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TARAPACÁ</masterLabel>
+        <translation><!-- TARAPACÁ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VALPARAÍSO</masterLabel>
+        <translation><!-- VALPARAÍSO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>ÑUBLE</masterLabel>
+        <translation><!-- ÑUBLE --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

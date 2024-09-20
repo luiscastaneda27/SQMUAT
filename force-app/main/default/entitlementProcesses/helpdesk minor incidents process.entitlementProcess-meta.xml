@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntitlementProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <SObjectType>Case</SObjectType>
+    <active>true</active>
+    <businessHours>Horario de Oficina SQM Chile</businessHours>
+    <description>Response time Helpdesk Cases Minor Incidents</description>
+    <entryStartDateField>Case.CreatedDate</entryStartDateField>
+    <exitCriteriaFilterItems>
+        <field>Case.IsClosed</field>
+        <operation>equals</operation>
+        <value>true</value>
+    </exitCriteriaFilterItems>
+    <milestones>
+        <businessHours>Horario de Oficina SQM Chile</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Incidents</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Low</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Attention</milestoneName>
+        <minutesToComplete>960</minutesToComplete>
+        <successActions>
+            <name>Case.Update_Status_In_Progress</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+    <milestones>
+        <businessHours>Horario de Oficina SQM Chile</businessHours>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Status</field>
+            <operation>equals</operation>
+            <value>In Progress, On Hold, Validation</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.subject_issue__c</field>
+            <operation>equals</operation>
+            <value>Incidents</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneCriteriaFilterItems>
+            <field>Case.Priority</field>
+            <operation>equals</operation>
+            <value>Low</value>
+        </milestoneCriteriaFilterItems>
+        <milestoneName>Resolution</milestoneName>
+        <minutesToComplete>2400</minutesToComplete>
+        <successActions>
+            <name>Case.Update_Status</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <successActions>
+            <name>Case.Update_Sub_Status_Closed_Completed</name>
+            <type>FieldUpdate</type>
+        </successActions>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
+</EntitlementProcess>

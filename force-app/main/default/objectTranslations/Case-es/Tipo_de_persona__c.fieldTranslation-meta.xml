@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tipo de persona --></label>
+    <name>Tipo_de_persona__c</name>
+    <picklistValues>
+        <masterLabel>Jurídica</masterLabel>
+        <translation><!-- Jurídica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Natural</masterLabel>
+        <translation><!-- Natural --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

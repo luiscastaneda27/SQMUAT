@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>subject_issue__c</name>
+    <picklistValues>
+        <masterLabel>Accesses</masterLabel>
+        <translation><!-- Accesses --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Approval Flow</masterLabel>
+        <translation><!-- Approval Flow --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Cleansing</masterLabel>
+        <translation><!-- Data Cleansing --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data problems</masterLabel>
+        <translation><!-- Data problems --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Doubts about the process in Salesforce</masterLabel>
+        <translation><!-- Doubts about the process in Salesforce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Improvements</masterLabel>
+        <translation><!-- Improvements --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incidents</masterLabel>
+        <translation><!-- Incidents --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>License for new users</masterLabel>
+        <translation><!-- License for new users --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Question</masterLabel>
+        <translation><!-- Question --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Questions about process</masterLabel>
+        <translation><!-- Questions about process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Training</masterLabel>
+        <translation><!-- Training --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Update fields and filters</masterLabel>
+        <translation><!-- Update fields and filters --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vacations</masterLabel>
+        <translation><!-- Vacations --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

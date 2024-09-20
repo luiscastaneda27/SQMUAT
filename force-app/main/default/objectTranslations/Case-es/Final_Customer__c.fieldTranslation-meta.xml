@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Corresponde al cliente que presenta el problema. Puede ser diferente al cliente facturado.</help>
+    <label>Cliente final</label>
+    <name>Final_Customer__c</name>
+    <relationshipLabel><!-- Cases (Final Customer) --></relationshipLabel>
+</CustomFieldTranslation>

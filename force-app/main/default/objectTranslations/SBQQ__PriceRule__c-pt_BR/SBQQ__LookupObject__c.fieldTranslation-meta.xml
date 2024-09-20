@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nome da API do Objeto personalizado que armazena os dados de pesquisa.</help>
+    <label><!-- Lookup Object --></label>
+    <name>SBQQ__LookupObject__c</name>
+    <picklistValues>
+        <masterLabel>SBQQ__LookupData__c</masterLabel>
+        <translation>SBQQ__LookupData__c</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_AUX__c</masterLabel>
+        <translation><!-- Tabla_AUX__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Bag_Size__c</masterLabel>
+        <translation><!-- Tabla_Bag_Size__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Goal__c</masterLabel>
+        <translation><!-- Tabla_Goal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Incoterm__c</masterLabel>
+        <translation><!-- Tabla_Incoterm__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Index_Price__c</masterLabel>
+        <translation><!-- Tabla_Index_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Interest_Rate__c</masterLabel>
+        <translation><!-- Tabla_Interest_Rate__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Macrozonas__c</masterLabel>
+        <translation><!-- Tabla_Macrozonas__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Payment_Term__c</masterLabel>
+        <translation><!-- Tabla_Payment_Term__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_Volume_Adjustment__c</masterLabel>
+        <translation><!-- Tabla_Volume_Adjustment__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tabla_de_Industria_Grado__c</masterLabel>
+        <translation><!-- Tabla_de_Industria_Grado__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Para categoría Vacaciones, ingrese la fecha de inicio para la delegación de actividades. --></help>
+    <label><!-- Inicio delegación --></label>
+    <name>Inicio_delegaci_n__c</name>
+</CustomFieldTranslation>

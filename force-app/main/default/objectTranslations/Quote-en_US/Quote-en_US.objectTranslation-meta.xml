@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Former Quote</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Former Quotes</value>
+    </caseValues>
+    <layouts>
+        <layout>Copia de Quote Layout</layout>
+        <sections>
+            <label><!-- Approval process --></label>
+            <section>Approval process</section>
+        </sections>
+        <sections>
+            <label><!-- Index --></label>
+            <section>Index</section>
+        </sections>
+        <sections>
+            <label>Prepared For</label>
+            <section>Preparado Para</section>
+        </sections>
+        <sections>
+            <label><!-- Rebate information --></label>
+            <section>Rebate information</section>
+        </sections>
+        <sections>
+            <label><!-- Special Terms --></label>
+            <section>Special Terms</section>
+        </sections>
+        <sections>
+            <label><!-- Subsidiary --></label>
+            <section>Subsidiary</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Quote Layout</layout>
+        <sections>
+            <label>Approval process</label>
+            <section>Approval process</section>
+        </sections>
+        <sections>
+            <label>Index</label>
+            <section>Index</section>
+        </sections>
+        <sections>
+            <label>Rebate information</label>
+            <section>Rebate information</section>
+        </sections>
+        <sections>
+            <label>Special Terms</label>
+            <section>Special Terms</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <aspect>Master</aspect>
+        <label>New Sample</label>
+        <name>New_Sample</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage>This Quote must be Submitted to Approval.</errorMessage>
+        <name>Approval_is_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot advance to a resolution status if the quote requires approval</errorMessage>
+        <name>Approval_stage</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please, complete the rebate description.</errorMessage>
+        <name>Index_validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The quote has already been approved and cannot be modified. --></errorMessage>
+        <name>Quote_field_blocked</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must select a Sales Agent.</errorMessage>
+        <name>Quotes_Agent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Please, complete the rebate description.</errorMessage>
+        <name>Rebate_validation</name>
+    </validationRules>
+</CustomObjectTranslation>

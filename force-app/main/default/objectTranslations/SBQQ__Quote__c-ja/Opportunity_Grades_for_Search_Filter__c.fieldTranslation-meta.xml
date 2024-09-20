@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Opportunity Grades for Search Filter --></label>
+    <name>Opportunity_Grades_for_Search_Filter__c</name>
+</CustomFieldTranslation>

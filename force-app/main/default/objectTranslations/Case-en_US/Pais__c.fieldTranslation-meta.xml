@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Enter your country of residence</help>
+    <label>Country</label>
+    <name>Pais__c</name>
+    <picklistValues>
+        <masterLabel>Alemania</masterLabel>
+        <translation><!-- Alemania --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Brasil</masterLabel>
+        <translation><!-- Brasil --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Bélgica</masterLabel>
+        <translation><!-- Bélgica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Centro América/Caribe</masterLabel>
+        <translation><!-- Centro América/Caribe --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Chile</masterLabel>
+        <translation><!-- Chile --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>China</masterLabel>
+        <translation><!-- China --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corea</masterLabel>
+        <translation><!-- Corea --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecuador</masterLabel>
+        <translation><!-- Ecuador --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>España</masterLabel>
+        <translation><!-- España --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>India</masterLabel>
+        <translation><!-- India --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Italia</masterLabel>
+        <translation><!-- Italia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Japón</masterLabel>
+        <translation><!-- Japón --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Marruecos</masterLabel>
+        <translation><!-- Marruecos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Medio Oriente</masterLabel>
+        <translation><!-- Medio Oriente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>México</masterLabel>
+        <translation><!-- México --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norte de África</masterLabel>
+        <translation><!-- Norte de África --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Oceanía</masterLabel>
+        <translation><!-- Oceanía --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otros Países de América del Sur</masterLabel>
+        <translation><!-- Otros Países de América del Sur --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otros Países de Asia</masterLabel>
+        <translation><!-- Otros Países de Asia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otros Países de Europa</masterLabel>
+        <translation><!-- Otros Países de Europa --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Otros Países de África</masterLabel>
+        <translation><!-- Otros Países de África --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Perú</masterLabel>
+        <translation><!-- Perú --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Portugal</masterLabel>
+        <translation><!-- Portugal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sur de África</masterLabel>
+        <translation><!-- Sur de África --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tailandia</masterLabel>
+        <translation><!-- Tailandia --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Turquía</masterLabel>
+        <translation><!-- Turquía --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>U.A.E.</masterLabel>
+        <translation><!-- U.A.E. --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>USA / Canadá</masterLabel>
+        <translation><!-- USA / Canadá --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

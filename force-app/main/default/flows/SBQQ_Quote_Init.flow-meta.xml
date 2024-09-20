@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>53.0</apiVersion>
+    <description>New version (short - 2 steps)
+Only have information about Volumen adjustment</description>
+    <environments>Default</environments>
+    <formulas>
+        <description>Formula para concatenar el market de la oportunidad con el Index Grade</description>
+        <name>formula_CodeIndexPrice</name>
+        <dataType>String</dataType>
+        <expression>text({!$Record.SBQQ__Opportunity2__r.Market__c})+ &apos;_&apos;+{!$Record.Index_Grade__c}</expression>
+    </formulas>
+    <formulas>
+        <description>Calcula la semana de hoy para tomarla como fecha de creación de la Quote y utilizarlo como parametro para buscar valores dependientes de la semana, como interest rate e index prices</description>
+        <name>formula_CreatedWeek</name>
+        <dataType>Number</dataType>
+        <expression>{!$Record.Created_Week__c}</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <description>Devuelve el año actual para considerarlo como el año de creación de la Quote y tomarlo como parametro para buscar Interest rate e Index Price</description>
+        <name>formula_CreatedYear</name>
+        <dataType>Number</dataType>
+        <expression>{!$Record.Created_Year__c}</expression>
+        <scale>0</scale>
+    </formulas>
+    <formulas>
+        <description>Base Price + Goal + W2p and Volume Adjustment</description>
+        <name>formula_PrecioBaseGoalW2PandVolAdjustment</name>
+        <dataType>Currency</dataType>
+        <expression>{!formula_PrecioBaseGoalwithW2P}*(1+{!$Record.Volume_Ajustment__c})</expression>
+        <scale>3</scale>
+    </formulas>
+    <formulas>
+        <description>Precio Base con Goal, W2p Ajuste por Volumen y Extra Cost</description>
+        <name>formula_PrecioBaseGoalW2PVolAdjExtraCost</name>
+        <dataType>Currency</dataType>
+        <expression>{!formula_PrecioBaseGoalW2PandVolAdjustment} + {!$Record.SBQQ__Opportunity2__r.Extra_Cost__c}</expression>
+        <scale>3</scale>
+    </formulas>
+    <formulas>
+        <description>Base Price * (1+ Goal%) * W2P Factor</description>
+        <name>formula_PrecioBaseGoalwithW2P</name>
+        <dataType>Currency</dataType>
+        <expression>{!formula_PrecioBaseWithGoal}*{!$Record.W2P_Factor__c}</expression>
+        <scale>3</scale>
+    </formulas>
+    <formulas>
+        <name>formula_PrecioBaseWithGoal</name>
+        <dataType>Currency</dataType>
+        <expression>{!$Record.Index_Price_with_Quality_Adjustment__c}*(1+{!$Record.Goal__c})</expression>
+        <scale>3</scale>
+    </formulas>
+    <formulas>
+        <description>Si existe valor en Total Volume, usará ese volumen para el Ajuste de VOlumen. Si no, usará el campo Volume</description>
+        <name>formula_VolumeToUse</name>
+        <dataType>Number</dataType>
+        <expression>if ({!$Record.SBQQ__Opportunity2__r.Total_Volume__c} &gt; 0 , {!$Record.SBQQ__Opportunity2__r.Total_Volume__c} , {!$Record.SBQQ__Opportunity2__r.Volume__c} )</expression>
+        <scale>2</scale>
+    </formulas>
+    <interviewLabel>SBQQ_Quote_Init {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>SBQQ_Quote_Init</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordLookups>
+        <description>Obtener el ajuste por volumen.</description>
+        <name>getVolumeAdjustment</name>
+        <label>getVolumeAdjustment</label>
+        <locationX>176</locationX>
+        <locationY>335</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>updateRecord</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Vol_inf__c</field>
+            <operator>LessThan</operator>
+            <value>
+                <elementReference>formula_VolumeToUse</elementReference>
+            </value>
+        </filters>
+        <filters>
+            <field>Vol_sup__c</field>
+            <operator>GreaterThanOrEqualTo</operator>
+            <value>
+                <elementReference>formula_VolumeToUse</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Tabla_Volume_Adjustment__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>updateRecord</name>
+        <label>updateRecord</label>
+        <locationX>176</locationX>
+        <locationY>455</locationY>
+        <inputAssignments>
+            <field>Volume_Ajustment__c</field>
+            <value>
+                <elementReference>getVolumeAdjustment.Adjustment__c</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>getVolumeAdjustment</targetReference>
+        </connector>
+        <object>SBQQ__Quote__c</object>
+        <recordTriggerType>CreateAndUpdate</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

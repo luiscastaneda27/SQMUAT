@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Área afectada</label>
+    <name>area_affected__c</name>
+    <picklistValues>
+        <masterLabel>Despacho</masterLabel>
+        <translation><!-- Despacho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Envasado y Despacho</masterLabel>
+        <translation><!-- Envasado y Despacho --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Laboratorio</masterLabel>
+        <translation><!-- Laboratorio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logística Internacional</masterLabel>
+        <translation><!-- Logística Internacional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logística Nacional</masterLabel>
+        <translation><!-- Logística Nacional --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Logística filial</masterLabel>
+        <translation><!-- Logística filial --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Operaciones</masterLabel>
+        <translation><!-- Operaciones --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Planta (PV o NV)</masterLabel>
+        <translation><!-- Planta (PV o NV) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Producto Terminado</masterLabel>
+        <translation><!-- Producto Terminado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rusia</masterLabel>
+        <translation><!-- Rusia --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

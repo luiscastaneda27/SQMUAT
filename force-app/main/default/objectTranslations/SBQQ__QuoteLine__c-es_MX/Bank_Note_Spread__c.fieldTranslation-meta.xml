@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Returns the spread to add to the Interest Rate if applies. --></help>
+    <label><!-- Bank Note Spread --></label>
+    <name>Bank_Note_Spread__c</name>
+</CustomFieldTranslation>

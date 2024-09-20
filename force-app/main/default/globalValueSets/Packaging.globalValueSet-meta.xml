@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Big Bag</fullName>
+        <default>false</default>
+        <label>Big Bag</label>
+    </customValue>
+    <customValue>
+        <fullName>Small Bag</fullName>
+        <default>false</default>
+        <label>Small Bag</label>
+    </customValue>
+    <description>Representa el empaque utilizado para entregar el producto.</description>
+    <masterLabel>Packaging</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

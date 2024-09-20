@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>CIF</fullName>
+        <default>false</default>
+        <label>Dir. shipment Chile</label>
+    </customValue>
+    <customValue>
+        <fullName>FCA/EXW</fullName>
+        <default>true</default>
+        <label>FCA/EXW</label>
+    </customValue>
+    <customValue>
+        <fullName>CIP</fullName>
+        <default>false</default>
+        <label>CIP/CIF</label>
+    </customValue>
+    <customValue>
+        <fullName>DAP/DDP</fullName>
+        <default>false</default>
+        <label>DAP/DDP</label>
+    </customValue>
+    <masterLabel>Incoterms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

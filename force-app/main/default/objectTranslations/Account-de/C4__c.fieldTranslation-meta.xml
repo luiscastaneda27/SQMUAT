@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identify buyer&apos;s level of market understanding --></help>
+    <label><!-- C4 - Buyer´s market understanding --></label>
+    <name>C4__c</name>
+    <picklistValues>
+        <masterLabel>Fair</masterLabel>
+        <translation><!-- Fair --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Good</masterLabel>
+        <translation><!-- Good --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Poor</masterLabel>
+        <translation><!-- Poor --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

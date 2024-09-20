@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Devuelve el valor del campo Incoterm de la Quote --></help>
+    <label><!-- Quote Incoterm --></label>
+    <name>Quote_Incoterm__c</name>
+</CustomFieldTranslation>

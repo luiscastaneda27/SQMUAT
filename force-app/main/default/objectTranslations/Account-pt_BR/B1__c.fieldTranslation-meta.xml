@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- SQM&apos;s share in customer purchases. --></help>
+    <label><!-- B1 - SQM Share of wallet --></label>
+    <name>B1__c</name>
+    <picklistValues>
+        <masterLabel>33%-66%</masterLabel>
+        <translation><!-- 33%-66% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>5%-33%</masterLabel>
+        <translation><!-- 5%-33% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>66%-100%</masterLabel>
+        <translation><!-- 66%-100% --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>&lt;5%</masterLabel>
+        <translation><!-- &lt;5% --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

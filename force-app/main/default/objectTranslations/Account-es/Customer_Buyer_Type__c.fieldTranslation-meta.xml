@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Tipo de Comprador</label>
+    <name>Customer_Buyer_Type__c</name>
+    <picklistValues>
+        <masterLabel>Generalist</masterLabel>
+        <translation><!-- Generalist --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Specific</masterLabel>
+        <translation><!-- Specific --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

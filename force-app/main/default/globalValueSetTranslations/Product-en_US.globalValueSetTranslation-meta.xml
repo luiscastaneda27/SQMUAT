@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSetTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <valueTranslation>
+        <masterLabel>Iodine</masterLabel>
+        <translation>Iodine</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lithium Carbonate</masterLabel>
+        <translation>Lithium Carbonate</translation>
+    </valueTranslation>
+    <valueTranslation>
+        <masterLabel>Lithium Hydroxide</masterLabel>
+        <translation>Lithium hydroxide</translation>
+    </valueTranslation>
+</GlobalValueSetTranslation>

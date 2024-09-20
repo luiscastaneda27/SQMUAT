@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>CChEN Distribuidor</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CChEN Distribuidores</value>
+    </caseValues>
+    <layouts>
+        <layout>Formato CChEN Distribuidores</layout>
+        <sections>
+            <label><!-- To be Reviewed by the approver --></label>
+            <section>To be Reviewed by the approver</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please submit the CChEN declaration for approval --></errorMessage>
+        <name>CCHEN_Approve</name>
+    </validationRules>
+    <workflowTasks>
+        <name>CChEN_Distribuidor_por_revisar</name>
+        <subject><!-- CChEN Distribuidor por revisar --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- API Name of the custom field used in the query. --></help>
+    <label><!-- Lookup Field --></label>
+    <name>SBQQ__LookupField__c</name>
+    <picklistValues>
+        <masterLabel>Code_Index_Price__c</masterLabel>
+        <translation><!-- Code_Index_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CurrencyIsoCode</masterLabel>
+        <translation><!-- CurrencyIsoCode --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Date__c</masterLabel>
+        <translation><!-- Date__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry_Grade__c</masterLabel>
+        <translation><!-- Industry_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry__c</masterLabel>
+        <translation><!-- Industry__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Name</masterLabel>
+        <translation><!-- Name --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product_Type__c</masterLabel>
+        <translation><!-- Product_Type__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product__c</masterLabel>
+        <translation><!-- Product__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality_Grade__c</masterLabel>
+        <translation><!-- Quality_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Category__c</masterLabel>
+        <translation><!-- SBQQ__Category__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vol_inf__c</masterLabel>
+        <translation><!-- Vol_inf__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vol_sup__c</masterLabel>
+        <translation><!-- Vol_sup__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Week__c</masterLabel>
+        <translation><!-- Week__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Year__c</masterLabel>
+        <translation><!-- Year__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Zone__c</masterLabel>
+        <translation><!-- Zone__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

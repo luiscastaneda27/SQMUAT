@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identify buyer&apos;s priorities --></help>
+    <label><!-- C3 - Buyer´s priority --></label>
+    <name>C3__c</name>
+    <picklistValues>
+        <masterLabel>Price #1 &amp; Service/Quality/Sust #2</masterLabel>
+        <translation><!-- Price #1 &amp; Service/Quality/Sust #2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price #1 &amp; payment terms #2</masterLabel>
+        <translation><!-- Price #1 &amp; payment terms #2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service/Quality/Sust #1</masterLabel>
+        <translation><!-- Service/Quality/Sust #1 --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

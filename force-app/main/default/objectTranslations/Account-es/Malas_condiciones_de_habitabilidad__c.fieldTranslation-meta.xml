@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Malas condiciones de habitabilidad --></label>
+    <name>Malas_condiciones_de_habitabilidad__c</name>
+</CustomFieldTranslation>

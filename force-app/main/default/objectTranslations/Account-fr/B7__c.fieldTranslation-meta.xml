@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Identify the behavior of the customer towards SQM. --></help>
+    <label><!-- B7 - Loyalty towards SQM --></label>
+    <name>B7__c</name>
+    <picklistValues>
+        <masterLabel>Loyal (consistence the last years)</masterLabel>
+        <translation><!-- Loyal (consistence the last years) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunistic (only because is needed)</masterLabel>
+        <translation><!-- Opportunistic (only because is needed) --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

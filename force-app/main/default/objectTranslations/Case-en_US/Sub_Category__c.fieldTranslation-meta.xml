@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Sub-Category --></label>
+    <name>Sub_Category__c</name>
+    <picklistValues>
+        <masterLabel>Automations</masterLabel>
+        <translation><!-- Automations --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CPQ</masterLabel>
+        <translation><!-- CPQ --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Portal</masterLabel>
+        <translation><!-- Community Portal --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Download</masterLabel>
+        <translation><!-- Data Download --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Data Upload / Update</masterLabel>
+        <translation><!-- Data Upload / Update --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Evolutive</masterLabel>
+        <translation><!-- Evolutive --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incident N1</masterLabel>
+        <translation><!-- Incident N1 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incident N2</masterLabel>
+        <translation><!-- Incident N2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incident N3</masterLabel>
+        <translation><!-- Incident N3 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Object and Fields</masterLabel>
+        <translation><!-- Object and Fields --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Process Approval</masterLabel>
+        <translation><!-- Process Approval --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Release Salesforce</masterLabel>
+        <translation><!-- Release Salesforce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Roles and Profiles</masterLabel>
+        <translation><!-- Roles and Profiles --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales Process</masterLabel>
+        <translation><!-- Sales Process --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service Process</masterLabel>
+        <translation><!-- Service Process --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

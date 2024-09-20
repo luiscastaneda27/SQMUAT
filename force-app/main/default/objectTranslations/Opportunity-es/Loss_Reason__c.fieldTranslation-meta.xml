@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de perdida</label>
+    <name>Loss_Reason__c</name>
+    <picklistValues>
+        <masterLabel>Change of Commercial Conditions</masterLabel>
+        <translation><!-- Change of Commercial Conditions --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost of Opportunity (another sale available with better conditions)</masterLabel>
+        <translation><!-- Cost of Opportunity (another sale available with better conditions) --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Lost to Competitor</masterLabel>
+        <translation>Perdido con competidor</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Budget / Lost Funding</masterLabel>
+        <translation>No tiene presupuesto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Decision / Non-Responsive</masterLabel>
+        <translation>No se toma la decisión</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>No Inventory Available</masterLabel>
+        <translation><!-- No Inventory Available --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Otros</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Price</masterLabel>
+        <translation>Precio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quality</masterLabel>
+        <translation><!-- Quality --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

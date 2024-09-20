@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Frequency of negotiations with the customer --></help>
+    <label><!-- B4 - Negotiation terms --></label>
+    <name>B4__c</name>
+    <picklistValues>
+        <masterLabel>LT Contract</masterLabel>
+        <translation><!-- LT Contract --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Quarterly	Spot</masterLabel>
+        <translation><!-- Quarterly	Spot --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Semesterly</masterLabel>
+        <translation><!-- Semesterly --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yearly</masterLabel>
+        <translation><!-- Yearly --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

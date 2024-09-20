@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Zone assigned to Account. Is used to calculate Freight Costo (CIP Incoterm) --></help>
+    <label><!-- Zone --></label>
+    <name>Zone__c</name>
+</CustomFieldTranslation>

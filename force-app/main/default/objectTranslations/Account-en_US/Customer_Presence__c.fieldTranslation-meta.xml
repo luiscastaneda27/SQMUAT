@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Customer Presence --></label>
+    <name>Customer_Presence__c</name>
+    <picklistValues>
+        <masterLabel>Presence in the continent</masterLabel>
+        <translation><!-- Presence in the continent --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Presence only in the country</masterLabel>
+        <translation><!-- Presence only in the country --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Worldwide presence</masterLabel>
+        <translation><!-- Worldwide presence --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

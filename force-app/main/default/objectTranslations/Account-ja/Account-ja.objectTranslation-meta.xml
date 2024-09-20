@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Account Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- CChEN --></label>
+            <section>CChEN</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Details --></label>
+            <section>Financial Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial KPIs --></label>
+            <section>Financial KPIs</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Account Service Layout</layout>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Person Account Layout</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Account Details --></label>
+            <section>Account Details</section>
+        </sections>
+        <sections>
+            <label><!-- Attributes --></label>
+            <section>Attributes</section>
+        </sections>
+        <sections>
+            <label><!-- CChEN --></label>
+            <section>CChEN</section>
+        </sections>
+        <sections>
+            <label><!-- Compliance --></label>
+            <section>Compliance</section>
+        </sections>
+        <sections>
+            <label><!-- Contact --></label>
+            <section>Contact</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Details --></label>
+            <section>Financial Details</section>
+        </sections>
+        <sections>
+            <label><!-- Financial KPIs --></label>
+            <section>Financial KPIs</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SQM Person Account</layout>
+        <layoutType>PersonAccount</layoutType>
+        <sections>
+            <label><!-- Dirección --></label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label><!-- Información de contacto --></label>
+            <section>Información de contacto</section>
+        </sections>
+        <sections>
+            <label><!-- Información de cuenta --></label>
+            <section>Información de cuenta</section>
+        </sections>
+        <sections>
+            <label><!-- Información de sistema --></label>
+            <section>Información de sistema</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>SQM-Comunidad</layout>
+        <sections>
+            <label><!-- Agua --></label>
+            <section>Agua</section>
+        </sections>
+        <sections>
+            <label><!-- Beneficios Sociales y Comunitarios --></label>
+            <section>Beneficios Sociales y Comunitarios</section>
+        </sections>
+        <sections>
+            <label><!-- Campos --></label>
+            <section>Campos</section>
+        </sections>
+        <sections>
+            <label><!-- Contribuciones --></label>
+            <section>Contribuciones</section>
+        </sections>
+        <sections>
+            <label><!-- Creación de Empleo de Desarrollo de Habilidades --></label>
+            <section>Creación de Empleo de Desarrollo de Habilidades</section>
+        </sections>
+        <sections>
+            <label><!-- Otro --></label>
+            <section>Otro</section>
+        </sections>
+        <sections>
+            <label><!-- Preservación del Medioambiente --></label>
+            <section>Preservación del Medioambiente</section>
+        </sections>
+        <sections>
+            <label><!-- Riesgos de la Operación o Accidentes --></label>
+            <section>Riesgos de la Operación o Accidentes</section>
+        </sections>
+        <sections>
+            <label><!-- Vínculos personalizados --></label>
+            <section>Vínculos personalizados</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sales Account Layout</layout>
+        <sections>
+            <label><!-- CCHEN &amp; DEA --></label>
+            <section>CCHEN &amp; DEA</section>
+        </sections>
+        <sections>
+            <label><!-- Financial Details --></label>
+            <section>Financial Details</section>
+        </sections>
+        <sections>
+            <label><!-- NPS Survey --></label>
+            <section>NPS Survey</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation: Buyer - SQM --></label>
+            <section>Segmentation: Buyer - SQM</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation: Customer - SQM --></label>
+            <section>Segmentation: Customer - SQM</section>
+        </sections>
+        <sections>
+            <label><!-- Segmentation: Customer Industry --></label>
+            <section>Segmentation: Customer Industry</section>
+        </sections>
+        <sections>
+            <label><!-- Standard Sale Conditions --></label>
+            <section>Standard Sale Conditions</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Child Account --></label>
+        <name>Child_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Delete Account --></label>
+        <name>Delete_Account</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contract --></label>
+        <name>New_Contract</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Comunidad --></label>
+        <name>Comunidad</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Empresa --></label>
+        <name>Empresa</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Renew_Assets --></label>
+        <name>SBQQ__Renew_Assets</name>
+    </webLinks>
+</CustomObjectTranslation>

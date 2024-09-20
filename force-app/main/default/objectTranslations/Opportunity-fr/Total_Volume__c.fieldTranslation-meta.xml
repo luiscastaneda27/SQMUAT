@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Volumen total a considerar para parametro Ajuste de VOlumen --></help>
+    <label><!-- Total Volume --></label>
+    <name>Total_Volume__c</name>
+</CustomFieldTranslation>

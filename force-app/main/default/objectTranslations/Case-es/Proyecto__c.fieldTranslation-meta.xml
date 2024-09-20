@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Proyecto</label>
+    <name>Proyecto__c</name>
+    <picklistValues>
+        <masterLabel>Communities (claims, request, others)</masterLabel>
+        <translation>Comunidades (reclamos, solicitudes, otros)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Pampa</masterLabel>
+        <translation>Comunidad Pampa</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Community Salar</masterLabel>
+        <translation>Comunidad Salar</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation>Otros</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Platform</masterLabel>
+        <translation>Plataforma</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pricing Lithium - CPQ</masterLabel>
+        <translation>Precios Litio - CPQ</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales - Iodine</masterLabel>
+        <translation>Ventas - Yodo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sales - Lithium</masterLabel>
+        <translation>Ventas - Litio</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service - Iodine</masterLabel>
+        <translation>Servicio - Yodo</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Service - Lithium</masterLabel>
+        <translation>Servicio - Litio</translation>
+    </picklistValues>
+</CustomFieldTranslation>

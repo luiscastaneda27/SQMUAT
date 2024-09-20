@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Opportunity Layout 2022</layout>
+        <sections>
+            <label><!-- Sales Conditions --></label>
+            <section>Sales Conditions</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Quote --></label>
+        <name>New_Quote</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Principal --></label>
+        <name>Principal</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- You cannot close an opportunity won if the client does not have their CCHEN documentation in force --></errorMessage>
+        <name>CCHEN</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If the Opportunity was lost due to the Customer&apos;s purchase size you should suggest a distributor. --></errorMessage>
+        <name>Close_by_small_customer_purchase_size</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If the Contract is not activated you can&apos;t create the Opportunity --></errorMessage>
+        <name>Contract_Validation_activated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please confirm you have attached the documents required by  the DEA for this Opportunity. --></errorMessage>
+        <name>DEA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You can only quote in US Dollar --></errorMessage>
+        <name>EEUU_Currency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must attach and request approval for the CChen document. --></errorMessage>
+        <name>LithiumC_and_CChEN_Approved_verification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must attach and request approval for the CChen document. --></errorMessage>
+        <name>LithiumH_and_CChEN_Approved_verification</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must select a reason for the lost Opportunity. --></errorMessage>
+        <name>Loss_reason</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete the fields Territory, Zone, W2P, Product, and Application before proceeding --></errorMessage>
+        <name>Min_Variables_Requested_CPQ</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The product of the Opportunity must be the same as the one selected in the Contract --></errorMessage>
+        <name>Product_Contract</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You cannot close an Opportunity won if you do not have a Quote accepted by the client --></errorMessage>
+        <name>Quote_Accepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The owner of the account must be the Sales Manager responsible for this client, please go into the account link to correct the account owner to the responsible Sales Manager. --></errorMessage>
+        <name>Sales_Marketing_Assistant_cant_owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For Contract-type Opportunities, you must indicate the previously created SA. --></errorMessage>
+        <name>Supply_Agreements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please check the information, the Total Volume must be higher or equal than Volume. --></errorMessage>
+        <name>Total_Volumen_vs_Volumen</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must have an offer accepted by the client before closing Opportunity as closed won --></errorMessage>
+        <name>Valid_offers_accepted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, check the information. The Total Volume must be equal than Contracted Volumen. --></errorMessage>
+        <name>Volumen_between_Opp_and_Contract</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Amend_Assets --></label>
+        <name>SBQQ__Amend_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Amend_Contract --></label>
+        <name>SBQQ__Amend_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateOrder --></label>
+        <name>SBQQ__CreateOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Include_Document --></label>
+        <name>SBQQ__Include_Document</name>
+    </webLinks>
+    <workflowTasks>
+        <name>CChEN_Rejected</name>
+        <subject><!-- CChEN Rejected --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

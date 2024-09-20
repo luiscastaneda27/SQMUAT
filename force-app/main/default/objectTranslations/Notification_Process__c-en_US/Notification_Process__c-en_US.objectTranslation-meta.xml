@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Notification Process</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Notification Processes</value>
+    </caseValues>
+    <layouts>
+        <layout>Notification Process Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Start Approval Process --></label>
+        <name>Start_Approval_Process</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must complete the Change Date field. --></errorMessage>
+        <name>Change_Date_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must complete the Deadline For Response field. --></errorMessage>
+        <name>Deadline_For_Response_Complete</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When you are creating a new record, the only status allowed is New --></errorMessage>
+        <name>New</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must add a file before submitting for approval --></errorMessage>
+        <name>No_file_attached</name>
+    </validationRules>
+</CustomObjectTranslation>

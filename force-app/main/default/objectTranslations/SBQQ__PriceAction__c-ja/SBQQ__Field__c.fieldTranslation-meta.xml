@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>条件に一致したときに更新する項目を選択します。</help>
+    <label><!-- Target Field --></label>
+    <name>SBQQ__Field__c</name>
+    <picklistValues>
+        <masterLabel>Bank_Note__c</masterLabel>
+        <translation><!-- Bank_Note__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c</masterLabel>
+        <translation><!-- Base_Price_Goal_W2P_Volume_Adj_ExtraCo__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base_Price_Goal_W2P_Volume_Adj__c</masterLabel>
+        <translation><!-- Base_Price_Goal_W2P_Volume_Adj__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base_Price_Goal_W2P__c</masterLabel>
+        <translation><!-- Base_Price_Goal_W2P__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base_Price_Goal__c</masterLabel>
+        <translation><!-- Base_Price_Goal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c</masterLabel>
+        <translation><!-- Base_Price_woGoal_W2P_Volume_Adj_ExtraCo__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIF_Price__c</masterLabel>
+        <translation><!-- CIF_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIF_Price_woGoal__c</masterLabel>
+        <translation><!-- CIF_Price_woGoal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIP_Price__c</masterLabel>
+        <translation><!-- CIP_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>CIP_Price_woGoal__c</masterLabel>
+        <translation><!-- CIP_Price_woGoal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cap_CNY__c</masterLabel>
+        <translation><!-- Cap_CNY__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAP_DDP_Price__c</masterLabel>
+        <translation><!-- DAP_DDP_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>DAP_DDP_Price_woGoal__c</masterLabel>
+        <translation><!-- DAP_DDP_Price_woGoal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount (%)</masterLabel>
+        <translation>割引 (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount (Amt)</masterLabel>
+        <translation>割引 (金額)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Explanation</masterLabel>
+        <translation>説明</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCA_EXW_Price__c</masterLabel>
+        <translation><!-- FCA_EXW_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>FCA_EXW_Price_woGoal__c</masterLabel>
+        <translation><!-- FCA_EXW_Price_woGoal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Floor (%)</masterLabel>
+        <translation>フロア (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freight_Cost__c</masterLabel>
+        <translation><!-- Freight_Cost__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goal__c</masterLabel>
+        <translation><!-- Goal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index_Grade__c</masterLabel>
+        <translation><!-- Index_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index_Price__c</masterLabel>
+        <translation><!-- Index_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Industry_Grade__c</masterLabel>
+        <translation><!-- Industry_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest_Rate__c</masterLabel>
+        <translation><!-- Interest_Rate__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markup (%)</masterLabel>
+        <translation>マークアップ (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Markup (Amt)</masterLabel>
+        <translation>マークアップ (金額)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Norm (%)</masterLabel>
+        <translation>基準値 (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Opportunity_Grades__c</masterLabel>
+        <translation><!-- Opportunity_Grades__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>OpptyGrades__c</masterLabel>
+        <translation><!-- OpptyGrades__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Payment_Discount__c</masterLabel>
+        <translation><!-- Payment_Discount__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prime_Disc_if_Grade_Matches__c</masterLabel>
+        <translation><!-- Prime_Disc_if_Grade_Matches__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prime_Disc_if_does_not_Match_Grade__c</masterLabel>
+        <translation><!-- Prime_Disc_if_does_not_Match_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ_ListPrice_woGoal__c</masterLabel>
+        <translation><!-- SBQQ_ListPrice_woGoal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Quantity__c</masterLabel>
+        <translation><!-- SBQQ__Quantity__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Target (%)</masterLabel>
+        <translation>目標値 (%)</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_AUX__c</masterLabel>
+        <translation><!-- Unbundling_AUX__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_BagSize__c</masterLabel>
+        <translation><!-- Unbundling_BagSize__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_BankNote__c</masterLabel>
+        <translation><!-- Unbundling_BankNote__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Goal__c</masterLabel>
+        <translation><!-- Unbundling_Goal__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Incoterm_1__c</masterLabel>
+        <translation><!-- Unbundling_Incoterm_1__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Incoterm_2__c</masterLabel>
+        <translation><!-- Unbundling_Incoterm_2__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Incoterm_3__c</masterLabel>
+        <translation><!-- Unbundling_Incoterm_3__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Incoterm_4__c</masterLabel>
+        <translation><!-- Unbundling_Incoterm_4__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_PaymentTerm__c</masterLabel>
+        <translation><!-- Unbundling_PaymentTerm__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Quality__c</masterLabel>
+        <translation><!-- Unbundling_Quality__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Segmentation__c</masterLabel>
+        <translation><!-- Unbundling_Segmentation__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Volume__c</masterLabel>
+        <translation><!-- Unbundling_Volume__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unbundling_Zone__c</masterLabel>
+        <translation><!-- Unbundling_Zone__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Unit Price</masterLabel>
+        <translation>単価</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vol_Adj_Cap__c</masterLabel>
+        <translation><!-- Vol_Adj_Cap__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Volume_Selected__c</masterLabel>
+        <translation><!-- Volume_Selected__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With_Bank_Note__c</masterLabel>
+        <translation><!-- With_Bank_Note__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Without_Bank_Note__c</masterLabel>
+        <translation><!-- Without_Bank_Note__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

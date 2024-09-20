@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Obstáculo: significa que la incidencia no le permite hacer sus actividades habituales en Salesforce.</help>
+    <label>Es el Incidente un Obstáculo?</label>
+    <name>Is_the_Issue_a_Stopper__c</name>
+    <picklistValues>
+        <masterLabel>No</masterLabel>
+        <translation>No</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Yes</masterLabel>
+        <translation>Sí</translation>
+    </picklistValues>
+</CustomFieldTranslation>

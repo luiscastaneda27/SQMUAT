@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldSets>
+        <label><!-- Active Contract Lookup --></label>
+        <name>SBQQ__ActiveContractLookup</name>
+    </fieldSets>
+    <layouts>
+        <layout>Contract Layout</layout>
+        <sections>
+            <label><!-- Approval Information --></label>
+            <section>Approval Information</section>
+        </sections>
+        <sections>
+            <label><!-- Volume --></label>
+            <section>Volume</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- New Opportunity --></label>
+        <name>New_Opportunity</name>
+    </quickActions>
+    <validationRules>
+        <errorMessage><!-- Before activating the contract you must have approval. --></errorMessage>
+        <name>Contract_Approve_before_activated</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The owner of the account must be the Sales Manager responsible for this client, please go into the account link to correct the account owner to the responsible Sales Manager. --></errorMessage>
+        <name>Sales_Marketing_Assistant_cant_owner</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The sum of the volumes for each Quarter must be equal to the total contracted volume --></errorMessage>
+        <name>TotalVolumePerQuarters</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Amend --></label>
+        <name>SBQQ__Amend</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RenewContracts --></label>
+        <name>SBQQ__RenewContracts</name>
+    </webLinks>
+</CustomObjectTranslation>

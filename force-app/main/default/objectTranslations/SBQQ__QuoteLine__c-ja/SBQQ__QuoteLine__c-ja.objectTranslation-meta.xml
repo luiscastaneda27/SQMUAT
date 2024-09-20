@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>見積品目</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- Line Editor China --></label>
+        <name>Line_Editor_China</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor Fixed Price --></label>
+        <name>Line_Editor_Fixed_Price</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor Iodine --></label>
+        <name>Line_Editor_Iodine</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ReferencedFields --></label>
+        <name>ReferencedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- ConsumptionSchedule --></label>
+        <name>SBQQ__ConsumptionSchedule</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Line Editor --></label>
+        <name>SBQQ__LineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Non-Current Quote Line Locked Fields --></label>
+        <name>SBQQ__NonCurrentQuoteLineLockedFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor --></label>
+        <name>SBQQ__SegmentedLineEditor</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Segmented Line Editor Summary --></label>
+        <name>SBQQ__SegmentedLineEditorSummary</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Standard Line Item Drawer --></label>
+        <name>SBQQ__StandardLineItemDrawer</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- Summary Fields --></label>
+        <name>SBQQ__SummaryFields</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- default --></label>
+        <name>default</name>
+    </fieldSets>
+    <layouts>
+        <layout>QuoteLine CPQ</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Final prices by Incorterms --></label>
+            <section>Final prices by Incorterms</section>
+        </sections>
+        <sections>
+            <label><!-- Inputs - Price Model --></label>
+            <section>Inputs - Price Model</section>
+        </sections>
+        <sections>
+            <label><!-- Prices --></label>
+            <section>Prices</section>
+        </sections>
+        <sections>
+            <label><!-- Recalculating --></label>
+            <section>Recalculating</section>
+        </sections>
+        <sections>
+            <label><!-- Unbundling Prices [USD/ton] --></label>
+            <section>Unbundling Prices [USD/ton]</section>
+        </sections>
+    </layouts>
+    <nameFieldLabel>品目名</nameFieldLabel>
+    <validationRules>
+        <errorMessage><!-- You may not specify additional discount as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Additional_discount_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The subscription term must be a positive number. --></errorMessage>
+        <name>SBQQ__Invalid_Subscription_Term</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You may not specify markup as both percentage and absolute amount. --></errorMessage>
+        <name>SBQQ__Markup_percent_or_amount</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is Recurring, a Billing Type must be selected. --></errorMessage>
+        <name>SBQQ__RecurringChargeTypeMustHaveBillingType</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time, a Billing Frequency value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_frequency</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Charge Type is One-Time or Usage, a Billing Type value cannot be selected. --></errorMessage>
+        <name>SBQQ__Validate_billing_type</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- CalculateQuoteFromQuoteLine --></label>
+        <name>SBQQ__CalculateQuoteFromQuoteLine</name>
+    </webLinks>
+</CustomObjectTranslation>

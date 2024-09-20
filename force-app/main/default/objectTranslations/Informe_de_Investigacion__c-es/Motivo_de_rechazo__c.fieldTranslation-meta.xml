@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Motivo de rechazo</label>
+    <name>Motivo_de_rechazo__c</name>
+    <picklistValues>
+        <masterLabel>Duplicate</masterLabel>
+        <translation><!-- Duplicate --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Informe a Cliente Deficiente</masterLabel>
+        <translation>Informe a Cliente Deficiente</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>RDP Deficiente</masterLabel>
+        <translation>RDP Deficiente</translation>
+    </picklistValues>
+</CustomFieldTranslation>

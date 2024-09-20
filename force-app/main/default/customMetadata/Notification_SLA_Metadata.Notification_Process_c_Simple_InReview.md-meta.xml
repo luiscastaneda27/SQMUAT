@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Notification_Process_c_Simple_InReview</label>
+    <protected>false</protected>
+    <values>
+        <field>SLA_Duration_Days__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>SLA_Duration_Hours__c</field>
+        <value xsi:type="xsd:double">0.0</value>
+    </values>
+    <values>
+        <field>SLA_First_Notification__c</field>
+        <value xsi:type="xsd:boolean">false</value>
+    </values>
+    <values>
+        <field>SLA_Last_Notification__c</field>
+        <value xsi:type="xsd:boolean">true</value>
+    </values>
+    <values>
+        <field>SLA_Object__c</field>
+        <value xsi:type="xsd:string">Notification_Process__c</value>
+    </values>
+    <values>
+        <field>SLA_Type__c</field>
+        <value xsi:type="xsd:string">Simple</value>
+    </values>
+    <values>
+        <field>SLA_Value__c</field>
+        <value xsi:type="xsd:string">In Review</value>
+    </values>
+</CustomMetadata>

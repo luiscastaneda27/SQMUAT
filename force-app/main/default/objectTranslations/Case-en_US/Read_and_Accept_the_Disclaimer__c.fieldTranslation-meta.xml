@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- I have provided the explanation and complementary information (images, files, etc.) for the understanding of my request. --></help>
+    <label><!-- Read and Accept the Disclaimer --></label>
+    <name>Read_and_Accept_the_Disclaimer__c</name>
+</CustomFieldTranslation>

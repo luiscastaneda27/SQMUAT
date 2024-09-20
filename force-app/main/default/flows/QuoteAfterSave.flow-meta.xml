@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>59.0</apiVersion>
+    <environments>Default</environments>
+    <formulas>
+        <name>frmExpiryDate</name>
+        <dataType>Date</dataType>
+        <expression>IF(
+    AND(
+        {!$Record.Type_of_Opportunity__c}= &apos;Contract-Monthly/Quaterly/Semesterly&apos;,
+        TODAY() &gt; DATEVALUE(&apos;2022-12-20&apos;)
+    ),
+    {!$Record.Created_Date__c}+ 21,
+    IF(
+        AND(
+            {!$Record.Type_of_Opportunity__c}= &apos;Spot-&apos;,
+            TODAY() &gt; DATEVALUE(&apos;2022-12-20&apos;)
+        ),
+        {!$Record.Created_Date__c}+ 14,
+        DATEVALUE(&apos;&apos;)
+    )
+)</expression>
+    </formulas>
+    <interviewLabel>QuoteBeforeSave {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>QuoteAfterSave</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>AutoLaunchedFlow</processType>
+    <recordUpdates>
+        <name>SetQuoteExpirationDate</name>
+        <label>SetQuoteExpirationDate</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <inputAssignments>
+            <field>SBQQ__ExpirationDate__c</field>
+            <value>
+                <elementReference>frmExpiryDate</elementReference>
+            </value>
+        </inputAssignments>
+        <inputReference>$Record</inputReference>
+    </recordUpdates>
+    <start>
+        <locationX>50</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>SetQuoteExpirationDate</targetReference>
+        </connector>
+        <object>SBQQ__Quote__c</object>
+        <recordTriggerType>Create</recordTriggerType>
+        <triggerType>RecordAfterSave</triggerType>
+    </start>
+    <status>Active</status>
+</Flow>

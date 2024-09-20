@@ -1,0 +1,512 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Case Auditoria de Cliente</layout>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Calidad Ext Layout</layout>
+        <sections>
+            <label><!-- Case Costs --></label>
+            <section>Case Costs</section>
+        </sections>
+        <sections>
+            <label>Classification</label>
+            <section>Clasificación</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+        <sections>
+            <label>Compensation Information</label>
+            <section>Información de Compensación</section>
+        </sections>
+        <sections>
+            <label>Reporting</label>
+            <section>Informe a Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Calidad INT Layout</layout>
+        <sections>
+            <label>Case Costs</label>
+            <section>Case Costs</section>
+        </sections>
+        <sections>
+            <label>Clasification</label>
+            <section>Clasificación</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case Cuestionarios &amp; Self Audit</layout>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Case otros</layout>
+        <sections>
+            <label><!-- Classification --></label>
+            <section>Classification</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Caso Cliente Comunidad</layout>
+        <sections>
+            <label>Address</label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label>Customer information</label>
+            <section>Información de Cliente</section>
+        </sections>
+        <sections>
+            <label>Legal person information</label>
+            <section>Persona Jurídica</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Caso Comunidad</layout>
+        <sections>
+            <label>Address</label>
+            <section>Dirección</section>
+        </sections>
+        <sections>
+            <label>Legal person information</label>
+            <section>Información Persona Jurídica</section>
+        </sections>
+        <sections>
+            <label>Customer Information</label>
+            <section>Información de Cliente</section>
+        </sections>
+        <sections>
+            <label>Risk</label>
+            <section>Riesgo</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Caso Soporte Interno</layout>
+        <sections>
+            <label><!-- Información de Cliente --></label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Claim to External Supplier Layout</layout>
+        <sections>
+            <label><!-- Clasificación --></label>
+            <section>Clasificación</section>
+        </sections>
+        <sections>
+            <label><!-- Información de Cliente --></label>
+            <section>Información de Cliente</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Helpdesk</layout>
+        <sections>
+            <label><!-- Case Details --></label>
+            <section>Case Details</section>
+        </sections>
+        <sections>
+            <label><!-- Descriptión --></label>
+            <section>Descriptión</section>
+        </sections>
+        <sections>
+            <label><!-- Exclusive use Support Equipment --></label>
+            <section>Exclusive use Support Equipment</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+        <sections>
+            <label><!-- Link Detail --></label>
+            <section>Link Detail</section>
+        </sections>
+        <sections>
+            <label><!-- Service Provider --></label>
+            <section>Service Provider</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Sample Request</layout>
+        <sections>
+            <label><!-- Case Datail --></label>
+            <section>Case Datail</section>
+        </sections>
+        <sections>
+            <label><!-- Consignee information --></label>
+            <section>Consignee information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Address --></label>
+            <section>Customer Address</section>
+        </sections>
+        <sections>
+            <label><!-- Detalle --></label>
+            <section>Detalle</section>
+        </sections>
+        <sections>
+            <label><!-- Laboratory - Antofagasta --></label>
+            <section>Laboratory - Antofagasta</section>
+        </sections>
+        <sections>
+            <label><!-- Notify Information --></label>
+            <section>Notify Information</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Purpose --></label>
+            <section>Purpose</section>
+        </sections>
+        <sections>
+            <label><!-- Request Form --></label>
+            <section>Request Form</section>
+        </sections>
+        <sections>
+            <label><!-- Send to Customer --></label>
+            <section>Send to Customer</section>
+        </sections>
+        <sections>
+            <label><!-- Send to Santiago --></label>
+            <section>Send to Santiago</section>
+        </sections>
+        <sections>
+            <label><!-- Send to subsidiary --></label>
+            <section>Send to subsidiary</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- NewChildCase --></label>
+        <name>NewChildCase</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- SendEmail --></label>
+        <name>SendEmail</name>
+    </quickActions>
+    <recordTypes>
+        <label>Client Audit</label>
+        <name>Auditoria_de_Cliente</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Claim to External Supplier --></label>
+        <name>Claim_to_External_Supplier</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para casos comunidad --></description>
+        <label><!-- Comunidad --></label>
+        <name>Comunidad</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Questionnaires</label>
+        <name>Cuestionarios</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Helpdesk --></label>
+        <name>Helpdesk</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Other Cases</label>
+        <name>Otros</name>
+    </recordTypes>
+    <recordTypes>
+        <label>External Quality Claims</label>
+        <name>Reclamos_Calidad</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Internal Quality Claims</label>
+        <name>Reclamos_Calidad_Interno</name>
+    </recordTypes>
+    <recordTypes>
+        <description><!-- Tipo de registro para solicitud de muestras. --></description>
+        <label><!-- Sample Request --></label>
+        <name>Sample_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label>Self Audit</label>
+        <name>Self_Audit</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Soporte técnico de la plataforma --></label>
+        <name>Soporte_Interno</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Customer reporting&quot;</errorMessage>
+        <name>Calidad_Reclamo_Externo_ECPartialClosure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Investigation&quot;</errorMessage>
+        <name>Calidad_Reclamo_Externo_EC_Reporting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Gathering Information&quot;</errorMessage>
+        <name>Calidad_Reclamo_Externo_EC_ToBeAssigned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot start the investigation if you have not yet assigned the quality engineer</errorMessage>
+        <name>Calidad_Reclamo_Externo_Investigacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot start the investigation stage if you have not yet accepted the investigation</errorMessage>
+        <name>Calidad_Reclamo_Externo_Reporting</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Investigation&quot;</errorMessage>
+        <name>Calidad_Reclamo_Interno_ECPartialClosure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Assignment&quot;</errorMessage>
+        <name>Calidad_Reclamo_Interno_EC_Investigacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Gathering Information&quot;</errorMessage>
+        <name>Calidad_Reclamo_Interno_EC_TobeAssigned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot start the investigation if you have not yet assigned the quality engineer</errorMessage>
+        <name>Calidad_Reclamo_Interno_Investigacion</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot close the case if the document is not yet approved</errorMessage>
+        <name>Calidad_Self_Audit_PartialClosure</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe ingresar los datos de persona jurídica (razón social, RUT o DNI, representante legal) --></errorMessage>
+        <name>Comunidad_CamposJuridica</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Para poder cerrar el caso completado o con seguimiento debe haber aprobado el informe a cliente --></errorMessage>
+        <name>Comunidad_CierreCompletoSeguimiento</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Antes de ir a la etapa en espera de respuesta de cliente, negociación o cierre, el Reporte para el cliente debe estar aprobado. Para ello, deber seleccionar el botón &quot;Solicitar Aprobación&quot; en la esquina superior derecha de esta ventana. --></errorMessage>
+        <name>Comunidad_Comunidad_AprobReporteCliente</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Antes de ir a la etapa de reporte a cliente, en espera de respuesta de cliente, negociación o cierre, el informe técnico debe estar aprobado. Para ello, deber seleccionar el botón &quot;Solicitar Aprobación&quot; en la esquina superior derecha de esta ventana. --></errorMessage>
+        <name>Comunidad_Comunidad_AprobTecnica</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No cuenta con los permisos necesarios para modificar el estado del campo --></errorMessage>
+        <name>Comunidad_EstadoCaso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe ingresar 8 dígitos en el teléfono móvil --></errorMessage>
+        <name>Comunidad_LargoTelefono</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe iniciar el caso en el estado nuevo. --></errorMessage>
+        <name>Comunidad_NuevoCaso</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Debe registrar el tipo de riesgo asociado al caso --></errorMessage>
+        <name>Comunidad_RiesgoYDetalle</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- RUT erróneo, debe ingresar RUT válido --></errorMessage>
+        <name>Comunidad_Validar_RUT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To advance to Production Validation Sub-Status, the configurations in UAT must be approved, Sub Category, In Production and Actual Effort Fields must be completed. HD10 --></errorMessage>
+        <name>HD10_Helpdesk_Production_Validation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To Closed Complete the case, the solution must be implemented in production and approved by the user. (HD1) --></errorMessage>
+        <name>HD1_Helpdesk_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>
+            <!-- If the value of the Is the Issue a Stopper? field is &quot;Yes&quot; the Priority must be &quot;Critical&quot; or &quot;Major&quot;.
+If the value of the Is the Issue a Stopper? field is &quot;No&quot; the Priority must be &quot;Medium&quot; or &quot;Minor&quot;. (HD2) -->
+        </errorMessage>
+        <name>HD2_Helpdesk_Incidents_Priority</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For incidents it is necessary to complete the Is the Issue a Stopper? field. (HD3) --></errorMessage>
+        <name>HD3_Helpdesk_Is_the_Issue_Stopper_field</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- It is not possible to modify a Closed Case. (HD4) --></errorMessage>
+        <name>HD4_Helpdesk_Modify_Closed_Case</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before moving to the next state you must change the owner of the Case. (HD5) --></errorMessage>
+        <name>HD5_Helpdesk_Update_Case_Owner_Incidents</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- You must complete the Sub Category, In Production and Actual Effort fields. (HD6) --></errorMessage>
+        <name>HD6_Helpdesk_Update_Validation_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To change status must be approved by Key User. HD7 --></errorMessage>
+        <name>HD7_Helpdesk_Key_User_Approval</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To move forward In Progress the case must be prioritized and have an effort estimate assigned. HD8 --></errorMessage>
+        <name>HD8_Helpdesk_Prioritization</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- To advance to Validation Status and UAT Validation Sub-Status, the configurations in DEV must be approved, UAT Configurations Field and Attached documentation must be true. HD9 --></errorMessage>
+        <name>HD9_Helpdesk_Validation_UAT</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please, complete all the fields of the section &quot;Only for new users&quot; before saving the case. --></errorMessage>
+        <name>Helpdesk_campos_obligatorios_new_users</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot change the priority of the case when the process has started</errorMessage>
+        <name>LQuality_All_New</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot start planning if you have not yet assigned the quality engineer</errorMessage>
+        <name>LQuality_Auditoria_Planning</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot close the case if the document is not yet approved</errorMessage>
+        <name>LQuality_Cuestionarios_PartialClose</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Before closing the case you must send the report to the client and then attach it to the case</errorMessage>
+        <name>LQuality_ReclamoCalidadExterno_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before closing the Case you must complete the Transaction field --></errorMessage>
+        <name>LQuality_ReclamoCalidadExterno_Closed2</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You must complete the key event &quot;Assignment&quot;</errorMessage>
+        <name>LQuality_ReclamoCalidadExterno_Invest</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>Before closing the case you must send the report to the client and then attach it to the case</errorMessage>
+        <name>LQuality_ReclamoCalidadExterno_PartialCl</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot close the case if you have not yet accepted the investigation report</errorMessage>
+        <name>LQuality_ReclamoCalidadInterno_Closed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete &quot;Request laboratory&quot; Checkbox before to continue. --></errorMessage>
+        <name>LQuality_SamplesR_PrepareStgoDelivery</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage>You cannot start working on the report if you have not yet assigned the responsible engineer</errorMessage>
+        <name>LQuality_SelfAuditCuestie_InternalReport</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Before to continue you need to comple National Courier, Delivery Date Santiago and National Tracking Number --></errorMessage>
+        <name>Sample_Request2_Prepare_Stgo_Delivery</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete &quot;Received in Santiago&quot; checkbox before to continue. --></errorMessage>
+        <name>Sample_Request3_In_transit_to_Santiago</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete next fields before to continue: Validate Samples, Prepare Documents, International Courier, Delivery Date Filial and Tracking Number Filial. --></errorMessage>
+        <name>Sample_Request4_Prepare_Subsid_Delivery</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete &quot;Received in Filial&quot; before to continue. --></errorMessage>
+        <name>Sample_Request5_In_transit_to_Subsidiary</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please complete next fields before to continue: Customer Courier, Delivery Date Customer, Tracking Number Customer and Received by the customer. --></errorMessage>
+        <name>Sample_Request6_Send_to_Customer</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Case needs at least one Sample Request to Change Status. --></errorMessage>
+        <name>Sample_Request_Greater_than_zero</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Create_user_Service_now --></label>
+        <name>Create_user_Service_now</name>
+    </webLinks>
+    <workflowTasks>
+        <description><!-- El Caso que se encontraba en estado de Investigación fue APROBADO por favor continua su  gestión. --></description>
+        <name>Caso_Aprobado</name>
+        <subject><!-- Caso Aprobado --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- El Caso que ha pasado 7 dias en el estado en respuesta a cliente a sido Cerrado. --></description>
+        <name>Caso_Cerrado</name>
+        <subject><!-- Caso Cerrado --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- El Caso que se encontraba en estado de Investigación fue RECHAZADO. --></description>
+        <name>Caso_Rechazado</name>
+        <subject><!-- Caso Rechazado --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Su caso en estado de Cierre Parcial esta vencido, por favor gestionelo para que complete su cierre adecuado. --></description>
+        <name>Caso_en_Cierre_Parcial_vencido</name>
+        <subject><!-- Caso en Cierre Parcial vencido --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Su caso en estado de Esperando Respuesta de Cliente, por favor gestionelo antes de vencer. --></description>
+        <name>Caso_en_Esperando_Respuesta_de_Cliente</name>
+        <subject><!-- Caso en Esperando Respuesta de Cliente --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Su caso en estado de Informe a cliente esta proximo a vencer, por favor gestionelo. --></description>
+        <name>Caso_en_Informe_a_cliente_esta_proximo_a_vencer</name>
+        <subject><!-- Caso en Informe a cliente esta proximo a vencer --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Su caso en estado de investigación esta proximo a vencer, por favor gestionelo a tiempo. --></description>
+        <name>Caso_en_Investigaci_n_proximo_a_vencer</name>
+        <subject><!-- Caso en Investigación proximo a vencer --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Su caso esta estado por asignar, por favor asignelo antes de su vencimiento. --></description>
+        <name>Caso_por_asignar_proximo_a_vencer</name>
+        <subject><!-- Caso por asignar proximo a vencer --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- No olvides hacerle seguimiento a tu Caso --></description>
+        <name>Tarea_de_Seguimiento_1</name>
+        <subject><!-- Tarea de Seguimiento 1 --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Tienes casos Nuevos por asignar, recuerda hacerlo antes de su vencimiento. --></description>
+        <name>Tienes_Casos_Nuevos_por_Asignar</name>
+        <subject><!-- Tienes Casos Nuevos por Asignar --></subject>
+    </workflowTasks>
+    <workflowTasks>
+        <description><!-- Tienes casos vencidos si asignar, recuerda gestionarlos para bajar el volumen de casos vencidos. --></description>
+        <name>Tienes_Casos_vencidos_sin_asignaci_n</name>
+        <subject><!-- Tienes Casos vencidos sin asignación --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Payment Terms</label>
+    <name>Payment_Terms__c</name>
+    <picklistValues>
+        <masterLabel>120 days</masterLabel>
+        <translation><!-- 120 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>150 days</masterLabel>
+        <translation><!-- 150 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>180 days</masterLabel>
+        <translation><!-- 180 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>30 days</masterLabel>
+        <translation><!-- 30 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>45 days</masterLabel>
+        <translation><!-- 45 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>60 days</masterLabel>
+        <translation><!-- 60 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>75 days</masterLabel>
+        <translation><!-- 75 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>90 days</masterLabel>
+        <translation><!-- 90 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Less than 30 days</masterLabel>
+        <translation><!-- Less than 30 days --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Prepayment</masterLabel>
+        <translation><!-- Prepayment --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

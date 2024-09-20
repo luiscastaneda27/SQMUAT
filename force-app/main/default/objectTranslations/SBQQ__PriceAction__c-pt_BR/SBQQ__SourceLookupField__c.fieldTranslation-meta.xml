@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Nome da API do campo a retornar da linha que corresponde à condição.</help>
+    <label><!-- Source Lookup Field --></label>
+    <name>SBQQ__SourceLookupField__c</name>
+    <picklistValues>
+        <masterLabel>Cap__c</masterLabel>
+        <translation><!-- Cap__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cost_USD_kg__c</masterLabel>
+        <translation><!-- Cost_USD_kg__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount_Prime_if_Match_Grade__c</masterLabel>
+        <translation><!-- Discount_Prime_if_Match_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount_Prime_if_don_t_match_Grade__c</masterLabel>
+        <translation><!-- Discount_Prime_if_don_t_match_Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Discount__c</masterLabel>
+        <translation><!-- Discount__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Freight_Cost__c</masterLabel>
+        <translation><!-- Freight_Cost__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Goal_Value__c</masterLabel>
+        <translation><!-- Goal_Value__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Grade__c</masterLabel>
+        <translation><!-- Grade__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index_Value__c</masterLabel>
+        <translation><!-- Index_Value__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index__c</masterLabel>
+        <translation><!-- Index__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Interest_Rate__c</masterLabel>
+        <translation><!-- Interest_Rate__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Value__c</masterLabel>
+        <translation>SBQQ__Value__c</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>With_Bank_Note__c</masterLabel>
+        <translation><!-- With_Bank_Note__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Without_Bank_Note__c</masterLabel>
+        <translation><!-- Without_Bank_Note__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

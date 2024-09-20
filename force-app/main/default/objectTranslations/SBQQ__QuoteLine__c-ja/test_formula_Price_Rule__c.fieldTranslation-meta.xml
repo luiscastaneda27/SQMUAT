@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- campo de prueba para compilar formulas a usar en Price Rules --></help>
+    <label><!-- test formula Price Rule --></label>
+    <name>test_formula_Price_Rule__c</name>
+</CustomFieldTranslation>

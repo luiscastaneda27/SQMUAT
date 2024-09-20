@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Escolha um campo no objeto de destino.</help>
+    <label><!-- Field --></label>
+    <name>SBQQ__Field__c</name>
+    <picklistValues>
+        <masterLabel>CurrencyIsoCode</masterLabel>
+        <translation><!-- CurrencyIsoCode --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Index_Price__c</masterLabel>
+        <translation><!-- Index_Price__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Market__c</masterLabel>
+        <translation><!-- Market__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Packaging__c</masterLabel>
+        <translation><!-- Packaging__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Product Code</masterLabel>
+        <translation>Código do produto</translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__ProductFamily__c</masterLabel>
+        <translation><!-- SBQQ__ProductFamily__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__ProductOption__c</masterLabel>
+        <translation><!-- SBQQ__ProductOption__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SBQQ__Quantity__c</masterLabel>
+        <translation><!-- SBQQ__Quantity__c --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Selected__c</masterLabel>
+        <translation><!-- Selected__c --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

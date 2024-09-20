@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomHelpMenuSection xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/ERrNQbMPEPBOg8sOEMzEvn0Bs4klmCh9_GI_L8sWOdSNuQ?e=fcarFM</linkUrl>
+        <masterLabel>Quote Best Practices</masterLabel>
+        <sortOrder>1</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/Ea7CQk42EgpFp2x089Y38jgBldKipRYvG-j9oee0Awwu8g?e=T2hdZ0</linkUrl>
+        <masterLabel>From Contract to Quote</masterLabel>
+        <sortOrder>2</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/EaX1di-ov0NMguCFbq4anVYB63D_-T3DgZSgBD9qlKqMTg?e=ETGDrR</linkUrl>
+        <masterLabel>Closing Spot older quotes then 14 days</masterLabel>
+        <sortOrder>3</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/ETbdBlUY1U1Grsh20uL8Me0BfUpEGModBs-NUP4v1lT-sw?e=2md6ve</linkUrl>
+        <masterLabel>Clone Quotes</masterLabel>
+        <sortOrder>4</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/EfTAXw1EOZVMkXCwmVrOGMQBqz_mMpaHU7pE2qs2RWvztw?e=HIxTFh</linkUrl>
+        <masterLabel>Quote lines</masterLabel>
+        <sortOrder>5</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/Eb2GFzhjNthFkBr21WuqQU4BjOJvYPSOtKKZL3YqYCW8Hg?e=lvFz0q</linkUrl>
+        <masterLabel>Delete an Account</masterLabel>
+        <sortOrder>6</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/EaVrJ25x3rxAs81T7LFLgf8BA6ew95q5iKoSd3Wpfy9kOA?e=7N3TaG</linkUrl>
+        <masterLabel>Salesforce in Outlook</masterLabel>
+        <sortOrder>7</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/EcZ0Xlj1z55EujzDbp-DGJwBiTczy4ZWJQI41sciyW1mmA?e=ssJfhu</linkUrl>
+        <masterLabel>Chatter</masterLabel>
+        <sortOrder>8</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:b:/s/GciaTI-WRIKE/EUeNf2q5-W5PizNQXVlHTXcBsbBNkFnjNgdAVT34OqwylA?e=4HQ2hG</linkUrl>
+        <masterLabel>Tasks</masterLabel>
+        <sortOrder>9</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:w:/s/GciaTI-WRIKE/EQCxVfKbrqNPuX-X2F44bXkBfhtsPqmLSkDOGWuLf_W99Q?e=UvGlGa</linkUrl>
+        <masterLabel>Declaration of Use - Distributor</masterLabel>
+        <sortOrder>10</sortOrder>
+    </customHelpMenuItems>
+    <customHelpMenuItems>
+        <linkUrl>https://sqmcloud.sharepoint.com/:w:/r/sites/GciaTI-WRIKE/Documentos%20compartidos/Digital%20%26%20Analytics%20Corporativo/Customer%20Experience/Documentos/Documentation%20-%20Sales%20-%20Lithium%20(Inge)/Template%20-%20Letter%20on%20Compliance%20Non-use%20Li%20in%20nuclear%20fusion%20(END%20USER).docx?d=w247fa5383d4f424794a07bf886f8c9fc&amp;csf=1&amp;web=1&amp;e=tv1ybQ</linkUrl>
+        <masterLabel>Declaration of Use - End User</masterLabel>
+        <sortOrder>11</sortOrder>
+    </customHelpMenuItems>
+    <masterLabel>Lithium Sales Team</masterLabel>
+</CustomHelpMenuSection>

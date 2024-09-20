@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Sub status</label>
+    <name>Sub_estado__c</name>
+    <picklistValues>
+        <masterLabel>A la espera de aprobación de investigación</masterLabel>
+        <translation><!-- A la espera de aprobación de investigación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>A la espera de aprobación de reporte a cliente</masterLabel>
+        <translation><!-- A la espera de aprobación de reporte a cliente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aprobación Estimación</masterLabel>
+        <translation><!-- Aprobación Estimación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aprobado UAT</masterLabel>
+        <translation><!-- Aprobado UAT --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Aprobado en DEV</masterLabel>
+        <translation><!-- Aprobado en DEV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cancelado</masterLabel>
+        <translation><!-- Cancelado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cerrado con Seguimiento</masterLabel>
+        <translation><!-- Cerrado con Seguimiento --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cierre completado</masterLabel>
+        <translation><!-- Cierre completado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cierre por falta de información</masterLabel>
+        <translation><!-- Cierre por falta de información --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cierre por información no verídica</masterLabel>
+        <translation><!-- Cierre por información no verídica --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Configuraciones DEV</masterLabel>
+        <translation><!-- Configuraciones DEV --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En espera Priorización</masterLabel>
+        <translation><!-- En espera Priorización --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En espera aprobación Key User</masterLabel>
+        <translation><!-- En espera aprobación Key User --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En estimación</masterLabel>
+        <translation><!-- En estimación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En generación de reporte a cliente</masterLabel>
+        <translation><!-- En generación de reporte a cliente --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>En generación de reporte técnico</masterLabel>
+        <translation><!-- En generación de reporte técnico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Información</masterLabel>
+        <translation><!-- Información --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Reporte a cliente aprobado</masterLabel>
+        <translation><!-- Reporte a cliente aprobado --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validación Producción</masterLabel>
+        <translation><!-- Validación Producción --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Validación UAT</masterLabel>
+        <translation><!-- Validación UAT --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

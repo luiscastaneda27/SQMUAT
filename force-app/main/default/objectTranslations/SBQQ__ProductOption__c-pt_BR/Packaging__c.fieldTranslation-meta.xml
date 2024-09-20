@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Packaging --></label>
+    <name>Packaging__c</name>
+    <picklistValues>
+        <masterLabel>Big Bag</masterLabel>
+        <translation><!-- Big Bag --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Small Bag</masterLabel>
+        <translation><!-- Small Bag --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

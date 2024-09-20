@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <layouts>
+        <layout>Formato de asignación</layout>
+        <sections>
+            <label>Assignment information</label>
+            <section>Información de asignación</section>
+        </sections>
+        <sections>
+            <label>System information</label>
+            <section>Información del sistema</section>
+        </sections>
+    </layouts>
+</CustomObjectTranslation>

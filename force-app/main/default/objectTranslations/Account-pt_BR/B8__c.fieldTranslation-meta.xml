@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Collaboration degree from the customer. --></help>
+    <label><!-- B8 - Business partnership --></label>
+    <name>B8__c</name>
+    <picklistValues>
+        <masterLabel>Do not share info</masterLabel>
+        <translation><!-- Do not share info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Open to plant visit and to share info</masterLabel>
+        <translation><!-- Open to plant visit and to share info --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Share some market/technical info</masterLabel>
+        <translation><!-- Share some market/technical info --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Tipos de Riesgos --></label>
+    <name>Tipos_de_Riesgos__c</name>
+    <picklistValues>
+        <masterLabel>Accidente o  de  camioneta o camión daño a persona</masterLabel>
+        <translation><!-- Accidente o  de  camioneta o camión daño a persona --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidente o  de  camioneta o camión daño material</masterLabel>
+        <translation><!-- Accidente o  de  camioneta o camión daño material --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Accidente por pasivos de SQM, derrumbe via ferrea, muelle o similar</masterLabel>
+        <translation><!-- Accidente por pasivos de SQM, derrumbe via ferrea, muelle o similar --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Afectación del patrimonio Histórico</masterLabel>
+        <translation><!-- Afectación del patrimonio Histórico --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contaminación al aire y emisiones de CO2</masterLabel>
+        <translation><!-- Contaminación al aire y emisiones de CO2 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contaminación de la Tierra</masterLabel>
+        <translation><!-- Contaminación de la Tierra --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contribuciones a la Comunidad</masterLabel>
+        <translation><!-- Contribuciones a la Comunidad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Contribuciones por Contrato CORFO</masterLabel>
+        <translation><!-- Contribuciones por Contrato CORFO --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corte de Luz</masterLabel>
+        <translation><!-- Corte de Luz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Corte del suministro de agua</masterLabel>
+        <translation><!-- Corte del suministro de agua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Derrame en camino</masterLabel>
+        <translation><!-- Derrame en camino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Derrame en mar, río o ecosistema</masterLabel>
+        <translation><!-- Derrame en mar, río o ecosistema --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Desarrollo Productivo</masterLabel>
+        <translation><!-- Desarrollo Productivo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Desarrollo de Fuerza Laboral</masterLabel>
+        <translation><!-- Desarrollo de Fuerza Laboral --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Desarrollo de Proveedores</masterLabel>
+        <translation><!-- Desarrollo de Proveedores --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Disponibilidad de Agua</masterLabel>
+        <translation><!-- Disponibilidad de Agua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Ecosistemas</masterLabel>
+        <translation><!-- Ecosistemas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Educación</masterLabel>
+        <translation><!-- Educación --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Gestión de Residuos</masterLabel>
+        <translation><!-- Gestión de Residuos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Huelga o toma de Camino</masterLabel>
+        <translation><!-- Huelga o toma de Camino --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Impuestos regalias y acuerdos de equidad</masterLabel>
+        <translation><!-- Impuestos regalias y acuerdos de equidad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Incendio</masterLabel>
+        <translation><!-- Incendio --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Infraestructura</masterLabel>
+        <translation><!-- Infraestructura --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Intoxicación por gases a trabajadores o externos</masterLabel>
+        <translation><!-- Intoxicación por gases a trabajadores o externos --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Malas condiciones de habitabilidad</masterLabel>
+        <translation><!-- Malas condiciones de habitabilidad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Necesidades Expectativas y Consideración</masterLabel>
+        <translation><!-- Necesidades Expectativas y Consideración --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Propiedad y Derecho del Agua</masterLabel>
+        <translation><!-- Propiedad y Derecho del Agua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relacionamiento</masterLabel>
+        <translation><!-- Relacionamiento --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Relaciones Públicas</masterLabel>
+        <translation><!-- Relaciones Públicas --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotura de Matriz</masterLabel>
+        <translation><!-- Rotura de Matriz --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Rotura de aducción de agua</masterLabel>
+        <translation><!-- Rotura de aducción de agua --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salud</masterLabel>
+        <translation><!-- Salud --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seguridad</masterLabel>
+        <translation><!-- Seguridad --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Socavón con responsabilidad de SQM</masterLabel>
+        <translation><!-- Socavón con responsabilidad de SQM --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Vinculos</masterLabel>
+        <translation><!-- Vinculos --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

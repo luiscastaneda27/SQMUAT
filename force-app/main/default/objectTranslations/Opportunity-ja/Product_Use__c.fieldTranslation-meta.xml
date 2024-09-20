@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label><!-- Category --></label>
+    <name>Product_Use__c</name>
+    <picklistValues>
+        <masterLabel>BATTERY</masterLabel>
+        <translation><!-- BATTERY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Biocides</masterLabel>
+        <translation><!-- Biocides --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>I2 derivatives</masterLabel>
+        <translation><!-- I2 derivatives --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Iodophors</masterLabel>
+        <translation><!-- Iodophors --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LHI/LHI-W/LHI-R</masterLabel>
+        <translation><!-- LHI/LHI-W/LHI-R --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LHT-B</masterLabel>
+        <translation><!-- LHT-B --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LHT/LHT-O</masterLabel>
+        <translation><!-- LHT/LHT-O --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Others</masterLabel>
+        <translation><!-- Others --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>TECHNICAL</masterLabel>
+        <translation><!-- TECHNICAL --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>X-Ray</masterLabel>
+        <translation><!-- X-Ray --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

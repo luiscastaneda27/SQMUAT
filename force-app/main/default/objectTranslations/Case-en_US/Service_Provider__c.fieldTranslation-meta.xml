@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Service provider in charge of &quot;Review SP&quot; Step --></help>
+    <label><!-- Executed By --></label>
+    <name>Service_Provider__c</name>
+    <picklistValues>
+        <masterLabel>Admins - TI</masterLabel>
+        <translation><!-- Admins - TI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Deloitte</masterLabel>
+        <translation><!-- Deloitte --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>EY</masterLabel>
+        <translation><!-- EY --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Other</masterLabel>
+        <translation><!-- Other --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SQM Infrastructure</masterLabel>
+        <translation><!-- SQM Infrastructure --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Salesforce</masterLabel>
+        <translation><!-- Salesforce --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Seidor</masterLabel>
+        <translation><!-- Seidor --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Tableau</masterLabel>
+        <translation><!-- Tableau --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>VASS</masterLabel>
+        <translation><!-- VASS --></translation>
+    </picklistValues>
+</CustomFieldTranslation>

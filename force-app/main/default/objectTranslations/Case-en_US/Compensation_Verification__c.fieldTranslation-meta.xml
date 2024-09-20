@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help>Confirmation and verification of compensation with Client is expected</help>
+    <label>Compensation verification</label>
+    <name>Compensation_Verification__c</name>
+</CustomFieldTranslation>

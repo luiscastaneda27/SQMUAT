@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <help><!-- Meses --></help>
+    <label><!-- Duración de contrato --></label>
+    <name>Duracion_de_contrato__c</name>
+</CustomFieldTranslation>

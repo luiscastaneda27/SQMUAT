@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <errorMessage><!-- You cannot modify the items of the quote when it has been approved --></errorMessage>
+        <name>Restriccion_cambio_cantidad_de_ietms</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- No puede ingresar letras, solo números --></errorMessage>
+        <name>Restricion_letras_ano</name>
+    </validationRules>
+</CustomObjectTranslation>

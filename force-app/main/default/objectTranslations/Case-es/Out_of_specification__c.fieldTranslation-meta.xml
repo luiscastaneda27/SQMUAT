@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomFieldTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <label>Fuera de especificación</label>
+    <name>Out_of_specification__c</name>
+    <picklistValues>
+        <masterLabel>Ca</masterLabel>
+        <translation><!-- Ca --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cl</masterLabel>
+        <translation><!-- Cl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Cloruro / Bromuro</masterLabel>
+        <translation><!-- Cloruro / Bromuro --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D100</masterLabel>
+        <translation><!-- D100 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D50</masterLabel>
+        <translation><!-- D50 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>D90</masterLabel>
+        <translation><!-- D90 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Insolubles en HCl</masterLabel>
+        <translation><!-- Insolubles en HCl --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>LOI</masterLabel>
+        <translation><!-- LOI --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Li2CO3 Residual</masterLabel>
+        <translation><!-- Li2CO3 Residual --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>MMP</masterLabel>
+        <translation><!-- MMP --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Mg</masterLabel>
+        <translation><!-- Mg --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Na</masterLabel>
+        <translation><!-- Na --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Pureza</masterLabel>
+        <translation><!-- Pureza --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Residuo</masterLabel>
+        <translation><!-- Residuo --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>SO4</masterLabel>
+        <translation><!-- SO4 --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Si</masterLabel>
+        <translation><!-- Si --></translation>
+    </picklistValues>
+    <picklistValues>
+        <masterLabel>Sulfato</masterLabel>
+        <translation><!-- Sulfato --></translation>
+    </picklistValues>
+</CustomFieldTranslation>
