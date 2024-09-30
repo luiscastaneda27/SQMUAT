@@ -1,0 +1,60 @@
+{
+  "appPageId" : "9478acf4-0ffe-4814-b519-df8871bcf7d6",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "1fceffa8-1d79-4d86-bbdb-6e2935817db9",
+  "label" : "User Settings",
+  "regions" : [ {
+    "id" : "932c2e3e-65d5-4c5a-9d2a-c6b89834d3cc",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "accountSectionTitle" : "Cuenta",
+        "accountTabName" : "Account Details",
+        "connectedSourcesTabName" : "Connected Sources",
+        "emailNotificationsTitle" : "Email Notifications",
+        "emailSectionDescText" : "When email notifications are enabled, email me when someone:",
+        "hideChatterNotificationSettings" : false,
+        "hideConnectedSources" : true,
+        "hideEmailNotificationSettings" : true,
+        "hideProfileVisibilitySettings" : true,
+        "id" : "{!recordId}",
+        "locationTitle" : "Idioma",
+        "profileSectionDescText" : "Customize who is able to see what on your profile page",
+        "profileSectionToolTipText" : "Restricted: Visible to the employees of the company that created the site. Members: Visible to logged-in members. Public: Visible to anyone viewing pages that don't require login.",
+        "profileVisibilityTitle" : "Profile Visibility",
+        "settingsPageTitle" : "Idioma y Configuración"
+      },
+      "componentName" : "forceCommunity:userSettingsCustomizable",
+      "id" : "7559340b-febc-4f17-99fb-2927604801bc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "81a98d2f-936d-48dd-91f0-b734fe59e12f"
+      },
+      "renditions" : [ {
+        "id" : "81a98d2f-936d-48dd-91f0-b734fe59e12f",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "accountSectionTitle" : "Account",
+            "locationTitle" : "Language ",
+            "settingsPageTitle" : "Language and Configuration"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "6d64674b-b676-4dec-a003-db57ced79105",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "id" : "80712ee5-2997-46ea-a8d4-86fd5dc8cbad",
+    "regionName" : "footer",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Inner",
+  "type" : "view",
+  "viewType" : "usersettings"
+}

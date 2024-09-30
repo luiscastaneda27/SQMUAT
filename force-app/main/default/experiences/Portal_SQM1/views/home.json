@@ -1,0 +1,147 @@
+{
+  "appPageId" : "9478acf4-0ffe-4814-b519-df8871bcf7d6",
+  "componentName" : "siteforce:sldsThreeCol363Layout",
+  "dataProviders" : [ ],
+  "id" : "05c59384-eac7-4174-aad5-b998ef14bbca",
+  "label" : "Home",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : {
+        "bannerBackgroundColor" : "rgba(255, 255, 255, 0)",
+        "bannerPosition" : "bottom",
+        "bannerSizePercent" : 15,
+        "borderRadius" : 20,
+        "boxShadow" : true,
+        "haveBanner" : true,
+        "iconBackgroundColor" : "rgb(255,255,255)",
+        "iconSize" : "medium",
+        "noImageColor" : "rgba(255, 255, 255, 0)",
+        "overlay" : "rgba(0,0,0,0.01)",
+        "templateType" : "full",
+        "tileMenuEditor" : "Men_principal",
+        "titleColor" : "rgb(0, 59, 124)",
+        "titleFontSize" : "medium",
+        "titleHorizontalAlign" : "center"
+      },
+      "componentName" : "community_navigation:tileMenu",
+      "id" : "d9cba4e1-583d-4e1f-950e-0c9fe14bbcfd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "46216c08-2146-40f4-9fba-4f88b35948a6",
+    "regionName" : "header",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "buttonAlignment" : "center",
+        "buttonBgColor" : "",
+        "buttonBgHoverColor" : "",
+        "buttonBorderColor" : "",
+        "buttonMaxWidth" : 100,
+        "buttonRadius" : 0,
+        "buttonTextColor" : "",
+        "buttonTextHoverColor" : "",
+        "confirmationMessage" : "Got it!",
+        "followUpPromptLabel" : "Can we close your question?",
+        "isAskFollowPromptEnabled" : true,
+        "isIncludeArticlesEnabled" : false,
+        "isIncludeDiscussionsEnabled" : true,
+        "isInitialSatisfactionPromptEnabled" : true,
+        "isPublisherDeflectionEnabled" : true,
+        "label" : "Ask a Question",
+        "maxSuggestions" : 5,
+        "satisfactionPromptLabel" : "Did we help to answer your question?",
+        "showDetails" : false,
+        "showTopics" : true,
+        "uneditableTopics" : false
+      },
+      "componentName" : "forceCommunity:askCommunity",
+      "id" : "fc728143-11c2-47af-8ad1-2f631b484ff3",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "0e5f7e47-b597-42ce-8e93-3a83e68cf8cc",
+    "regionName" : "featured",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "richTextValue" : "<div align=\"center\" width=\"500px\" style=\"text-align:justify;\">\n\t<p>Le damos la bienvenida al canal de requerimientos y reclamos de SQM, el que funciona como una herramienta de comunicaciones directa con nuestras comunidades, y públicos de interés en general -de Chile o el extranjero-, que desee manifestar un reclamo, requerimiento, pregunta o solicitud directa a nuestra compañía.</p>\n    <br/>\n\t<p>La información ingresada en la plataforma por los usuarios, es evaluada, investigada y respondida, por personal de SQM. Todos los datos ingresados quedan almacenados en el sistema para su posterior seguimiento, preguntas y gestión.</p>\n    <br/>\n\t<p>Al crear su usuario y generar su número de caso, se inicia su contacto con SQM, posteriormente podrá pregunta por el estado de su caso utilizando los números de su registro.</p>\n    <br/>\n\t<p>Importante:</p>\n        <ul>\n\t\t\t<li>Todos los requerimientos ingresados a nuestro canal serán revisados de forma confidencial.</li>\n\t\t\t<li>Tenga en cuenta que no se trata de un servicio de emergencia. Póngase en contacto con las autoridades locales si se trata de un problema potencialmente mortal.</li>\n    \t</ul>\n    <br/>\n\t\t<p>Para preguntas o información sobre la compañía lo invitamos a visitar nuestro sitio <a href=\"https://www.sqm.com\" target=\"_blank\">www.sqm.com</a></p>\n</div>"
+      },
+      "componentName" : "forceCommunity:htmlBlock",
+      "id" : "94bfbe29-5b1c-4a0f-ad98-96b497d805d4",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "fa11d6c8-4baa-40af-861b-7686c8fd19b5"
+      },
+      "renditions" : [ {
+        "id" : "fa11d6c8-4baa-40af-861b-7686c8fd19b5",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<div align=\"center\" width=\"500px\" style=\"text-align:justify;\">\n\t<p>Welcome to SQM's request and complaint channel, a tool designed for direct communication with communities and other local or international stakeholders wishing to file a complaint, request or inquiry directly with our company.</p>\n    <br/>\n\t<p>Information submitted by users on the platform will be evaluated, investigated and responded to by SQM personnel. All data submitted will be stored in the system for subsequent monitoring, questions and management.</p>\n    <br/>\n\t<p>Contact with SQM begins when you create a user name and generate a case number. You may inquire about the status of your case at a later date using the numbers provided when you register.</p>\n    <br/>\n\t<p>Important:</p>\n        <ul>\n\t\t\t<li>All requests submitted through the channel will be reviewed confidentially.</li>\n\t\t\t<li>Bear in mind that this service is not for emergencies. Please contact local authorities if the problem is potentially deadly.</li>\n    \t</ul>\n    <br/>\n\t\t<p>For more information about the company, please visit our site <a href=\"https://www.sqm.com\" target=\"_blank\">www.sqm.com</a></p>\n</div>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "e52a6934-a1fa-4765-a03c-15cd76aa1879",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "label" : "Idioma preferido",
+        "pickerAlignment" : "left"
+      },
+      "componentName" : "forceCommunity:languageSelector43",
+      "id" : "41b961ff-83d9-4719-b6e6-d65731537536",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "a768b512-2b85-4428-a601-814a77a644b4"
+      },
+      "renditions" : [ {
+        "id" : "a768b512-2b85-4428-a601-814a77a644b4",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "label" : "Preferred language"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    } ],
+    "id" : "5edbea18-3a82-408a-8133-5659402ebbcf",
+    "regionName" : "sidebar",
+    "type" : "region"
+  }, {
+    "id" : "21e31143-cf11-4771-8ef5-70c4a4dfea75",
+    "regionName" : "footer",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Portal SQM"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "3ff3c33e-1bf1-4378-b85e-a5f8303797c7",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "3b633cff-f389-4ee6-81f5-e0a19d7a52dd",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  }, {
+    "id" : "402ae18f-68eb-4e7c-afde-9b80f9030769",
+    "regionName" : "sidebarAlt",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Home",
+  "type" : "view",
+  "viewType" : "home"
+}

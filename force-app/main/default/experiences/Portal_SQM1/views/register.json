@@ -1,0 +1,110 @@
+{
+  "appPageId" : "eb82300a-474a-4917-97ac-f3a0d6dab6e0",
+  "componentName" : "siteforce:sldsOneColLayout",
+  "dataProviders" : [ ],
+  "id" : "8183cd83-ca2a-48b3-b4db-95aae3d64fcc",
+  "label" : "Register",
+  "regions" : [ {
+    "components" : [ {
+      "componentAttributes" : { },
+      "componentName" : "salesforceIdentity:communityLogo2",
+      "id" : "79be2c2d-c618-423c-8cc5-cf631a8c553f",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "richTextValue" : "<p style=\"text-align: center;\">Unase a la comunidad para recibir información personalizada y soporte directo</p>"
+      },
+      "componentName" : "forceCommunity:richTextInline",
+      "id" : "427efacb-e3f1-4956-beef-1ce45477d6bd",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "5aba13d0-3da0-4382-ae66-4ec92556726e"
+      },
+      "renditions" : [ {
+        "id" : "5aba13d0-3da0-4382-ae66-4ec92556726e",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "richTextValue" : "<p style=\"text-align: center;\"><b>Join the community to receive personalized information and customer support.</b></p>"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "pickerAlignment" : "Center"
+      },
+      "componentName" : "forceCommunity:languagePicker",
+      "id" : "6160dc42-fa6d-422e-8896-d5b8478c88cc",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "confirmPasswordLabel" : "Confirm Password",
+        "emailLabel" : "Correo electrónico",
+        "extraFieldsFieldSet" : "",
+        "firstnameLabel" : "Nombre",
+        "includePasswordField" : false,
+        "lastnameLabel" : "Apellidos",
+        "passwordLabel" : "Create Password",
+        "regConfirmUrl" : "./CheckPasswordResetEmail",
+        "startUrl" : "",
+        "submitButtonLabel" : "Registrarse"
+      },
+      "componentName" : "c:SQM_AutoRegistro",
+      "id" : "2ad7e758-c1c4-4620-a1ad-137f27eb58db",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : {
+        "en_us" : "6d66a830-50fd-43ff-9c8a-7ca50cf67fca"
+      },
+      "renditions" : [ {
+        "id" : "6d66a830-50fd-43ff-9c8a-7ca50cf67fca",
+        "renditionValue" : {
+          "componentAttributes" : {
+            "emailLabel" : "Email",
+            "firstnameLabel" : "First name",
+            "lastnameLabel" : "Last name",
+            "submitButtonLabel" : "Sign in"
+          }
+        },
+        "type" : "renditionComponent"
+      } ],
+      "type" : "component"
+    }, {
+      "componentAttributes" : {
+        "headerText" : "",
+        "showHeader" : false,
+        "useCommunityDomainSso" : false
+      },
+      "componentName" : "salesforceIdentity:socialLogin2",
+      "id" : "ccc49cc4-f1fe-4082-a4e2-16faad067616",
+      "renderPriority" : "NEUTRAL",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "2190960e-7036-47db-aed8-d97470248728",
+    "regionName" : "content",
+    "type" : "region"
+  }, {
+    "components" : [ {
+      "componentAttributes" : {
+        "customHeadTags" : "",
+        "description" : "",
+        "title" : "Register"
+      },
+      "componentName" : "forceCommunity:seoAssistant",
+      "id" : "277dfbd1-e1b3-491a-ad24-8eae24bdfc2b",
+      "renditionMap" : { },
+      "type" : "component"
+    } ],
+    "id" : "6384390b-90c9-4c86-ba1d-a89402fab88e",
+    "regionName" : "sfdcHiddenRegion",
+    "type" : "region"
+  } ],
+  "themeLayoutType" : "Login",
+  "type" : "view",
+  "viewType" : "self-register"
+}
