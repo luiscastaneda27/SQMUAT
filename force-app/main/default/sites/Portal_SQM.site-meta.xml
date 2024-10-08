@@ -26,8 +26,8 @@
     <referrerPolicyOriginWhenCrossOrigin>true</referrerPolicyOriginWhenCrossOrigin>
     <selfRegPage>SiteRegister</selfRegPage>
     <serverIsDown>SNA_Portal_SQM1_sf_default_cdn_rYquD</serverIsDown>
-    <siteAdmin>luis.castaneda@sqm.prydeloitt</siteAdmin>
-    <siteGuestRecordDefaultOwner>luis.castaneda@sqm.prydeloitt</siteGuestRecordDefaultOwner>
+    <siteAdmin>consultor_force@sqm.com</siteAdmin>
+    <siteGuestRecordDefaultOwner>salesforce.admin@sqm.com</siteGuestRecordDefaultOwner>
     <siteType>ChatterNetwork</siteType>
     <subdomain>crm-sqm</subdomain>
 </CustomSite>

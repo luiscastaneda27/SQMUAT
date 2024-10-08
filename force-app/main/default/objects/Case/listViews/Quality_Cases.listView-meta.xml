@@ -16,10 +16,5 @@
         <operation>equals</operation>
         <value>Case.Auditoria_de_Cliente,Case.Reclamos_Calidad,Case.Reclamos_Calidad_Interno,Case.Otros,Case.Cuestionarios,Case.Self_Audit</value>
     </filters>
-    <filters>
-        <field>CASES.STATUS</field>
-        <operation>notEqual</operation>
-        <value>Closed</value>
-    </filters>
     <label>Quality Cases Monitor</label>
 </ListView>

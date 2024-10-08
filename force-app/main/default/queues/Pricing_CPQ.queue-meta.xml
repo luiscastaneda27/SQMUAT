@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Queue xmlns="http://soap.sforce.com/2006/04/metadata">
     <doesSendEmailToMembers>false</doesSendEmailToMembers>
-    <name>Helpdesk Pricing CPQ</name>
+    <name>Pricing CPQ</name>
     <queueMembers>
-        <publicGroups>
-            <publicGroup>Helpdesk_Pricing_CPQ_Group</publicGroup>
-        </publicGroups>
+        <users>
+            <user>eduards.trivino@sqm.com</user>
+            <user>maximiliano.vial@sqm.com</user>
+        </users>
     </queueMembers>
     <queueSobject>
         <sobjectType>Case</sobjectType>

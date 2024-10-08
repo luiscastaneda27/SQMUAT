@@ -2,7 +2,8 @@
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>53.0</apiVersion>
     <description>New version (short - 2 steps)
-Only have information about Volumen adjustment</description>
+Only have information about Volumen adjustment
+[Deloitte]: Se adiciona la consulta por el grado de la industria del cliente</description>
     <environments>Default</environments>
     <formulas>
         <description>Formula para concatenar el market de la oportunidad con el Index Grade</description>
@@ -80,11 +81,33 @@ Only have information about Volumen adjustment</description>
     </processMetadataValues>
     <processType>AutoLaunchedFlow</processType>
     <recordLookups>
+        <description>Trae el grado correspondiente a la industria del cliente</description>
+        <name>Get</name>
+        <label>GetTablaIndustriaGrado</label>
+        <locationX>176</locationX>
+        <locationY>323</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>getVolumeAdjustment</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Industry__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>$Record.SBQQ__Account__r.A3__c</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Tabla_de_Industria_Grado__c</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
         <description>Obtener el ajuste por volumen.</description>
         <name>getVolumeAdjustment</name>
         <label>getVolumeAdjustment</label>
         <locationX>176</locationX>
-        <locationY>335</locationY>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
             <targetReference>updateRecord</targetReference>
@@ -104,6 +127,13 @@ Only have information about Volumen adjustment</description>
                 <elementReference>formula_VolumeToUse</elementReference>
             </value>
         </filters>
+        <filters>
+            <field>Industry_Grade__c</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>Get.Grade__c</elementReference>
+            </value>
+        </filters>
         <getFirstRecordOnly>true</getFirstRecordOnly>
         <object>Tabla_Volume_Adjustment__c</object>
         <storeOutputAutomatically>true</storeOutputAutomatically>
@@ -112,7 +142,7 @@ Only have information about Volumen adjustment</description>
         <name>updateRecord</name>
         <label>updateRecord</label>
         <locationX>176</locationX>
-        <locationY>455</locationY>
+        <locationY>539</locationY>
         <inputAssignments>
             <field>Volume_Ajustment__c</field>
             <value>
@@ -125,7 +155,7 @@ Only have information about Volumen adjustment</description>
         <locationX>50</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>getVolumeAdjustment</targetReference>
+            <targetReference>Get</targetReference>
         </connector>
         <object>SBQQ__Quote__c</object>
         <recordTriggerType>CreateAndUpdate</recordTriggerType>

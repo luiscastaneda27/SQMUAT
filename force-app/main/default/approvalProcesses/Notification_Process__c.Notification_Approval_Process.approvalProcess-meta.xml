@@ -27,6 +27,7 @@
         <label>Review Document</label>
         <name>Step_1</name>
     </approvalStep>
+    <emailTemplate>unfiled$public/Case_Approval</emailTemplate>
     <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
     <entryCriteria>
         <criteriaItems>

@@ -21,36 +21,10 @@
                         <valueListItems>
                             <value>Submit</value>
                             <visibilityRule>
-                                <booleanFilter>(1 AND (3 OR 4 OR 5)) OR (4 AND (2 OR 6 ))</booleanFilter>
                                 <criteria>
                                     <leftValue>{!Record.Status}</leftValue>
                                     <operator>EQUAL</operator>
                                     <rightValue>Validation</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.Status}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>On Hold</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.subject_issue__c}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Incidents</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.subject_issue__c}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Improvements</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.subject_issue__c}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>Question</rightValue>
-                                </criteria>
-                                <criteria>
-                                    <leftValue>{!Record.Status}</leftValue>
-                                    <operator>EQUAL</operator>
-                                    <rightValue>In Progress</rightValue>
                                 </criteria>
                             </visibilityRule>
                         </valueListItems>
@@ -162,23 +136,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.ParentId</fieldItem>
                 <identifier>RecordParentIdField</identifier>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Key_User_Approved__c</fieldItem>
-                <identifier>RecordKey_User_Approved__cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Improvements</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-453c9fdb-16a9-4fbd-968c-74a0ff7d5cc6</name>
@@ -335,7 +292,7 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Read_and_Accept_the_Disclaimer__c</fieldItem>
                 <identifier>RecordRead_and_Accept_the_Disclaimer_cField</identifier>
@@ -509,23 +466,6 @@
                 <identifier>RecordActual_Effort_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Porcentage_Complete__c</fieldItem>
-                <identifier>RecordPorcentage_Complete__cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Improvements</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-37f1904f-450c-4bc4-b64e-f135a53a8f34</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -574,23 +514,6 @@
                 <identifier>RecordIn_Production_cField</identifier>
             </fieldInstance>
         </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>none</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Attached_documentation__c</fieldItem>
-                <identifier>RecordAttached_documentation__cField</identifier>
-                <visibilityRule>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Improvements</rightValue>
-                    </criteria>
-                </visibilityRule>
-            </fieldInstance>
-        </itemInstances>
         <name>Facet-2908901a-8670-455a-b689-ca79b2b429b6</name>
         <type>Facet</type>
     </flexiPageRegions>
@@ -637,19 +560,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.IsStopped</fieldItem>
                 <identifier>RecordIsStoppedField</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Incidents</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Improvements</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-84bdd003-0e0f-4278-b5b4-cb9bd9252aa1</name>
@@ -674,19 +584,6 @@
                 </fieldInstanceProperties>
                 <fieldItem>Record.StopStartDate</fieldItem>
                 <identifier>RecordStopStartDateField</identifier>
-                <visibilityRule>
-                    <booleanFilter>1 OR 2</booleanFilter>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Incidents</rightValue>
-                    </criteria>
-                    <criteria>
-                        <leftValue>{!Record.subject_issue__c}</leftValue>
-                        <operator>EQUAL</operator>
-                        <rightValue>Improvements</rightValue>
-                    </criteria>
-                </visibilityRule>
             </fieldInstance>
         </itemInstances>
         <name>Facet-8c107717-73b8-47f5-a2f9-9f5372f10e76</name>

@@ -7,6 +7,10 @@
     <picklistValues>
         <picklist>BusinessLine__c</picklist>
         <values>
+            <fullName>Iodine</fullName>
+            <default>false</default>
+        </values>
+        <values>
             <fullName>Lithium Carbonate</fullName>
             <default>false</default>
         </values>

@@ -4,13 +4,10 @@
     <active>true</active>
     <errorConditionFormula>AND (
 RecordType.DeveloperName = &apos;Helpdesk&apos;,
-ISPICKVAL(subject_issue__c,&apos;Incidents&apos;) ||
-ISPICKVAL(subject_issue__c,&apos;Question&apos;),
+ISPICKVAL(subject_issue__c,&apos;Incidents&apos;),
 ISPICKVAL(Status, &apos;Validation&apos;),
-OR(
 ISPICKVAL(Sub_Category__c, &apos;&apos;),
-In_Production__c = False,
-ISBLANK(Actual_Effort__c)
-				))</errorConditionFormula>
-    <errorMessage>You must complete the Sub Category, In Production and Actual Effort fields. (HD6)</errorMessage>
+In_Production__c = False
+				)</errorConditionFormula>
+    <errorMessage>You must complete the Sub Category and In Production fields. (HD6)</errorMessage>
 </ValidationRule>

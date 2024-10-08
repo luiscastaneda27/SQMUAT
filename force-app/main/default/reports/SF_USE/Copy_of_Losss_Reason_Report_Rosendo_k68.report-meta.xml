@@ -48,6 +48,9 @@
     <columns>
         <field>SBQQ__Quote__c$CreatedDate</field>
     </columns>
+    <columns>
+        <field>SBQQ__Quote__c$Type_of_Opportunity__c</field>
+    </columns>
     <currency>USD</currency>
     <filter>
         <criteriaItems>

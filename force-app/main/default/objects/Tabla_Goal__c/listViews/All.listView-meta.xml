@@ -11,7 +11,7 @@
     <filters>
         <field>CREATED_DATE</field>
         <operation>equals</operation>
-        <value>8/23/2024 12:00 AM</value>
+        <value>10/4/2024 12:00 AM</value>
     </filters>
     <label>Todos</label>
 </ListView>

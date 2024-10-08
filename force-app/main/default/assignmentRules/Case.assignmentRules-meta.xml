@@ -56,10 +56,11 @@
                 <operation>equals</operation>
                 <value>Incidents,Question</value>
             </criteriaItems>
+            <template>unfiled$public/Case_assignment</template>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>Helpdesk_Pampa_Community</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>manuel.ossandon.carvajal@sqm.com</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Case.RecordTypeId</field>
                 <operation>equals</operation>
@@ -70,15 +71,10 @@
                 <operation>equals</operation>
                 <value>Community Pampa</value>
             </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
-            </criteriaItems>
         </ruleEntry>
         <ruleEntry>
-            <assignedTo>Helpdesk_Salar_Community</assignedTo>
-            <assignedToType>Queue</assignedToType>
+            <assignedTo>maria.alejandra.zuleta@sqm.com</assignedTo>
+            <assignedToType>User</assignedToType>
             <criteriaItems>
                 <field>Case.RecordTypeId</field>
                 <operation>equals</operation>
@@ -88,87 +84,6 @@
                 <field>Case.Proyecto__c</field>
                 <operation>equals</operation>
                 <value>Community Salar</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Helpdesk_Sales_Lithium</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Helpdesk</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Proyecto__c</field>
-                <operation>equals</operation>
-                <value>Sales Cloud</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Helpdesk_Service_Quality_Lithium</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Helpdesk</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Proyecto__c</field>
-                <operation>equals</operation>
-                <value>Service Cloud</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Pricing_CPQ</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Helpdesk</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Proyecto__c</field>
-                <operation>equals</operation>
-                <value>CPQ</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
-            </criteriaItems>
-        </ruleEntry>
-        <ruleEntry>
-            <assignedTo>Helpdesk_Admin</assignedTo>
-            <assignedToType>Queue</assignedToType>
-            <criteriaItems>
-                <field>Case.RecordTypeId</field>
-                <operation>equals</operation>
-                <value>Helpdesk</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.Proyecto__c</field>
-                <operation>equals</operation>
-                <value>Otro,Platform</value>
-            </criteriaItems>
-            <criteriaItems>
-                <field>Case.subject_issue__c</field>
-                <operation>equals</operation>
-                <value>Improvements</value>
             </criteriaItems>
         </ruleEntry>
         <ruleEntry>
@@ -183,6 +98,16 @@
                 <field>Case.Proyecto__c</field>
                 <operation>equals</operation>
                 <value>Service - Iodine</value>
+            </criteriaItems>
+            <template>unfiled$public/Case_assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rosendo.espinosa@sqm.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Helpdesk</value>
             </criteriaItems>
             <template>unfiled$public/Case_assignment</template>
         </ruleEntry>

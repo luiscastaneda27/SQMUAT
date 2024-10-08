@@ -3928,11 +3928,6 @@
 		<members>AccountTeamMember</members>
 		<members>Activity</members>
 		<members>Address</members>
-		<members>AiEvalCopilotTestCaseRslt</members>
-		<members>AiEvalTestCaseCritRslt</members>
-		<members>AiEvalTestCaseResult</members>
-		<members>AiEvaluation</members>
-		<members>AiPromptBuilderGenResult</members>
 		<members>Asset</members>
 		<members>AssetRelationship</members>
 		<members>AssistantProgress</members>
@@ -3942,9 +3937,6 @@
 		<members>AuthorizationFormConsent</members>
 		<members>AuthorizationFormDataUse</members>
 		<members>AuthorizationFormText</members>
-		<members>BatchJob</members>
-		<members>BatchJobPart</members>
-		<members>BatchJobPartFailedRecord</members>
 		<members>BusinessBrand</members>
 		<members>CChEN_Distribuidores__c</members>
 		<members>CalcMatrixColumnRange</members>
@@ -3985,16 +3977,14 @@
 		<members>ContractLineItem</members>
 		<members>Credit_Line__c</members>
 		<members>Customer</members>
-		<members>DTRecordsetReplica</members>
+		<members>DataKitDeploymentLog</members>
 		<members>DataUseLegalBasis</members>
 		<members>DataUsePurpose</members>
-		<members>DecisionTblFileImportData</members>
 		<members>DelegatedAccount</members>
 		<members>Detalle_Sample_Request__c</members>
 		<members>DuplicateRecordItem</members>
 		<members>DuplicateRecordSet</members>
 		<members>EmailMessage</members>
-		<members>EmpUserProvisionProcessErr</members>
 		<members>EngagementAttendee</members>
 		<members>EngagementChannelType</members>
 		<members>EngagementInteraction</members>
@@ -4011,7 +4001,6 @@
 		<members>ExternalEventMapping</members>
 		<members>FeedItem</members>
 		<members>FlowOrchestrationInstance</members>
-		<members>FlowOrchestrationLog</members>
 		<members>FlowOrchestrationStageInstance</members>
 		<members>FlowOrchestrationStepInstance</members>
 		<members>FlowOrchestrationWorkItem</members>
@@ -4029,6 +4018,10 @@
 		<members>IntegrationProviderAttr</members>
 		<members>IntegrationProviderDef</members>
 		<members>Lead</members>
+		<members>LearningAssignment</members>
+		<members>LearningAssignmentProgress</members>
+		<members>LearningItem</members>
+		<members>LearningLinkProgress</members>
 		<members>Location</members>
 		<members>LocationTrustMeasure</members>
 		<members>Location_Relationship__c</members>
@@ -4045,7 +4038,6 @@
 		<members>MacroUsage</members>
 		<members>MessagingEndUser</members>
 		<members>MessagingSession</members>
-		<members>MessagingSessionMetrics</members>
 		<members>NetworkMember</members>
 		<members>NetworkMemberChunk</members>
 		<members>Notification_Contact__c</members>
@@ -4209,7 +4201,6 @@
 		<members>User</members>
 		<members>UserCapabilityPreference</members>
 		<members>UserExternalCredential</members>
-		<members>UserLocalWebServerIdentity</members>
 		<members>UserPrioritizedRecord</members>
 		<members>UserProvisioningRequest</members>
 		<members>VideoCall</members>

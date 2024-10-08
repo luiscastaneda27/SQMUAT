@@ -169,26 +169,6 @@
         <template>unfiled$public/Envio_de_Correo_de_Recepci_n_de_Caso_a_Cliente</template>
     </alerts>
     <alerts>
-        <fullName>Helpdesk_Case_Improvement_Key_User_Approved</fullName>
-        <description>Helpdesk Case Improvement Key User Approved</description>
-        <protected>false</protected>
-        <recipients>
-            <type>creator</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Helpdesk_Case_Approval_Process_Key_User_Response</template>
-    </alerts>
-    <alerts>
-        <fullName>Helpdesk_Case_Improvement_Key_User_Rejected</fullName>
-        <description>Helpdesk Case Improvement Key User Rejected</description>
-        <protected>false</protected>
-        <recipients>
-            <type>creator</type>
-        </recipients>
-        <senderType>CurrentUser</senderType>
-        <template>unfiled$public/Helpdesk_Case_Rejection_by_Key_User_Response</template>
-    </alerts>
-    <alerts>
         <fullName>Helpdesk_case_approval_process_response</fullName>
         <description>Helpdesk case approval process response</description>
         <protected>false</protected>
@@ -686,103 +666,12 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
-        <fullName>Update_Attached_Documentation_Field</fullName>
-        <field>Attached_documentation__c</field>
-        <literalValue>0</literalValue>
-        <name>Update Attached Documentation Field</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_DEV_Configurations_Field</fullName>
-        <field>DEV_Configurations__c</field>
-        <literalValue>0</literalValue>
-        <name>Update DEV Configurations Field</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Effort_Estimate_Approved</fullName>
-        <field>Effort_Estimate_Approved__c</field>
-        <literalValue>1</literalValue>
-        <name>Update Effort Estimate Approved</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Effort_Estimate_Rejected</fullName>
-        <field>Effort_Estimate_Submitted_for_Approval__c</field>
-        <literalValue>0</literalValue>
-        <name>Update Effort Estimate Rejected</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Effort_Estimate_send_approved</fullName>
-        <field>Effort_Estimate_Submitted_for_Approval__c</field>
-        <literalValue>1</literalValue>
-        <name>Update Effort Estimate send approved</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Estimation_Approved_Date</fullName>
-        <field>Date_Estimation_Approved__c</field>
-        <formula>Now()</formula>
-        <name>Update Estimation Approved Date</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Finish_Development_Date</fullName>
-        <field>Date_Finish_Development__c</field>
-        <formula>Now()</formula>
-        <name>Update Finish Development Date</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
         <fullName>Update_In_production_Field</fullName>
         <field>In_Production__c</field>
         <literalValue>0</literalValue>
         <name>Update In production Field</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Key_User_Approved_Field</fullName>
-        <field>Key_User_Approved__c</field>
-        <literalValue>1</literalValue>
-        <name>Update Key User Approved Field</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Owner</fullName>
-        <field>OwnerId</field>
-        <lookupValue>Helpdesk_Admin</lookupValue>
-        <lookupValueType>Queue</lookupValueType>
-        <name>Update Owner</name>
-        <notifyAssignee>true</notifyAssignee>
-        <operation>LookupValue</operation>
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
@@ -808,16 +697,6 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
-        <fullName>Update_Status_On_Hold</fullName>
-        <field>Status</field>
-        <literalValue>On Hold</literalValue>
-        <name>Update Status On Hold</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
         <fullName>Update_Status_Review</fullName>
         <field>Status</field>
         <literalValue>Review</literalValue>
@@ -828,110 +707,10 @@
         <reevaluateOnChange>true</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
-        <fullName>Update_Status_Validation</fullName>
-        <field>Status</field>
-        <literalValue>Validation</literalValue>
-        <name>Update Status Validation</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_Approval_Estimation</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Aprobación Estimación</literalValue>
-        <name>Update Sub Status Approval Estimation</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_Approval_Key_User</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>En espera aprobación Key User</literalValue>
-        <name>Update Sub Status Approval Key User</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_Approved_in_DEV</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Aprobado en DEV</literalValue>
-        <name>Update Sub Status Approved in DEV</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_Canceled</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Cancelado</literalValue>
-        <name>Update Sub Status Canceled</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
         <fullName>Update_Sub_Status_Closed_Completed</fullName>
         <field>Sub_estado__c</field>
         <literalValue>Cierre completado</literalValue>
         <name>Update Sub Status Closed Completed</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_DEV_Setting</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Configuraciones DEV</literalValue>
-        <name>Update Sub Status DEV Setting</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_In_Estimation</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>En estimación</literalValue>
-        <name>Update Sub Status In Estimation</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_UAT_Approved</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Aprobado UAT</literalValue>
-        <name>Update Sub Status UAT Approved</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_UAT_Validation</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>Validación UAT</literalValue>
-        <name>Update Sub Status UAT Validation</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_Sub_Status_Waiting_Prioritization</fullName>
-        <field>Sub_estado__c</field>
-        <literalValue>En espera Priorización</literalValue>
-        <name>Update Sub Status Waiting Prioritization</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
         <protected>false</protected>
@@ -947,42 +726,12 @@
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>
     <fieldUpdates>
-        <fullName>Update_UAT_Configuration_Field</fullName>
-        <field>UAT_Configurations__c</field>
-        <literalValue>0</literalValue>
-        <name>Update UAT Configuration Field</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_User_Approved_Date</fullName>
-        <field>Date_User_Approved__c</field>
-        <formula>Now()</formula>
-        <name>Update User Approved Date</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
         <fullName>Update_User_Approved_Field</fullName>
         <field>User_Approved__c</field>
         <literalValue>1</literalValue>
         <name>Update User Approved Field</name>
         <notifyAssignee>false</notifyAssignee>
         <operation>Literal</operation>
-        <protected>false</protected>
-        <reevaluateOnChange>false</reevaluateOnChange>
-    </fieldUpdates>
-    <fieldUpdates>
-        <fullName>Update_key_user_approval_date</fullName>
-        <field>Date_Key_User_Approved__c</field>
-        <formula>now()</formula>
-        <name>Update key user approval date</name>
-        <notifyAssignee>false</notifyAssignee>
-        <operation>Formula</operation>
         <protected>false</protected>
         <reevaluateOnChange>false</reevaluateOnChange>
     </fieldUpdates>

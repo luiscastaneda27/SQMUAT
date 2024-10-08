@@ -118,97 +118,10 @@
         </rules>
     </decisions>
     <decisions>
-        <name>ImprovementSLA</name>
-        <label>ImprovementSLA</label>
-        <locationX>1766</locationX>
-        <locationY>539</locationY>
-        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
-        <rules>
-            <name>ImprovementSLAClosing</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Effort_Estimate_Approved__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Milestone.CompletionDate</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>UpdateMilestoneInEstimation</targetReference>
-            </connector>
-            <label>ImprovementSLAClosing</label>
-        </rules>
-        <rules>
-            <name>ImprovementSLAStoped</name>
-            <conditionLogic>(1 OR 2) AND 3 AND 4</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Sub_estado__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Aprobación Estimación</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Sub_estado__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>En espera Priorización</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Effort_Estimate_Approved__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Milestone.CompletionDate</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>StopMilestoneInEstimation</targetReference>
-            </connector>
-            <label>ImprovementSLAStoped</label>
-        </rules>
-        <rules>
-            <name>ImprovementSLAActive</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.Sub_estado__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>En estimación</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>Milestone.CompletionDate</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>RunMilestoneInEstimation</targetReference>
-            </connector>
-            <label>ImprovementSLAActive</label>
-        </rules>
-    </decisions>
-    <decisions>
         <name>RecordType</name>
         <label>RecordType</label>
-        <locationX>1502</locationX>
-        <locationY>431</locationY>
+        <locationX>974</locationX>
+        <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
             <name>HelpdeskRecordType</name>
@@ -228,41 +141,11 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>CaseCategory</targetReference>
+                <targetReference>Milestone</targetReference>
             </connector>
             <label>HelpdeskRecordType</label>
         </rules>
-        <rules>
-            <name>HelpdeskImprovement</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.RecordType.Name</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Helpdesk</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.subject_issue__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Improvements</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.EntitlementId</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>false</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>ImprovementSLA</targetReference>
-            </connector>
-            <label>HelpdeskImprovement</label>
-        </rules>
     </decisions>
-    <description>Add Milestone Improvement</description>
     <environments>Default</environments>
     <formulas>
         <name>CompletationDate</name>
@@ -293,11 +176,11 @@
     <recordLookups>
         <name>Milestone</name>
         <label>Milestone</label>
-        <locationX>1502</locationX>
-        <locationY>323</locationY>
+        <locationX>578</locationX>
+        <locationY>431</locationY>
         <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
         <connector>
-            <targetReference>RecordType</targetReference>
+            <targetReference>CaseCategory</targetReference>
         </connector>
         <filterLogic>and</filterLogic>
         <filters>
@@ -332,19 +215,6 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
-        <name>RunMilestoneInEstimation</name>
-        <label>RunMilestoneInEstimation</label>
-        <locationX>1898</locationX>
-        <locationY>647</locationY>
-        <inputAssignments>
-            <field>IsStopped</field>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
-    <recordUpdates>
         <name>StopMilestone</name>
         <label>StopMilestone</label>
         <locationX>578</locationX>
@@ -358,43 +228,9 @@
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <recordUpdates>
-        <name>StopMilestoneInEstimation</name>
-        <label>StopMilestoneInEstimation</label>
-        <locationX>1634</locationX>
-        <locationY>647</locationY>
-        <inputAssignments>
-            <field>IsStopped</field>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
-    <recordUpdates>
         <name>UpdateMilestoneAttention</name>
         <label>UpdateMilestoneAttention</label>
         <locationX>50</locationX>
-        <locationY>647</locationY>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>CompletionDate</field>
-            <operator>IsNull</operator>
-            <value>
-                <booleanValue>true</booleanValue>
-            </value>
-        </filters>
-        <inputAssignments>
-            <field>CompletionDate</field>
-            <value>
-                <elementReference>CompletationDate</elementReference>
-            </value>
-        </inputAssignments>
-        <inputReference>$Record.CaseMilestones</inputReference>
-    </recordUpdates>
-    <recordUpdates>
-        <name>UpdateMilestoneInEstimation</name>
-        <label>UpdateMilestoneInEstimation</label>
-        <locationX>1370</locationX>
         <locationY>647</locationY>
         <filterLogic>and</filterLogic>
         <filters>
@@ -434,10 +270,10 @@
         <inputReference>$Record.CaseMilestones</inputReference>
     </recordUpdates>
     <start>
-        <locationX>1376</locationX>
+        <locationX>848</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Milestone</targetReference>
+            <targetReference>RecordType</targetReference>
         </connector>
         <object>Case</object>
         <recordTriggerType>Update</recordTriggerType>

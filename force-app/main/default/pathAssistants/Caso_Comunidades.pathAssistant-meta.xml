@@ -5,31 +5,31 @@
     <fieldName>Status</fieldName>
     <masterLabel>Caso Comunidades</masterLabel>
     <pathAssistantSteps>
-        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkv&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mWW&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkv&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mWW&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>Closed</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;Link a template para &lt;b&gt;Reporte Técnico&lt;/b&gt;: &lt;a href=&quot;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/ERp4pwtLpAtIvXI90h9tgR8BAffOaLO8_S0wJcC3f3SXKw?e=jee9Dz&quot; target=&quot;_blank&quot;&gt;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/ERp4pwtLpAtIvXI90h9tgR8BAffOaLO8_S0wJcC3f3SXKw?e=jee9Dz&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkw&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mY9&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;Link a template para &lt;b&gt;Reporte Técnico&lt;/b&gt;: &lt;a href=&quot;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/ERp4pwtLpAtIvXI90h9tgR8BAffOaLO8_S0wJcC3f3SXKw?e=jee9Dz&quot; target=&quot;_blank&quot;&gt;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/ERp4pwtLpAtIvXI90h9tgR8BAffOaLO8_S0wJcC3f3SXKw?e=jee9Dz&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkw&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mY9&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>Investigation</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbku&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mUM&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbku&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mUM&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>Negotiation</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkp&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mW7&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkp&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mW7&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>New</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;Link a template para &lt;b&gt;Reporte a Cliente&lt;/b&gt;: https://sqmcloud.sharepoint.com/:w:/s/Comunidades/EcWcjrpElZdFndHc7WGA398Bo0ksMCdya4ob5Hgt33OaWw?e=P2P5kE&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkx&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mYr&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;Link a template para &lt;b&gt;Reporte a Cliente&lt;/b&gt;: https://sqmcloud.sharepoint.com/:w:/s/Comunidades/EcWcjrpElZdFndHc7WGA398Bo0ksMCdya4ob5Hgt33OaWw?e=P2P5kE&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkx&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mYr&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>Reported to costumer</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;Link a matriz de riesgo: &lt;a href=&quot;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/EbE5TxRCzYlBqo5IYXyAN8kB61xbYa6mlczT-SsKyMcVUg?e=ZdSBB0&quot; target=&quot;_blank&quot;&gt;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/EbE5TxRCzYlBqo5IYXyAN8kB61xbYa6mlczT-SsKyMcVUg?e=ZdSBB0&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkk&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mWH&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <info>&lt;p&gt;Link a matriz de riesgo: &lt;a href=&quot;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/EbE5TxRCzYlBqo5IYXyAN8kB61xbYa6mlczT-SsKyMcVUg?e=ZdSBB0&quot; target=&quot;_blank&quot;&gt;https://sqmcloud.sharepoint.com/:x:/s/Comunidades/EbE5TxRCzYlBqo5IYXyAN8kB61xbYa6mlczT-SsKyMcVUg?e=ZdSBB0&lt;/a&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbkk&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mWH&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
         <picklistValueName>To be assigned</picklistValueName>
     </pathAssistantSteps>
     <pathAssistantSteps>
-        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm--uat.sandbox.file.force.com/servlet/rtaImage?eid=1CF3i000000cbfi&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mRw&quot;&gt;&lt;/img&gt;Esperar a que responda el cliente&lt;/p&gt;</info>
+        <info>&lt;p&gt;&lt;img src=&quot;https://crm-sqm.file.force.com/servlet/rtaImage?eid=1CF3i000000cbfi&amp;amp;feoid=Info&amp;amp;refid=0EM3i0000014mRw&quot;&gt;&lt;/img&gt;Esperar a que responda el cliente&lt;/p&gt;</info>
         <picklistValueName>Waiting for costumer answer</picklistValueName>
     </pathAssistantSteps>
     <recordTypeName>Comunidad</recordTypeName>

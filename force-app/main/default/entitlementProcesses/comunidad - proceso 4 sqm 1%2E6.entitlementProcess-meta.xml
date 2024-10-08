@@ -46,18 +46,18 @@
         <minutesToComplete>630</minutesToComplete>
         <timeTriggers>
             <actions>
-                <name>Case.Correo_de_aviso_de_vencimiento_de_evento_clave</name>
-                <type>Alert</type>
-            </actions>
-            <timeLength>2</timeLength>
-            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
-        </timeTriggers>
-        <timeTriggers>
-            <actions>
                 <name>Case.Caso_por_asignar_proximo_a_vencer</name>
                 <type>Task</type>
             </actions>
             <timeLength>-1</timeLength>
+            <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
+        </timeTriggers>
+        <timeTriggers>
+            <actions>
+                <name>Case.Correo_de_aviso_de_vencimiento_de_evento_clave</name>
+                <type>Alert</type>
+            </actions>
+            <timeLength>2</timeLength>
             <workflowTimeTriggerUnit>Minutes</workflowTimeTriggerUnit>
         </timeTriggers>
         <useCriteriaStartTime>true</useCriteriaStartTime>

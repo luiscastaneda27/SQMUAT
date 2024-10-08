@@ -55,6 +55,10 @@
             <operator>equals</operator>
             <values>LAST_YEAR</values>
         </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>greaterOrEqual</operator>
+            <values>8/21/2024 12:00 AM</values>
+        </dashboardFilterOptions>
         <name>Case Date Opened</name>
     </dashboardFilters>
     <dashboardGridLayout>

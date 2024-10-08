@@ -17,30 +17,14 @@
             <targetReference>UpdateRecordAssigment</targetReference>
         </connector>
     </assignments>
-    <assignments>
-        <name>AssignEstimationEntitlement</name>
-        <label>AssignEstimationEntitlement</label>
-        <locationX>314</locationX>
-        <locationY>539</locationY>
-        <assignmentItems>
-            <assignToReference>$Record.EntitlementId</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>GetEntitlementEstimation.Id</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>UpdateEstimationEntitlement</targetReference>
-        </connector>
-    </assignments>
     <decisions>
         <name>CaseRecordType</name>
         <label>CaseRecordType</label>
-        <locationX>314</locationX>
+        <locationX>182</locationX>
         <locationY>323</locationY>
         <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
         <rules>
-            <name>HelpdeskIncident</name>
+            <name>Helpdesk</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>$Record.RecordType.Name</leftValueReference>
@@ -73,54 +57,10 @@
             <connector>
                 <targetReference>GetEntitlement</targetReference>
             </connector>
-            <label>HelpdeskIncident</label>
-        </rules>
-        <rules>
-            <name>InEstimationImprovement</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>$Record.RecordType.Name</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Helpdesk</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.subject_issue__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>Improvements</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Status</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>On Hold</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.Sub_estado__c</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <stringValue>En estimación</stringValue>
-                </rightValue>
-            </conditions>
-            <conditions>
-                <leftValueReference>$Record.EntitlementId</leftValueReference>
-                <operator>IsNull</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>GetEntitlementEstimation</targetReference>
-            </connector>
-            <label>InEstimationImprovement</label>
+            <label>Helpdesk</label>
         </rules>
     </decisions>
-    <description>add condition to assign entitlement when Category Case is update to Incidents
-add path to assign improvement entitlement estimation</description>
+    <description>add condition to assign entitlement when Category Case is update to Incidents</description>
     <environments>Default</environments>
     <interviewLabel>Case Assignment Entitlement {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Case Assignment Entitlement</label>
@@ -159,34 +99,6 @@ add path to assign improvement entitlement estimation</description>
         <queriedFields>Id</queriedFields>
         <storeOutputAutomatically>true</storeOutputAutomatically>
     </recordLookups>
-    <recordLookups>
-        <name>GetEntitlementEstimation</name>
-        <label>GetEntitlementEstimation</label>
-        <locationX>314</locationX>
-        <locationY>431</locationY>
-        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
-        <connector>
-            <targetReference>AssignEstimationEntitlement</targetReference>
-        </connector>
-        <filterLogic>and</filterLogic>
-        <filters>
-            <field>Name</field>
-            <operator>EndsWith</operator>
-            <value>
-                <elementReference>$Record.Sub_estado__c</elementReference>
-            </value>
-        </filters>
-        <getFirstRecordOnly>true</getFirstRecordOnly>
-        <object>Entitlement</object>
-        <storeOutputAutomatically>true</storeOutputAutomatically>
-    </recordLookups>
-    <recordUpdates>
-        <name>UpdateEstimationEntitlement</name>
-        <label>UpdateEstimationEntitlement</label>
-        <locationX>314</locationX>
-        <locationY>647</locationY>
-        <inputReference>$Record</inputReference>
-    </recordUpdates>
     <recordUpdates>
         <name>UpdateRecordAssigment</name>
         <label>UpdateRecordAssigment</label>
@@ -195,7 +107,7 @@ add path to assign improvement entitlement estimation</description>
         <inputReference>$Record</inputReference>
     </recordUpdates>
     <start>
-        <locationX>188</locationX>
+        <locationX>56</locationX>
         <locationY>0</locationY>
         <connector>
             <targetReference>CaseRecordType</targetReference>

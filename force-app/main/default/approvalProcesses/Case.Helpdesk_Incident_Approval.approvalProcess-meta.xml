@@ -84,7 +84,7 @@
     </finalRejectionActions>
     <finalRejectionRecordLock>false</finalRejectionRecordLock>
     <label>Helpdesk Incident Approval</label>
-    <processOrder>14</processOrder>
+    <processOrder>13</processOrder>
     <recordEditability>AdminOnly</recordEditability>
     <showApprovalHistory>true</showApprovalHistory>
 </ApprovalProcess>

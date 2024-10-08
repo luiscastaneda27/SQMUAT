@@ -340,10 +340,6 @@
         <name>Comunidad_Validar_RUT</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- To advance to Production Validation Sub-Status, the configurations in UAT must be approved, Sub Category, In Production and Actual Effort Fields must be completed. HD10 --></errorMessage>
-        <name>HD10_Helpdesk_Production_Validation</name>
-    </validationRules>
-    <validationRules>
         <errorMessage><!-- To Closed Complete the case, the solution must be implemented in production and approved by the user. (HD1) --></errorMessage>
         <name>HD1_Helpdesk_Closed</name>
     </validationRules>
@@ -367,20 +363,8 @@ If the value of the Is the Issue a Stopper? field is &quot;No&quot; the Priority
         <name>HD5_Helpdesk_Update_Case_Owner_Incidents</name>
     </validationRules>
     <validationRules>
-        <errorMessage><!-- You must complete the Sub Category, In Production and Actual Effort fields. (HD6) --></errorMessage>
+        <errorMessage><!-- You must complete the Sub Category and In Production fields. (HD6) --></errorMessage>
         <name>HD6_Helpdesk_Update_Validation_Status</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- To change status must be approved by Key User. HD7 --></errorMessage>
-        <name>HD7_Helpdesk_Key_User_Approval</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- To move forward In Progress the case must be prioritized and have an effort estimate assigned. HD8 --></errorMessage>
-        <name>HD8_Helpdesk_Prioritization</name>
-    </validationRules>
-    <validationRules>
-        <errorMessage><!-- To advance to Validation Status and UAT Validation Sub-Status, the configurations in DEV must be approved, UAT Configurations Field and Attached documentation must be true. HD9 --></errorMessage>
-        <name>HD9_Helpdesk_Validation_UAT</name>
     </validationRules>
     <validationRules>
         <errorMessage><!-- Please, complete all the fields of the section &quot;Only for new users&quot; before saving the case. --></errorMessage>

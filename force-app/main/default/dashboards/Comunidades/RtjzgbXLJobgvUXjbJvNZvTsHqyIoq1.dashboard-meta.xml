@@ -196,6 +196,10 @@
             <dashboardComponent>
                 <autoselectColumnsFromReport>true</autoselectColumnsFromReport>
                 <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
                 <componentChartTheme>dark</componentChartTheme>
                 <componentType>Bar</componentType>
                 <dashboardFilterColumns>
